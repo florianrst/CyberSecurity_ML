@@ -1,4 +1,4 @@
-# CyberSecurity Report
+# Introduction
 
 The report provide a detailed explanation of the work done as part of the project to develop a machine learning model to predict cyberattack.
 The project is divided into 3 parts:
@@ -7,15 +7,26 @@ The project is divided into 3 parts:
 3. Model design. Different type of ML model can be used to predict. In this part we explain what model we decided to use and how they compare to each other.
 
 
-## Data Analysis
+# Data Analysis
 
-### Global Analysis
+## Global Analysis
 
-![image](./images/CorrelationHeatmap.png)
+// Add some statistics such as count/unique and when relevant mean, median etc... 
 
-### Feature Analysis
+To develop a machine learning model, it is neccesary to identify relationships between the output and the input dataset i.e if there are correlation between them.
+The dataset show some correlation between features espacially data related to network information such as IPs, Ports. <br> 
+![image](./images/CorrelationHeatmap.png) <br>
+But in our case we are particularly looking at the correlation between the column attack type and the rest of the dataset. As shown by the image below, the correlation between each feature and the "attack type" is close to zero meaning there are no strong dependencies between the features and the type of attack. <br>
+![image](./images/CorrelationAttackType.png) <br>
+To confirm it, we go into details for some features
 
-### Dive into the data
+## Feature Analysis
+
+#
+
+## Dive into the data
+Some features can be split into several columns in order to extract information. It the case of the feature "Timestamp" and "Device Information" for which more granular information can be extracted. For example, the device information contains information on the browser name, the browser version and sometimes the device used 
+
 
 ## Feature Engineering
 
