@@ -9,7 +9,6 @@ def load_data(file_path):
 
 if __name__ == "__main__":
     path=Path('./')
-    print(path.joinpath("data/cybersecurity_attacks.csv").resolve())
     raw_data = load_data(path.joinpath("data/cybersecurity_attacks.csv"))
     date=pd.to_datetime(raw_data["Timestamp"]).to_frame(name="Timestamp")
     date["Year"]= date["Timestamp"].dt.year
