@@ -93,7 +93,7 @@ def list_ua_parser(ua_string: str) -> list:
     ua_info = ua_parser(ua_string)
     return [ua_info[key] for key in ua_info_list]
 
-def df_ua_parser(df: DataFrame, column: str) -> DataFrame:
+def df_ua_parser(serie: Series) -> DataFrame:
     """
     Parse a DataFrame column containing user agent strings and return a DataFrame with parsed information.
 
@@ -105,7 +105,7 @@ def df_ua_parser(df: DataFrame, column: str) -> DataFrame:
     :rtype: pandas.DataFrame
     """
 
-    ua_info_df = df[column].apply(lambda x: Series(list_ua_parser(x)))
+    ua_info_df = serie.apply(lambda x: Series(list_ua_parser(x), ))
     ua_info_df.columns = ua_info_list
     ua_info_df = ua_info_df.astype(ua_dtypes)
 
