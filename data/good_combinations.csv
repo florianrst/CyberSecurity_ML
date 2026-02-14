@@ -14,7 +14,7 @@ Protocol,Packet Type,OS Version Minor,84.0000,0.0724,0.0485,0.0045,0.0349,0.0588
 Protocol,Packet Type,OS Version Patch,66.0000,0.0703,0.0472,0.0027,0.0344,0.0614,0.0944,0.2556
 Protocol,Packet Type,Device Model,48.0000,0.0920,0.1171,0.0038,0.0252,0.0500,0.1202,0.5000
 Protocol,Packet Type,Device Type,48.0000,0.0920,0.1171,0.0038,0.0252,0.0500,0.1202,0.5000
-Protocol,Packet Type,Packet_T,8537.0000,0.4877,0.2719,0.0000,0.2500,0.5000,0.6667,1.0000
+Protocol,Packet Type,Scale Packet Length,8537.0000,0.4877,0.2719,0.0000,0.2500,0.5000,0.6667,1.0000
 Protocol,Traffic Type,Month,108.0000,0.0513,0.0289,0.0035,0.0310,0.0461,0.0680,0.1402
 Protocol,Traffic Type,Day,279.0000,0.0818,0.0456,0.0063,0.0471,0.0745,0.1097,0.2414
 Protocol,Traffic Type,Hour,216.0000,0.0751,0.0371,0.0051,0.0469,0.0735,0.0961,0.1889
@@ -47,7 +47,7 @@ Protocol,Malware Indicators,OS Version Minor,84.0000,0.0722,0.0443,0.0031,0.0400
 Protocol,Malware Indicators,OS Version Patch,66.0000,0.0700,0.0499,0.0035,0.0400,0.0588,0.0968,0.2842
 Protocol,Malware Indicators,Device Model,48.0000,0.0938,0.1240,0.0038,0.0238,0.0525,0.1015,0.7000
 Protocol,Malware Indicators,Device Type,48.0000,0.0938,0.1240,0.0038,0.0238,0.0525,0.1015,0.7000
-Protocol,Malware Indicators,Packet_T,8531.0000,0.4849,0.2719,0.0000,0.2500,0.5000,0.6667,1.0000
+Protocol,Malware Indicators,Scale Packet Length,8531.0000,0.4849,0.2719,0.0000,0.2500,0.5000,0.6667,1.0000
 Protocol,Alerts/Warnings,Month,72.0000,0.0432,0.0209,0.0093,0.0266,0.0379,0.0569,0.1040
 Protocol,Alerts/Warnings,Day,186.0000,0.0678,0.0351,0.0041,0.0413,0.0611,0.0924,0.1659
 Protocol,Alerts/Warnings,Hour,144.0000,0.0592,0.0280,0.0100,0.0373,0.0545,0.0783,0.1374
@@ -63,7 +63,7 @@ Protocol,Alerts/Warnings,OS Version Minor,84.0000,0.0714,0.0413,0.0051,0.0434,0.
 Protocol,Alerts/Warnings,OS Version Patch,66.0000,0.0686,0.0479,0.0012,0.0296,0.0544,0.0930,0.2078
 Protocol,Alerts/Warnings,Device Model,48.0000,0.0962,0.1215,0.0032,0.0258,0.0505,0.1041,0.5556
 Protocol,Alerts/Warnings,Device Type,48.0000,0.0962,0.1215,0.0032,0.0258,0.0505,0.1041,0.5556
-Protocol,Alerts/Warnings,Packet_T,8541.0000,0.4900,0.2714,0.0000,0.2500,0.5000,0.6667,1.0000
+Protocol,Alerts/Warnings,Scale Packet Length,8541.0000,0.4900,0.2714,0.0000,0.2500,0.5000,0.6667,1.0000
 Protocol,Attack Signature,Month,72.0000,0.0430,0.0202,0.0113,0.0277,0.0394,0.0541,0.1050
 Protocol,Attack Signature,Day,186.0000,0.0675,0.0368,0.0000,0.0379,0.0628,0.0867,0.1966
 Protocol,Attack Signature,Hour,144.0000,0.0618,0.0309,0.0081,0.0397,0.0571,0.0804,0.1685
@@ -76,7 +76,7 @@ Protocol,Attack Signature,Browser Patch,726.0000,0.2654,0.1573,0.0000,0.1429,0.2
 Protocol,Attack Signature,OS Version,132.0000,0.0772,0.0702,0.0000,0.0363,0.0573,0.0909,0.4167
 Protocol,Attack Signature,OS Version Minor,84.0000,0.0711,0.0449,0.0054,0.0356,0.0619,0.1016,0.1724
 Protocol,Attack Signature,OS Version Patch,66.0000,0.0707,0.0459,0.0039,0.0356,0.0669,0.0968,0.1837
-Protocol,Attack Signature,Packet_T,8537.0000,0.4883,0.2705,0.0000,0.2500,0.5000,0.6667,1.0000
+Protocol,Attack Signature,Scale Packet Length,8537.0000,0.4883,0.2705,0.0000,0.2500,0.5000,0.6667,1.0000
 Protocol,Action Taken,Month,108.0000,0.0515,0.0292,0.0034,0.0298,0.0475,0.0700,0.1438
 Protocol,Action Taken,Day,279.0000,0.0823,0.0452,0.0061,0.0473,0.0775,0.1140,0.2174
 Protocol,Action Taken,Hour,216.0000,0.0702,0.0375,0.0052,0.0407,0.0642,0.0935,0.2061
@@ -94,7 +94,7 @@ Protocol,Action Taken,OS Version Patch,99.0000,0.0911,0.0515,0.0028,0.0504,0.091
 Protocol,Action Taken,Device Brand,36.0000,0.1452,0.2293,0.0039,0.0208,0.0312,0.0803,0.8333
 Protocol,Action Taken,Device Model,72.0000,0.1158,0.1688,0.0042,0.0299,0.0574,0.1032,0.8333
 Protocol,Action Taken,Device Type,72.0000,0.1158,0.1688,0.0042,0.0299,0.0574,0.1032,0.8333
-Protocol,Action Taken,Packet_T,12318.0000,0.5967,0.2978,0.0000,0.4000,0.6000,0.8000,1.0000
+Protocol,Action Taken,Scale Packet Length,12318.0000,0.5967,0.2978,0.0000,0.4000,0.6000,0.8000,1.0000
 Protocol,Severity Level,Month,108.0000,0.0515,0.0215,0.0079,0.0357,0.0499,0.0654,0.1230
 Protocol,Severity Level,Day,279.0000,0.0827,0.0422,0.0074,0.0505,0.0806,0.1086,0.2164
 Protocol,Severity Level,Hour,216.0000,0.0683,0.0363,0.0051,0.0388,0.0658,0.0953,0.1598
@@ -143,7 +143,7 @@ Protocol,Firewall Logs,OS Version Minor,84.0000,0.0702,0.0443,0.0043,0.0366,0.06
 Protocol,Firewall Logs,OS Version Patch,66.0000,0.0758,0.0481,0.0061,0.0357,0.0711,0.1051,0.2447
 Protocol,Firewall Logs,Device Model,48.0000,0.0899,0.1092,0.0051,0.0274,0.0513,0.1040,0.4667
 Protocol,Firewall Logs,Device Type,48.0000,0.0899,0.1092,0.0051,0.0274,0.0513,0.1040,0.4667
-Protocol,Firewall Logs,Packet_T,8528.0000,0.4882,0.2711,0.0000,0.2500,0.5000,0.6667,1.0000
+Protocol,Firewall Logs,Scale Packet Length,8528.0000,0.4882,0.2711,0.0000,0.2500,0.5000,0.6667,1.0000
 Protocol,IDS/IPS Alerts,Month,72.0000,0.0407,0.0193,0.0085,0.0284,0.0390,0.0522,0.0856
 Protocol,IDS/IPS Alerts,Day,186.0000,0.0665,0.0384,0.0000,0.0383,0.0614,0.0886,0.2212
 Protocol,IDS/IPS Alerts,Hour,144.0000,0.0588,0.0297,0.0072,0.0350,0.0545,0.0801,0.1522
@@ -158,7 +158,7 @@ Protocol,IDS/IPS Alerts,OS Version Minor,84.0000,0.0753,0.0459,0.0017,0.0365,0.0
 Protocol,IDS/IPS Alerts,OS Version Patch,66.0000,0.0756,0.0487,0.0027,0.0420,0.0711,0.0990,0.2556
 Protocol,IDS/IPS Alerts,Device Model,48.0000,0.1000,0.1505,0.0021,0.0215,0.0404,0.0997,0.7500
 Protocol,IDS/IPS Alerts,Device Type,48.0000,0.1000,0.1505,0.0021,0.0215,0.0404,0.0997,0.7500
-Protocol,IDS/IPS Alerts,Packet_T,8553.0000,0.4909,0.2725,0.0000,0.2500,0.5000,0.6667,1.0000
+Protocol,IDS/IPS Alerts,Scale Packet Length,8553.0000,0.4909,0.2725,0.0000,0.2500,0.5000,0.6667,1.0000
 Protocol,Log Source,Month,72.0000,0.0425,0.0221,0.0087,0.0229,0.0424,0.0602,0.1047
 Protocol,Log Source,Day,186.0000,0.0678,0.0385,0.0044,0.0369,0.0667,0.0945,0.2132
 Protocol,Log Source,Hour,144.0000,0.0582,0.0302,0.0037,0.0375,0.0535,0.0809,0.1623
@@ -173,7 +173,7 @@ Protocol,Log Source,OS Version Minor,84.0000,0.0786,0.0542,0.0045,0.0390,0.0702,
 Protocol,Log Source,OS Version Patch,66.0000,0.0713,0.0469,0.0000,0.0380,0.0644,0.0921,0.2212
 Protocol,Log Source,Device Model,48.0000,0.0920,0.1204,0.0033,0.0204,0.0551,0.0980,0.6000
 Protocol,Log Source,Device Type,48.0000,0.0920,0.1204,0.0033,0.0204,0.0551,0.0980,0.6000
-Protocol,Log Source,Packet_T,8530.0000,0.4855,0.2731,0.0000,0.2500,0.5000,0.6667,1.0000
+Protocol,Log Source,Scale Packet Length,8530.0000,0.4855,0.2731,0.0000,0.2500,0.5000,0.6667,1.0000
 Protocol,Year,Month,138.0000,0.0590,0.0313,0.0062,0.0354,0.0537,0.0752,0.1835
 Protocol,Year,Day,372.0000,0.0917,0.0517,0.0000,0.0540,0.0833,0.1242,0.2348
 Protocol,Year,Hour,288.0000,0.0832,0.0435,0.0063,0.0509,0.0804,0.1094,0.2600
@@ -299,7 +299,7 @@ Protocol,IsWeekend,OS Version Minor,84.0000,0.0862,0.0610,0.0050,0.0432,0.0740,0
 Protocol,IsWeekend,OS Version Patch,66.0000,0.0800,0.0566,0.0074,0.0380,0.0714,0.1126,0.3061
 Protocol,IsWeekend,Device Model,48.0000,0.0854,0.1097,0.0000,0.0213,0.0440,0.1011,0.5000
 Protocol,IsWeekend,Device Type,48.0000,0.0854,0.1097,0.0000,0.0213,0.0440,0.1011,0.5000
-Protocol,IsWeekend,Packet_T,8331.0000,0.5170,0.2941,0.0000,0.2727,0.5000,0.6667,1.0000
+Protocol,IsWeekend,Scale Packet Length,8331.0000,0.5170,0.2941,0.0000,0.2727,0.5000,0.6667,1.0000
 Protocol,Browser Name,Browser Version,609.0000,0.2475,0.1735,0.0000,0.1250,0.2188,0.3333,1.0000
 Protocol,Browser Name,Browser Minor,333.0000,0.1705,0.1032,0.0000,0.0909,0.1667,0.2400,0.5000
 Protocol,Browser Name,Browser Patch,695.0000,0.3172,0.2322,0.0000,0.1429,0.2500,0.4286,1.0000
@@ -352,7 +352,7 @@ Protocol,Browser Patch Minor,OS Version Minor,84.0000,0.0780,0.0505,0.0076,0.041
 Protocol,Browser Patch Minor,OS Version Patch,66.0000,0.0752,0.0471,0.0051,0.0402,0.0677,0.1000,0.1860
 Protocol,Browser Patch Minor,Device Model,42.0000,0.0724,0.0825,0.0074,0.0219,0.0383,0.0835,0.4231
 Protocol,Browser Patch Minor,Device Type,42.0000,0.0724,0.0825,0.0074,0.0219,0.0383,0.0835,0.4231
-Protocol,Browser Patch Minor,Packet_T,7992.0000,0.5372,0.3108,0.0000,0.2857,0.5000,0.7500,1.0000
+Protocol,Browser Patch Minor,Scale Packet Length,7992.0000,0.5372,0.3108,0.0000,0.2857,0.5000,0.7500,1.0000
 Protocol,OS Name,OS Version,99.0000,0.0933,0.1030,0.0035,0.0330,0.0584,0.1098,0.5882
 Protocol,OS Name,OS Version Minor,69.0000,0.0890,0.0978,0.0034,0.0424,0.0588,0.0968,0.6316
 Protocol,OS Name,OS Version Patch,87.0000,0.0899,0.0772,0.0047,0.0399,0.0698,0.1133,0.4737
@@ -384,7 +384,7 @@ Protocol,OS Version Patch,Packet Bin,99.0000,0.0965,0.0552,0.0072,0.0612,0.0946,
 Protocol,OS Version Patch,Global Source IP,60.0000,0.3345,0.3839,0.0079,0.0385,0.0951,0.5417,1.0000
 Protocol,OS Version Patch,Global Destination IP,60.0000,0.3088,0.3688,0.0075,0.0371,0.0886,0.5179,1.0000
 Protocol,OS Version Patch,Is Proxy,66.0000,0.0758,0.0535,0.0025,0.0362,0.0614,0.1075,0.3059
-Protocol,OS Version Patch Minor,Packet_T,4311.0000,0.3309,0.1843,0.0000,0.2000,0.3077,0.4286,1.0000
+Protocol,OS Version Patch Minor,Scale Packet Length,4311.0000,0.3309,0.1843,0.0000,0.2000,0.3077,0.4286,1.0000
 Protocol,Device Brand,Packet Bin,36.0000,0.1421,0.2303,0.0119,0.0217,0.0370,0.0890,1.0000
 Protocol,Device Model,Packet Bin,72.0000,0.1200,0.1735,0.0079,0.0253,0.0573,0.1000,1.0000
 Protocol,Device Model,Global Destination IP,46.0000,0.2781,0.3267,0.0050,0.0323,0.1319,0.4006,1.0000
@@ -392,10 +392,10 @@ Protocol,Device Model,Is Proxy,48.0000,0.0907,0.1144,0.0013,0.0240,0.0560,0.0886
 Protocol,Device Type,Packet Bin,72.0000,0.1200,0.1735,0.0079,0.0253,0.0573,0.1000,1.0000
 Protocol,Device Type,Global Destination IP,46.0000,0.2781,0.3267,0.0050,0.0323,0.1319,0.4006,1.0000
 Protocol,Device Type,Is Proxy,48.0000,0.0907,0.1144,0.0013,0.0240,0.0560,0.0886,0.4615
-Protocol,Packet Bin,Packet_T,4311.0000,0.3309,0.1843,0.0000,0.2000,0.3077,0.4286,1.0000
-Protocol,Packet_T,Global Source IP,4482.0000,0.3565,0.2207,0.0000,0.2000,0.3333,0.4545,1.0000
-Protocol,Packet_T,Global Destination IP,4480.0000,0.3567,0.2210,0.0000,0.2000,0.3333,0.4545,1.0000
-Protocol,Packet_T,Is Proxy,8525.0000,0.4922,0.2703,0.0000,0.2500,0.5000,0.6667,1.0000
+Protocol,Packet Bin,Scale Packet Length,4311.0000,0.3309,0.1843,0.0000,0.2000,0.3077,0.4286,1.0000
+Protocol,Scale Packet Length,Global Source IP,4482.0000,0.3565,0.2207,0.0000,0.2000,0.3333,0.4545,1.0000
+Protocol,Scale Packet Length,Global Destination IP,4480.0000,0.3567,0.2210,0.0000,0.2000,0.3333,0.4545,1.0000
+Protocol,Scale Packet Length,Is Proxy,8525.0000,0.4922,0.2703,0.0000,0.2500,0.5000,0.6667,1.0000
 Packet Type,Traffic Type,Month,72.0000,0.0392,0.0239,0.0016,0.0237,0.0346,0.0529,0.1308
 Packet Type,Traffic Type,Day,186.0000,0.0696,0.0371,0.0000,0.0440,0.0624,0.0872,0.1971
 Packet Type,Traffic Type,Hour,144.0000,0.0583,0.0322,0.0036,0.0361,0.0535,0.0750,0.1943
@@ -411,7 +411,7 @@ Packet Type,Traffic Type,OS Version Minor,84.0000,0.0752,0.0427,0.0038,0.0421,0.
 Packet Type,Traffic Type,OS Version Patch,66.0000,0.0668,0.0398,0.0042,0.0395,0.0629,0.0948,0.1848
 Packet Type,Traffic Type,Device Model,48.0000,0.0882,0.1243,0.0021,0.0264,0.0426,0.0941,0.6000
 Packet Type,Traffic Type,Device Type,48.0000,0.0882,0.1243,0.0021,0.0264,0.0426,0.0941,0.6000
-Packet Type,Traffic Type,Packet_T,8545.0000,0.4888,0.2717,0.0000,0.2500,0.5000,0.6667,1.0000
+Packet Type,Traffic Type,Scale Packet Length,8545.0000,0.4888,0.2717,0.0000,0.2500,0.5000,0.6667,1.0000
 Packet Type,Malware Indicators,Day,124.0000,0.0565,0.0306,0.0030,0.0360,0.0527,0.0739,0.1588
 Packet Type,Malware Indicators,Hour,96.0000,0.0474,0.0280,0.0046,0.0281,0.0414,0.0609,0.1638
 Packet Type,Malware Indicators,Minute,240.0000,0.0788,0.0424,0.0053,0.0491,0.0718,0.1054,0.2229
@@ -425,7 +425,7 @@ Packet Type,Malware Indicators,OS Version Minor,56.0000,0.0568,0.0308,0.0000,0.0
 Packet Type,Malware Indicators,OS Version Patch,44.0000,0.0580,0.0367,0.0043,0.0286,0.0517,0.0762,0.1645
 Packet Type,Malware Indicators,Device Model,32.0000,0.0669,0.0778,0.0000,0.0208,0.0429,0.0747,0.3750
 Packet Type,Malware Indicators,Device Type,32.0000,0.0669,0.0778,0.0000,0.0208,0.0429,0.0747,0.3750
-Packet Type,Malware Indicators,Packet_T,5742.0000,0.3876,0.2204,0.0000,0.2222,0.3333,0.5000,1.0000
+Packet Type,Malware Indicators,Scale Packet Length,5742.0000,0.3876,0.2204,0.0000,0.2222,0.3333,0.5000,1.0000
 Packet Type,Alerts/Warnings,Day,124.0000,0.0536,0.0282,0.0029,0.0365,0.0503,0.0690,0.1405
 Packet Type,Alerts/Warnings,Hour,96.0000,0.0421,0.0234,0.0000,0.0254,0.0395,0.0573,0.0944
 Packet Type,Alerts/Warnings,Minute,240.0000,0.0744,0.0417,0.0057,0.0396,0.0675,0.1031,0.1948
@@ -439,7 +439,7 @@ Packet Type,Alerts/Warnings,OS Version Minor,56.0000,0.0642,0.0396,0.0139,0.0314
 Packet Type,Alerts/Warnings,OS Version Patch,44.0000,0.0570,0.0378,0.0127,0.0305,0.0510,0.0715,0.2014
 Packet Type,Alerts/Warnings,Device Model,32.0000,0.0604,0.0544,0.0048,0.0229,0.0346,0.0749,0.2105
 Packet Type,Alerts/Warnings,Device Type,32.0000,0.0604,0.0544,0.0048,0.0229,0.0346,0.0749,0.2105
-Packet Type,Alerts/Warnings,Packet_T,5742.0000,0.3921,0.2232,0.0000,0.2222,0.3333,0.5000,1.0000
+Packet Type,Alerts/Warnings,Scale Packet Length,5742.0000,0.3921,0.2232,0.0000,0.2222,0.3333,0.5000,1.0000
 Packet Type,Attack Signature,Month,48.0000,0.0357,0.0180,0.0030,0.0218,0.0360,0.0474,0.0887
 Packet Type,Attack Signature,Day,124.0000,0.0531,0.0281,0.0056,0.0321,0.0501,0.0693,0.1246
 Packet Type,Attack Signature,Hour,96.0000,0.0436,0.0243,0.0044,0.0240,0.0404,0.0592,0.1061
@@ -455,7 +455,7 @@ Packet Type,Attack Signature,OS Version Patch,44.0000,0.0571,0.0349,0.0045,0.034
 Packet Type,Attack Signature,Device Model,32.0000,0.0584,0.0567,0.0049,0.0221,0.0423,0.0748,0.2632
 Packet Type,Attack Signature,Device Type,32.0000,0.0584,0.0567,0.0049,0.0221,0.0423,0.0748,0.2632
 Packet Type,Attack Signature,Packet Bin,12.0000,0.0246,0.0102,0.0054,0.0200,0.0249,0.0309,0.0406
-Packet Type,Attack Signature,Packet_T,5744.0000,0.3906,0.2234,0.0000,0.2222,0.3333,0.5000,1.0000
+Packet Type,Attack Signature,Scale Packet Length,5744.0000,0.3906,0.2234,0.0000,0.2222,0.3333,0.5000,1.0000
 Packet Type,Action Taken,Month,72.0000,0.0448,0.0256,0.0070,0.0243,0.0384,0.0634,0.1189
 Packet Type,Action Taken,Day,186.0000,0.0652,0.0343,0.0047,0.0412,0.0590,0.0875,0.1736
 Packet Type,Action Taken,Hour,144.0000,0.0540,0.0274,0.0077,0.0352,0.0484,0.0747,0.1357
@@ -470,7 +470,7 @@ Packet Type,Action Taken,OS Version Minor,84.0000,0.0763,0.0471,0.0022,0.0391,0.
 Packet Type,Action Taken,OS Version Patch,66.0000,0.0629,0.0421,0.0051,0.0345,0.0561,0.0844,0.1856
 Packet Type,Action Taken,Device Model,48.0000,0.0813,0.0857,0.0040,0.0218,0.0515,0.1025,0.3636
 Packet Type,Action Taken,Device Type,48.0000,0.0813,0.0857,0.0040,0.0218,0.0515,0.1025,0.3636
-Packet Type,Action Taken,Packet_T,8524.0000,0.4925,0.2709,0.0000,0.2500,0.5000,0.6667,1.0000
+Packet Type,Action Taken,Scale Packet Length,8524.0000,0.4925,0.2709,0.0000,0.2500,0.5000,0.6667,1.0000
 Packet Type,Severity Level,Month,72.0000,0.0417,0.0197,0.0099,0.0290,0.0408,0.0534,0.0979
 Packet Type,Severity Level,Day,186.0000,0.0681,0.0346,0.0049,0.0445,0.0618,0.0870,0.1776
 Packet Type,Severity Level,Hour,144.0000,0.0557,0.0319,0.0034,0.0318,0.0495,0.0730,0.1575
@@ -486,7 +486,7 @@ Packet Type,Severity Level,OS Version Minor,84.0000,0.0822,0.0508,0.0051,0.0438,
 Packet Type,Severity Level,OS Version Patch,66.0000,0.0737,0.0435,0.0078,0.0410,0.0676,0.1038,0.1964
 Packet Type,Severity Level,Device Model,48.0000,0.0826,0.0905,0.0042,0.0249,0.0568,0.0872,0.3846
 Packet Type,Severity Level,Device Type,48.0000,0.0826,0.0905,0.0042,0.0249,0.0568,0.0872,0.3846
-Packet Type,Severity Level,Packet_T,8550.0000,0.4908,0.2698,0.0000,0.2500,0.5000,0.6667,1.0000
+Packet Type,Severity Level,Scale Packet Length,8550.0000,0.4908,0.2698,0.0000,0.2500,0.5000,0.6667,1.0000
 Packet Type,Network Segment,Month,72.0000,0.0450,0.0203,0.0074,0.0316,0.0446,0.0584,0.1024
 Packet Type,Network Segment,Day,186.0000,0.0699,0.0361,0.0000,0.0436,0.0660,0.0941,0.2293
 Packet Type,Network Segment,Hour,144.0000,0.0566,0.0301,0.0067,0.0353,0.0544,0.0732,0.1701
@@ -503,7 +503,7 @@ Packet Type,Network Segment,OS Version Patch,66.0000,0.0611,0.0363,0.0081,0.0339
 Packet Type,Network Segment,Device Brand,24.0000,0.0899,0.1277,0.0055,0.0200,0.0254,0.0830,0.4286
 Packet Type,Network Segment,Device Model,48.0000,0.0843,0.0962,0.0041,0.0266,0.0478,0.0919,0.4286
 Packet Type,Network Segment,Device Type,48.0000,0.0843,0.0962,0.0041,0.0266,0.0478,0.0919,0.4286
-Packet Type,Network Segment,Packet_T,8536.0000,0.4900,0.2727,0.0000,0.2500,0.5000,0.6667,1.0000
+Packet Type,Network Segment,Scale Packet Length,8536.0000,0.4900,0.2727,0.0000,0.2500,0.5000,0.6667,1.0000
 Packet Type,Firewall Logs,Month,48.0000,0.0342,0.0180,0.0067,0.0211,0.0312,0.0440,0.0772
 Packet Type,Firewall Logs,Day,124.0000,0.0520,0.0273,0.0084,0.0328,0.0461,0.0654,0.1331
 Packet Type,Firewall Logs,Hour,96.0000,0.0394,0.0256,0.0024,0.0202,0.0332,0.0529,0.1244
@@ -517,7 +517,7 @@ Packet Type,Firewall Logs,OS Version Minor,56.0000,0.0558,0.0350,0.0006,0.0306,0
 Packet Type,Firewall Logs,OS Version Patch,44.0000,0.0568,0.0360,0.0019,0.0298,0.0488,0.0770,0.1813
 Packet Type,Firewall Logs,Device Model,32.0000,0.0728,0.0797,0.0032,0.0265,0.0442,0.0722,0.3077
 Packet Type,Firewall Logs,Device Type,32.0000,0.0728,0.0797,0.0032,0.0265,0.0442,0.0722,0.3077
-Packet Type,Firewall Logs,Packet_T,5739.0000,0.3857,0.2210,0.0000,0.2222,0.3333,0.5000,1.0000
+Packet Type,Firewall Logs,Scale Packet Length,5739.0000,0.3857,0.2210,0.0000,0.2222,0.3333,0.5000,1.0000
 Packet Type,IDS/IPS Alerts,Month,48.0000,0.0359,0.0212,0.0024,0.0201,0.0324,0.0435,0.0994
 Packet Type,IDS/IPS Alerts,Day,124.0000,0.0551,0.0281,0.0031,0.0331,0.0530,0.0770,0.1274
 Packet Type,IDS/IPS Alerts,Hour,96.0000,0.0421,0.0238,0.0071,0.0237,0.0392,0.0601,0.1166
@@ -532,7 +532,7 @@ Packet Type,IDS/IPS Alerts,OS Version Minor,56.0000,0.0590,0.0352,0.0072,0.0290,
 Packet Type,IDS/IPS Alerts,OS Version Patch,44.0000,0.0597,0.0378,0.0071,0.0270,0.0596,0.0765,0.1961
 Packet Type,IDS/IPS Alerts,Device Model,32.0000,0.0540,0.0469,0.0063,0.0208,0.0374,0.0685,0.1852
 Packet Type,IDS/IPS Alerts,Device Type,32.0000,0.0540,0.0469,0.0063,0.0208,0.0374,0.0685,0.1852
-Packet Type,IDS/IPS Alerts,Packet_T,5742.0000,0.3932,0.2248,0.0000,0.2222,0.3636,0.5385,1.0000
+Packet Type,IDS/IPS Alerts,Scale Packet Length,5742.0000,0.3932,0.2248,0.0000,0.2222,0.3636,0.5385,1.0000
 Packet Type,Log Source,Month,48.0000,0.0362,0.0178,0.0068,0.0209,0.0332,0.0489,0.0670
 Packet Type,Log Source,Day,124.0000,0.0577,0.0287,0.0028,0.0373,0.0551,0.0728,0.1327
 Packet Type,Log Source,Hour,96.0000,0.0451,0.0243,0.0024,0.0274,0.0400,0.0612,0.1191
@@ -547,7 +547,7 @@ Packet Type,Log Source,OS Version Minor,56.0000,0.0659,0.0439,0.0000,0.0315,0.06
 Packet Type,Log Source,OS Version Patch,44.0000,0.0577,0.0349,0.0014,0.0324,0.0564,0.0760,0.1528
 Packet Type,Log Source,Device Model,32.0000,0.0660,0.0591,0.0074,0.0256,0.0488,0.0810,0.2308
 Packet Type,Log Source,Device Type,32.0000,0.0660,0.0591,0.0074,0.0256,0.0488,0.0810,0.2308
-Packet Type,Log Source,Packet_T,5742.0000,0.3890,0.2201,0.0000,0.2222,0.3333,0.5000,1.0000
+Packet Type,Log Source,Scale Packet Length,5742.0000,0.3890,0.2201,0.0000,0.2222,0.3333,0.5000,1.0000
 Packet Type,Year,Month,92.0000,0.0493,0.0241,0.0021,0.0322,0.0483,0.0652,0.1062
 Packet Type,Year,Day,248.0000,0.0812,0.0416,0.0000,0.0512,0.0759,0.1048,0.2167
 Packet Type,Year,Hour,192.0000,0.0653,0.0340,0.0093,0.0386,0.0605,0.0853,0.1857
@@ -564,7 +564,7 @@ Packet Type,Year,OS Version Minor,112.0000,0.0846,0.0523,0.0034,0.0389,0.0821,0.
 Packet Type,Year,OS Version Patch,88.0000,0.0812,0.0516,0.0080,0.0372,0.0744,0.1149,0.2533
 Packet Type,Year,Device Model,64.0000,0.0915,0.1004,0.0037,0.0307,0.0593,0.1102,0.5455
 Packet Type,Year,Device Type,64.0000,0.0915,0.1004,0.0037,0.0307,0.0593,0.1102,0.5455
-Packet Type,Year,Packet_T,11103.0000,0.5699,0.2970,0.0000,0.3333,0.5000,0.7500,1.0000
+Packet Type,Year,Scale Packet Length,11103.0000,0.5699,0.2970,0.0000,0.3333,0.5000,0.7500,1.0000
 Packet Type,Month,Day,732.0000,0.1395,0.0719,0.0000,0.0833,0.1346,0.1852,0.4545
 Packet Type,Month,Hour,576.0000,0.1170,0.0658,0.0000,0.0641,0.1071,0.1556,0.3774
 Packet Type,Month,Minute,1440.0000,0.1876,0.1004,0.0000,0.1111,0.1739,0.2500,0.6250
@@ -677,7 +677,7 @@ Packet Type,IsWeekend,OS Version Minor,56.0000,0.0746,0.0517,0.0057,0.0372,0.067
 Packet Type,IsWeekend,OS Version Patch,44.0000,0.0599,0.0354,0.0061,0.0306,0.0580,0.0782,0.1494
 Packet Type,IsWeekend,Device Model,32.0000,0.0672,0.0626,0.0044,0.0222,0.0462,0.0936,0.2857
 Packet Type,IsWeekend,Device Type,32.0000,0.0672,0.0626,0.0044,0.0222,0.0462,0.0936,0.2857
-Packet Type,IsWeekend,Packet_T,5693.0000,0.4233,0.2556,0.0000,0.2308,0.3750,0.5714,1.0000
+Packet Type,IsWeekend,Scale Packet Length,5693.0000,0.4233,0.2556,0.0000,0.2308,0.3750,0.5714,1.0000
 Packet Type,Browser Name,Browser Version,406.0000,0.1990,0.1480,0.0000,0.0909,0.1550,0.2778,1.0000
 Packet Type,Browser Name,Browser Minor,222.0000,0.1363,0.0793,0.0000,0.0728,0.1357,0.1869,0.4211
 Packet Type,Browser Name,Browser Patch,464.0000,0.2551,0.1906,0.0000,0.1212,0.2069,0.3333,1.0000
@@ -732,7 +732,7 @@ Packet Type,Browser Patch Minor,OS Version Minor,56.0000,0.0609,0.0418,0.0040,0.
 Packet Type,Browser Patch Minor,OS Version Patch,44.0000,0.0601,0.0468,0.0043,0.0245,0.0529,0.0859,0.1932
 Packet Type,Browser Patch Minor,Device Model,28.0000,0.0501,0.0405,0.0020,0.0214,0.0355,0.0618,0.1579
 Packet Type,Browser Patch Minor,Device Type,28.0000,0.0501,0.0405,0.0020,0.0214,0.0355,0.0618,0.1579
-Packet Type,Browser Patch Minor,Packet_T,5590.0000,0.4616,0.2930,0.0000,0.2308,0.4000,0.6667,1.0000
+Packet Type,Browser Patch Minor,Scale Packet Length,5590.0000,0.4616,0.2930,0.0000,0.2308,0.4000,0.6667,1.0000
 Packet Type,OS Name,OS Version,66.0000,0.0686,0.0670,0.0056,0.0269,0.0485,0.0973,0.4286
 Packet Type,OS Name,OS Version Minor,46.0000,0.0643,0.0490,0.0034,0.0340,0.0543,0.0745,0.2069
 Packet Type,OS Name,OS Version Patch,58.0000,0.0708,0.0594,0.0034,0.0310,0.0534,0.0937,0.2558
@@ -763,9 +763,9 @@ Packet Type,OS Version Patch,Packet Bin,66.0000,0.0773,0.0531,0.0073,0.0307,0.07
 Packet Type,OS Version Patch,Global Source IP,43.0000,0.3008,0.3608,0.0000,0.0308,0.0635,0.5000,1.0000
 Packet Type,OS Version Patch,Global Destination IP,42.0000,0.2589,0.3432,0.0000,0.0318,0.0633,0.3625,1.0000
 Packet Type,OS Version Patch,Is Proxy,44.0000,0.0629,0.0463,0.0069,0.0251,0.0477,0.0915,0.1714
-Packet Type,OS Version Patch Minor,Packet_T,2874.0000,0.2661,0.1465,0.0000,0.1579,0.2500,0.3571,1.0000
+Packet Type,OS Version Patch Minor,Scale Packet Length,2874.0000,0.2661,0.1465,0.0000,0.1579,0.2500,0.3571,1.0000
 Packet Type,Device Brand,Packet Bin,24.0000,0.0797,0.1079,0.0071,0.0214,0.0272,0.0911,0.4286
-Packet Type,Device Brand,Packet_T,8069.0000,0.5335,0.3066,0.0000,0.2857,0.5000,0.7500,1.0000
+Packet Type,Device Brand,Scale Packet Length,8069.0000,0.5335,0.3066,0.0000,0.2857,0.5000,0.7500,1.0000
 Packet Type,Device Model,Packet Bin,48.0000,0.0842,0.0871,0.0094,0.0295,0.0538,0.1009,0.4286
 Packet Type,Device Model,Global Source IP,31.0000,0.2051,0.2534,0.0005,0.0335,0.1250,0.2361,1.0000
 Packet Type,Device Model,Global Destination IP,31.0000,0.2477,0.2931,0.0013,0.0293,0.1351,0.3875,1.0000
@@ -774,10 +774,10 @@ Packet Type,Device Type,Packet Bin,48.0000,0.0842,0.0871,0.0094,0.0295,0.0538,0.
 Packet Type,Device Type,Global Source IP,31.0000,0.2051,0.2534,0.0005,0.0335,0.1250,0.2361,1.0000
 Packet Type,Device Type,Global Destination IP,31.0000,0.2477,0.2931,0.0013,0.0293,0.1351,0.3875,1.0000
 Packet Type,Device Type,Is Proxy,32.0000,0.0590,0.0586,0.0015,0.0262,0.0433,0.0699,0.2778
-Packet Type,Packet Bin,Packet_T,2874.0000,0.2661,0.1465,0.0000,0.1579,0.2500,0.3571,1.0000
-Packet Type,Packet_T,Global Source IP,3045.0000,0.3068,0.2186,0.0000,0.1667,0.2500,0.3846,1.0000
-Packet Type,Packet_T,Global Destination IP,3043.0000,0.3064,0.2189,0.0000,0.1667,0.2500,0.3846,1.0000
-Packet Type,Packet_T,Is Proxy,5741.0000,0.3890,0.2233,0.0000,0.2222,0.3333,0.5000,1.0000
+Packet Type,Packet Bin,Scale Packet Length,2874.0000,0.2661,0.1465,0.0000,0.1579,0.2500,0.3571,1.0000
+Packet Type,Scale Packet Length,Global Source IP,3045.0000,0.3068,0.2186,0.0000,0.1667,0.2500,0.3846,1.0000
+Packet Type,Scale Packet Length,Global Destination IP,3043.0000,0.3064,0.2189,0.0000,0.1667,0.2500,0.3846,1.0000
+Packet Type,Scale Packet Length,Is Proxy,5741.0000,0.3890,0.2233,0.0000,0.2222,0.3333,0.5000,1.0000
 Traffic Type,Malware Indicators,Month,72.0000,0.0441,0.0235,0.0049,0.0281,0.0394,0.0577,0.1205
 Traffic Type,Malware Indicators,Day,186.0000,0.0677,0.0332,0.0053,0.0427,0.0680,0.0894,0.1572
 Traffic Type,Malware Indicators,Hour,144.0000,0.0586,0.0305,0.0000,0.0376,0.0535,0.0798,0.1623
@@ -794,7 +794,7 @@ Traffic Type,Malware Indicators,OS Version Minor,84.0000,0.0764,0.0452,0.0000,0.
 Traffic Type,Malware Indicators,OS Version Patch,66.0000,0.0723,0.0424,0.0020,0.0399,0.0732,0.0971,0.2381
 Traffic Type,Malware Indicators,Device Model,48.0000,0.0761,0.0995,0.0000,0.0255,0.0402,0.0634,0.5000
 Traffic Type,Malware Indicators,Device Type,48.0000,0.0761,0.0995,0.0000,0.0255,0.0402,0.0634,0.5000
-Traffic Type,Malware Indicators,Packet_T,8549.0000,0.4880,0.2699,0.0000,0.2500,0.5000,0.6667,1.0000
+Traffic Type,Malware Indicators,Scale Packet Length,8549.0000,0.4880,0.2699,0.0000,0.2500,0.5000,0.6667,1.0000
 Traffic Type,Alerts/Warnings,Month,72.0000,0.0404,0.0233,0.0055,0.0212,0.0393,0.0568,0.1031
 Traffic Type,Alerts/Warnings,Day,186.0000,0.0660,0.0350,0.0078,0.0381,0.0625,0.0891,0.1814
 Traffic Type,Alerts/Warnings,Hour,144.0000,0.0589,0.0277,0.0039,0.0374,0.0535,0.0792,0.1395
@@ -812,7 +812,7 @@ Traffic Type,Alerts/Warnings,OS Version Patch,66.0000,0.0677,0.0369,0.0082,0.041
 Traffic Type,Alerts/Warnings,Device Brand,24.0000,0.1038,0.1436,0.0117,0.0211,0.0266,0.0724,0.4286
 Traffic Type,Alerts/Warnings,Device Model,48.0000,0.0903,0.1064,0.0028,0.0270,0.0558,0.0903,0.4286
 Traffic Type,Alerts/Warnings,Device Type,48.0000,0.0903,0.1064,0.0028,0.0270,0.0558,0.0903,0.4286
-Traffic Type,Alerts/Warnings,Packet_T,8536.0000,0.4905,0.2677,0.0000,0.2500,0.5000,0.6667,1.0000
+Traffic Type,Alerts/Warnings,Scale Packet Length,8536.0000,0.4905,0.2677,0.0000,0.2500,0.5000,0.6667,1.0000
 Traffic Type,Attack Signature,Month,72.0000,0.0405,0.0227,0.0018,0.0226,0.0358,0.0558,0.1090
 Traffic Type,Attack Signature,Day,186.0000,0.0659,0.0327,0.0047,0.0402,0.0626,0.0867,0.1642
 Traffic Type,Attack Signature,Hour,144.0000,0.0602,0.0311,0.0071,0.0376,0.0559,0.0819,0.1631
@@ -827,7 +827,7 @@ Traffic Type,Attack Signature,OS Version Minor,84.0000,0.0728,0.0456,0.0000,0.03
 Traffic Type,Attack Signature,OS Version Patch,66.0000,0.0729,0.0449,0.0010,0.0364,0.0681,0.0968,0.1933
 Traffic Type,Attack Signature,Device Model,48.0000,0.0845,0.1244,0.0042,0.0265,0.0450,0.0829,0.5714
 Traffic Type,Attack Signature,Device Type,48.0000,0.0845,0.1244,0.0042,0.0265,0.0450,0.0829,0.5714
-Traffic Type,Attack Signature,Packet_T,8543.0000,0.4904,0.2728,0.0000,0.2500,0.5000,0.6667,1.0000
+Traffic Type,Attack Signature,Scale Packet Length,8543.0000,0.4904,0.2728,0.0000,0.2500,0.5000,0.6667,1.0000
 Traffic Type,Action Taken,Year,36.0000,0.0310,0.0166,0.0017,0.0228,0.0320,0.0361,0.0788
 Traffic Type,Action Taken,Month,108.0000,0.0497,0.0261,0.0032,0.0281,0.0477,0.0678,0.1424
 Traffic Type,Action Taken,Day,279.0000,0.0808,0.0445,0.0065,0.0460,0.0738,0.1063,0.2519
@@ -895,7 +895,7 @@ Traffic Type,Firewall Logs,OS Version Minor,84.0000,0.0748,0.0484,0.0085,0.0378,
 Traffic Type,Firewall Logs,OS Version Patch,66.0000,0.0782,0.0478,0.0059,0.0359,0.0726,0.1051,0.1897
 Traffic Type,Firewall Logs,Device Model,48.0000,0.0763,0.0908,0.0000,0.0276,0.0422,0.0923,0.5000
 Traffic Type,Firewall Logs,Device Type,48.0000,0.0763,0.0908,0.0000,0.0276,0.0422,0.0923,0.5000
-Traffic Type,Firewall Logs,Packet_T,8539.0000,0.4887,0.2727,0.0000,0.2500,0.5000,0.6667,1.0000
+Traffic Type,Firewall Logs,Scale Packet Length,8539.0000,0.4887,0.2727,0.0000,0.2500,0.5000,0.6667,1.0000
 Traffic Type,IDS/IPS Alerts,Month,72.0000,0.0459,0.0234,0.0094,0.0309,0.0439,0.0568,0.1504
 Traffic Type,IDS/IPS Alerts,Day,186.0000,0.0679,0.0333,0.0000,0.0398,0.0619,0.0943,0.1593
 Traffic Type,IDS/IPS Alerts,Hour,144.0000,0.0617,0.0321,0.0036,0.0356,0.0569,0.0845,0.1514
@@ -911,7 +911,7 @@ Traffic Type,IDS/IPS Alerts,OS Version Minor,84.0000,0.0744,0.0461,0.0017,0.0377
 Traffic Type,IDS/IPS Alerts,OS Version Patch,66.0000,0.0741,0.0453,0.0031,0.0426,0.0623,0.0994,0.1724
 Traffic Type,IDS/IPS Alerts,Device Model,48.0000,0.0823,0.1249,0.0010,0.0230,0.0371,0.0888,0.7500
 Traffic Type,IDS/IPS Alerts,Device Type,48.0000,0.0823,0.1249,0.0010,0.0230,0.0371,0.0888,0.7500
-Traffic Type,IDS/IPS Alerts,Packet_T,8560.0000,0.4924,0.2738,0.0000,0.2500,0.5000,0.6667,1.0000
+Traffic Type,IDS/IPS Alerts,Scale Packet Length,8560.0000,0.4924,0.2738,0.0000,0.2500,0.5000,0.6667,1.0000
 Traffic Type,Log Source,Month,72.0000,0.0412,0.0206,0.0047,0.0296,0.0395,0.0547,0.1003
 Traffic Type,Log Source,Day,186.0000,0.0681,0.0374,0.0000,0.0389,0.0636,0.0956,0.1667
 Traffic Type,Log Source,Hour,144.0000,0.0592,0.0308,0.0036,0.0379,0.0589,0.0772,0.1620
@@ -926,7 +926,7 @@ Traffic Type,Log Source,OS Version Minor,84.0000,0.0793,0.0490,0.0066,0.0426,0.0
 Traffic Type,Log Source,OS Version Patch,66.0000,0.0760,0.0431,0.0077,0.0458,0.0726,0.1055,0.1818
 Traffic Type,Log Source,Device Model,48.0000,0.0948,0.1315,0.0073,0.0206,0.0411,0.0914,0.5556
 Traffic Type,Log Source,Device Type,48.0000,0.0948,0.1315,0.0073,0.0206,0.0411,0.0914,0.5556
-Traffic Type,Log Source,Packet_T,8546.0000,0.4890,0.2720,0.0000,0.2500,0.5000,0.6667,1.0000
+Traffic Type,Log Source,Scale Packet Length,8546.0000,0.4890,0.2720,0.0000,0.2500,0.5000,0.6667,1.0000
 Traffic Type,Year,Month,138.0000,0.0593,0.0319,0.0042,0.0374,0.0561,0.0762,0.1856
 Traffic Type,Year,Day,372.0000,0.0954,0.0503,0.0000,0.0574,0.0885,0.1308,0.2621
 Traffic Type,Year,Hour,288.0000,0.0855,0.0444,0.0000,0.0503,0.0785,0.1167,0.2000
@@ -1051,7 +1051,7 @@ Traffic Type,IsWeekend,OS Version Minor,84.0000,0.0823,0.0617,0.0016,0.0371,0.07
 Traffic Type,IsWeekend,OS Version Patch,66.0000,0.0776,0.0494,0.0000,0.0393,0.0753,0.1186,0.1852
 Traffic Type,IsWeekend,Device Model,48.0000,0.0858,0.0925,0.0011,0.0240,0.0597,0.1091,0.5000
 Traffic Type,IsWeekend,Device Type,48.0000,0.0858,0.0925,0.0011,0.0240,0.0597,0.1091,0.5000
-Traffic Type,IsWeekend,Packet_T,8286.0000,0.5173,0.2942,0.0000,0.2500,0.5000,0.6667,1.0000
+Traffic Type,IsWeekend,Scale Packet Length,8286.0000,0.5173,0.2942,0.0000,0.2500,0.5000,0.6667,1.0000
 Traffic Type,Browser Name,Browser Version,609.0000,0.2491,0.1873,0.0000,0.1091,0.2000,0.3333,1.0000
 Traffic Type,Browser Name,Browser Minor,333.0000,0.1705,0.1003,0.0000,0.0930,0.1579,0.2353,0.4706
 Traffic Type,Browser Name,Browser Patch,691.0000,0.3034,0.2224,0.0000,0.1364,0.2500,0.4286,1.0000
@@ -1102,7 +1102,7 @@ Traffic Type,Browser Patch Minor,OS Version Minor,84.0000,0.0788,0.0545,0.0018,0
 Traffic Type,Browser Patch Minor,OS Version Patch,66.0000,0.0726,0.0424,0.0025,0.0383,0.0669,0.1046,0.2131
 Traffic Type,Browser Patch Minor,Device Model,42.0000,0.0598,0.0616,0.0038,0.0257,0.0466,0.0680,0.3333
 Traffic Type,Browser Patch Minor,Device Type,42.0000,0.0598,0.0616,0.0038,0.0257,0.0466,0.0680,0.3333
-Traffic Type,Browser Patch Minor,Packet_T,7973.0000,0.5351,0.3096,0.0000,0.2857,0.5000,0.7500,1.0000
+Traffic Type,Browser Patch Minor,Scale Packet Length,7973.0000,0.5351,0.3096,0.0000,0.2857,0.5000,0.7500,1.0000
 Traffic Type,OS Name,OS Version,99.0000,0.0890,0.0765,0.0062,0.0371,0.0678,0.1151,0.4706
 Traffic Type,OS Name,OS Version Minor,69.0000,0.0742,0.0573,0.0039,0.0361,0.0625,0.1012,0.3158
 Traffic Type,OS Name,OS Version Patch,87.0000,0.1008,0.0808,0.0067,0.0388,0.0762,0.1399,0.4324
@@ -1141,7 +1141,7 @@ Traffic Type,OS Version Patch,Global Destination IP,61.0000,0.2833,0.3385,0.0000
 Traffic Type,OS Version Patch,Is Proxy,66.0000,0.0775,0.0468,0.0057,0.0410,0.0711,0.1090,0.1824
 Traffic Type,OS Version Patch Minor,Device Model,24.0000,0.0562,0.0696,0.0047,0.0213,0.0305,0.0610,0.3333
 Traffic Type,OS Version Patch Minor,Device Type,24.0000,0.0562,0.0696,0.0047,0.0213,0.0305,0.0610,0.3333
-Traffic Type,OS Version Patch Minor,Packet_T,4311.0000,0.3325,0.1847,0.0000,0.2000,0.3077,0.4444,1.0000
+Traffic Type,OS Version Patch Minor,Scale Packet Length,4311.0000,0.3325,0.1847,0.0000,0.2000,0.3077,0.4444,1.0000
 Traffic Type,Device Brand,Device Model,24.0000,0.0562,0.0696,0.0047,0.0213,0.0305,0.0610,0.3333
 Traffic Type,Device Brand,Device Type,24.0000,0.0562,0.0696,0.0047,0.0213,0.0305,0.0610,0.3333
 Traffic Type,Device Model,Device Type,24.0000,0.0562,0.0696,0.0047,0.0213,0.0305,0.0610,0.3333
@@ -1153,10 +1153,10 @@ Traffic Type,Device Type,Packet Bin,72.0000,0.1104,0.1670,0.0055,0.0280,0.0510,0
 Traffic Type,Device Type,Global Source IP,44.0000,0.2319,0.2700,0.0000,0.0278,0.1213,0.3333,1.0000
 Traffic Type,Device Type,Global Destination IP,44.0000,0.2284,0.2714,0.0049,0.0303,0.0955,0.3611,1.0000
 Traffic Type,Device Type,Is Proxy,48.0000,0.0730,0.0787,0.0035,0.0217,0.0464,0.0801,0.3333
-Traffic Type,Packet Bin,Packet_T,4311.0000,0.3325,0.1847,0.0000,0.2000,0.3077,0.4444,1.0000
-Traffic Type,Packet_T,Global Source IP,4487.0000,0.3590,0.2224,0.0000,0.2000,0.3333,0.4615,1.0000
-Traffic Type,Packet_T,Global Destination IP,4481.0000,0.3580,0.2213,0.0000,0.2000,0.3333,0.4615,1.0000
-Traffic Type,Packet_T,Is Proxy,8553.0000,0.4930,0.2737,0.0000,0.2500,0.5000,0.6667,1.0000
+Traffic Type,Packet Bin,Scale Packet Length,4311.0000,0.3325,0.1847,0.0000,0.2000,0.3077,0.4444,1.0000
+Traffic Type,Scale Packet Length,Global Source IP,4487.0000,0.3590,0.2224,0.0000,0.2000,0.3333,0.4615,1.0000
+Traffic Type,Scale Packet Length,Global Destination IP,4481.0000,0.3580,0.2213,0.0000,0.2000,0.3333,0.4615,1.0000
+Traffic Type,Scale Packet Length,Is Proxy,8553.0000,0.4930,0.2737,0.0000,0.2500,0.5000,0.6667,1.0000
 Malware Indicators,Alerts/Warnings,Day,124.0000,0.0564,0.0278,0.0065,0.0355,0.0563,0.0750,0.1366
 Malware Indicators,Alerts/Warnings,Hour,96.0000,0.0477,0.0260,0.0048,0.0290,0.0458,0.0613,0.1603
 Malware Indicators,Alerts/Warnings,Minute,240.0000,0.0763,0.0441,0.0055,0.0433,0.0703,0.1037,0.2134
@@ -1171,7 +1171,7 @@ Malware Indicators,Alerts/Warnings,OS Version Minor,56.0000,0.0621,0.0326,0.0091
 Malware Indicators,Alerts/Warnings,OS Version Patch,44.0000,0.0639,0.0407,0.0050,0.0410,0.0616,0.0802,0.2222
 Malware Indicators,Alerts/Warnings,Device Model,32.0000,0.0799,0.0887,0.0164,0.0283,0.0430,0.1006,0.4286
 Malware Indicators,Alerts/Warnings,Device Type,32.0000,0.0799,0.0887,0.0164,0.0283,0.0430,0.1006,0.4286
-Malware Indicators,Alerts/Warnings,Packet_T,5739.0000,0.3917,0.2230,0.0000,0.2222,0.3571,0.5000,1.0000
+Malware Indicators,Alerts/Warnings,Scale Packet Length,5739.0000,0.3917,0.2230,0.0000,0.2222,0.3571,0.5000,1.0000
 Malware Indicators,Attack Signature,Month,48.0000,0.0362,0.0170,0.0113,0.0215,0.0325,0.0473,0.0765
 Malware Indicators,Attack Signature,Day,124.0000,0.0545,0.0287,0.0031,0.0316,0.0519,0.0745,0.1463
 Malware Indicators,Attack Signature,Hour,96.0000,0.0499,0.0249,0.0023,0.0335,0.0463,0.0667,0.1612
@@ -1184,7 +1184,7 @@ Malware Indicators,Attack Signature,Browser Patch,484.0000,0.2210,0.1254,0.0000,
 Malware Indicators,Attack Signature,OS Version,88.0000,0.0691,0.0680,0.0066,0.0322,0.0553,0.0829,0.5714
 Malware Indicators,Attack Signature,OS Version Minor,56.0000,0.0590,0.0342,0.0051,0.0352,0.0514,0.0737,0.1587
 Malware Indicators,Attack Signature,OS Version Patch,44.0000,0.0587,0.0448,0.0051,0.0297,0.0557,0.0710,0.2579
-Malware Indicators,Attack Signature,Packet_T,5742.0000,0.3871,0.2208,0.0000,0.2222,0.3333,0.5000,1.0000
+Malware Indicators,Attack Signature,Scale Packet Length,5742.0000,0.3871,0.2208,0.0000,0.2222,0.3333,0.5000,1.0000
 Malware Indicators,Action Taken,Month,72.0000,0.0438,0.0239,0.0069,0.0251,0.0395,0.0557,0.1191
 Malware Indicators,Action Taken,Day,186.0000,0.0649,0.0351,0.0044,0.0383,0.0628,0.0911,0.1503
 Malware Indicators,Action Taken,Hour,144.0000,0.0582,0.0291,0.0096,0.0375,0.0554,0.0767,0.1958
@@ -1200,7 +1200,7 @@ Malware Indicators,Action Taken,OS Version Minor,84.0000,0.0720,0.0497,0.0075,0.
 Malware Indicators,Action Taken,OS Version Patch,66.0000,0.0755,0.0475,0.0092,0.0436,0.0722,0.0909,0.2604
 Malware Indicators,Action Taken,Device Model,48.0000,0.0847,0.1119,0.0000,0.0254,0.0465,0.0887,0.5000
 Malware Indicators,Action Taken,Device Type,48.0000,0.0847,0.1119,0.0000,0.0254,0.0465,0.0887,0.5000
-Malware Indicators,Action Taken,Packet_T,8549.0000,0.4884,0.2733,0.0000,0.2500,0.5000,0.6667,1.0000
+Malware Indicators,Action Taken,Scale Packet Length,8549.0000,0.4884,0.2733,0.0000,0.2500,0.5000,0.6667,1.0000
 Malware Indicators,Severity Level,Month,72.0000,0.0419,0.0238,0.0070,0.0222,0.0363,0.0540,0.1064
 Malware Indicators,Severity Level,Day,186.0000,0.0666,0.0371,0.0043,0.0369,0.0581,0.0959,0.1805
 Malware Indicators,Severity Level,Hour,144.0000,0.0619,0.0309,0.0035,0.0393,0.0617,0.0791,0.1619
@@ -1216,7 +1216,7 @@ Malware Indicators,Severity Level,OS Version Minor,84.0000,0.0771,0.0480,0.0081,
 Malware Indicators,Severity Level,OS Version Patch,66.0000,0.0721,0.0457,0.0039,0.0378,0.0679,0.0970,0.2019
 Malware Indicators,Severity Level,Device Model,48.0000,0.0885,0.1084,0.0074,0.0248,0.0523,0.0826,0.5455
 Malware Indicators,Severity Level,Device Type,48.0000,0.0885,0.1084,0.0074,0.0248,0.0523,0.0826,0.5455
-Malware Indicators,Severity Level,Packet_T,8538.0000,0.4879,0.2717,0.0000,0.2500,0.5000,0.6667,1.0000
+Malware Indicators,Severity Level,Scale Packet Length,8538.0000,0.4879,0.2717,0.0000,0.2500,0.5000,0.6667,1.0000
 Malware Indicators,Network Segment,Month,72.0000,0.0436,0.0191,0.0036,0.0290,0.0408,0.0568,0.0950
 Malware Indicators,Network Segment,Day,186.0000,0.0682,0.0372,0.0044,0.0408,0.0627,0.0933,0.1917
 Malware Indicators,Network Segment,Hour,144.0000,0.0563,0.0324,0.0000,0.0334,0.0519,0.0744,0.1509
@@ -1229,7 +1229,7 @@ Malware Indicators,Network Segment,Browser Patch,726.0000,0.2658,0.1472,0.0000,0
 Malware Indicators,Network Segment,OS Version,132.0000,0.0843,0.0765,0.0082,0.0317,0.0655,0.1052,0.5556
 Malware Indicators,Network Segment,OS Version Minor,84.0000,0.0786,0.0472,0.0068,0.0382,0.0691,0.1154,0.2105
 Malware Indicators,Network Segment,OS Version Patch,66.0000,0.0642,0.0452,0.0096,0.0311,0.0522,0.0934,0.2288
-Malware Indicators,Network Segment,Packet_T,8540.0000,0.4860,0.2722,0.0000,0.2500,0.5000,0.6667,1.0000
+Malware Indicators,Network Segment,Scale Packet Length,8540.0000,0.4860,0.2722,0.0000,0.2500,0.5000,0.6667,1.0000
 Malware Indicators,Firewall Logs,Month,48.0000,0.0371,0.0179,0.0023,0.0222,0.0389,0.0484,0.0763
 Malware Indicators,Firewall Logs,Day,124.0000,0.0541,0.0309,0.0063,0.0315,0.0473,0.0726,0.1639
 Malware Indicators,Firewall Logs,Hour,96.0000,0.0456,0.0260,0.0025,0.0283,0.0425,0.0606,0.1478
@@ -1244,7 +1244,7 @@ Malware Indicators,Firewall Logs,OS Version Minor,56.0000,0.0547,0.0303,0.0058,0
 Malware Indicators,Firewall Logs,OS Version Patch,44.0000,0.0606,0.0437,0.0061,0.0259,0.0541,0.0816,0.1933
 Malware Indicators,Firewall Logs,Device Model,32.0000,0.0743,0.0843,0.0027,0.0239,0.0439,0.0815,0.3571
 Malware Indicators,Firewall Logs,Device Type,32.0000,0.0743,0.0843,0.0027,0.0239,0.0439,0.0815,0.3571
-Malware Indicators,Firewall Logs,Packet_T,5740.0000,0.3863,0.2204,0.0000,0.2222,0.3333,0.5000,1.0000
+Malware Indicators,Firewall Logs,Scale Packet Length,5740.0000,0.3863,0.2204,0.0000,0.2222,0.3333,0.5000,1.0000
 Malware Indicators,IDS/IPS Alerts,Month,48.0000,0.0366,0.0185,0.0057,0.0262,0.0327,0.0469,0.0887
 Malware Indicators,IDS/IPS Alerts,Day,124.0000,0.0543,0.0279,0.0029,0.0318,0.0535,0.0707,0.1381
 Malware Indicators,IDS/IPS Alerts,Hour,96.0000,0.0479,0.0259,0.0023,0.0292,0.0409,0.0698,0.1186
@@ -1259,7 +1259,7 @@ Malware Indicators,IDS/IPS Alerts,OS Version Minor,56.0000,0.0591,0.0345,0.0043,
 Malware Indicators,IDS/IPS Alerts,OS Version Patch,44.0000,0.0627,0.0390,0.0063,0.0333,0.0552,0.0820,0.1586
 Malware Indicators,IDS/IPS Alerts,Device Model,32.0000,0.0649,0.0779,0.0049,0.0208,0.0313,0.0781,0.3158
 Malware Indicators,IDS/IPS Alerts,Device Type,32.0000,0.0649,0.0779,0.0049,0.0208,0.0313,0.0781,0.3158
-Malware Indicators,IDS/IPS Alerts,Packet_T,5739.0000,0.3876,0.2214,0.0000,0.2222,0.3333,0.5000,1.0000
+Malware Indicators,IDS/IPS Alerts,Scale Packet Length,5739.0000,0.3876,0.2214,0.0000,0.2222,0.3333,0.5000,1.0000
 Malware Indicators,Log Source,Day,124.0000,0.0585,0.0311,0.0059,0.0360,0.0536,0.0806,0.1710
 Malware Indicators,Log Source,Hour,96.0000,0.0484,0.0277,0.0000,0.0283,0.0431,0.0679,0.1332
 Malware Indicators,Log Source,Minute,240.0000,0.0772,0.0435,0.0061,0.0466,0.0741,0.1023,0.2635
@@ -1270,7 +1270,7 @@ Malware Indicators,Log Source,Browser Minor,404.0000,0.2022,0.1229,0.0000,0.1111
 Malware Indicators,Log Source,Browser Patch,484.0000,0.2205,0.1206,0.0000,0.1301,0.2071,0.2956,0.6111
 Malware Indicators,Log Source,OS Version,88.0000,0.0716,0.0725,0.0049,0.0309,0.0553,0.0797,0.5000
 Malware Indicators,Log Source,OS Version Minor,56.0000,0.0602,0.0397,0.0021,0.0310,0.0502,0.0805,0.2010
-Malware Indicators,Log Source,Packet_T,5741.0000,0.3893,0.2204,0.0000,0.2222,0.3333,0.5000,1.0000
+Malware Indicators,Log Source,Scale Packet Length,5741.0000,0.3893,0.2204,0.0000,0.2222,0.3333,0.5000,1.0000
 Malware Indicators,Year,Month,92.0000,0.0468,0.0227,0.0088,0.0283,0.0428,0.0646,0.0982
 Malware Indicators,Year,Day,248.0000,0.0799,0.0403,0.0103,0.0464,0.0754,0.1063,0.2245
 Malware Indicators,Year,Hour,192.0000,0.0662,0.0347,0.0041,0.0421,0.0624,0.0839,0.2161
@@ -1285,7 +1285,7 @@ Malware Indicators,Year,OS Version Minor,112.0000,0.0857,0.0526,0.0042,0.0447,0.
 Malware Indicators,Year,OS Version Patch,88.0000,0.0807,0.0572,0.0000,0.0405,0.0696,0.1101,0.3059
 Malware Indicators,Year,Device Model,64.0000,0.1127,0.1381,0.0052,0.0360,0.0681,0.1429,0.6000
 Malware Indicators,Year,Device Type,64.0000,0.1127,0.1381,0.0052,0.0360,0.0681,0.1429,0.6000
-Malware Indicators,Year,Packet_T,11122.0000,0.5712,0.2972,0.0000,0.3333,0.5000,0.7500,1.0000
+Malware Indicators,Year,Scale Packet Length,11122.0000,0.5712,0.2972,0.0000,0.3333,0.5000,0.7500,1.0000
 Malware Indicators,Month,Day,732.0000,0.1356,0.0742,0.0000,0.0806,0.1284,0.1801,0.5385
 Malware Indicators,Month,Hour,576.0000,0.1226,0.0658,0.0000,0.0744,0.1148,0.1589,0.4186
 Malware Indicators,Month,Minute,1440.0000,0.1868,0.0985,0.0000,0.1154,0.1739,0.2432,0.6400
@@ -1400,7 +1400,7 @@ Malware Indicators,IsWeekend,OS Version Minor,56.0000,0.0716,0.0477,0.0055,0.039
 Malware Indicators,IsWeekend,OS Version Patch,44.0000,0.0677,0.0513,0.0036,0.0292,0.0568,0.0914,0.2234
 Malware Indicators,IsWeekend,Device Model,32.0000,0.0762,0.1034,0.0052,0.0211,0.0505,0.0731,0.5556
 Malware Indicators,IsWeekend,Device Type,32.0000,0.0762,0.1034,0.0052,0.0211,0.0505,0.0731,0.5556
-Malware Indicators,IsWeekend,Packet_T,5699.0000,0.4228,0.2588,0.0000,0.2222,0.3750,0.6000,1.0000
+Malware Indicators,IsWeekend,Scale Packet Length,5699.0000,0.4228,0.2588,0.0000,0.2222,0.3750,0.6000,1.0000
 Malware Indicators,Browser Name,Browser Version,406.0000,0.2016,0.1415,0.0000,0.0909,0.1711,0.2804,0.8333
 Malware Indicators,Browser Name,Browser Minor,222.0000,0.1412,0.0866,0.0000,0.0734,0.1263,0.2000,0.4194
 Malware Indicators,Browser Name,Browser Patch,464.0000,0.2529,0.1830,0.0000,0.1250,0.2222,0.3333,1.0000
@@ -1455,7 +1455,7 @@ Malware Indicators,Browser Patch Minor,OS Version Minor,56.0000,0.0659,0.0388,0.
 Malware Indicators,Browser Patch Minor,OS Version Patch,44.0000,0.0633,0.0512,0.0048,0.0401,0.0559,0.0772,0.3452
 Malware Indicators,Browser Patch Minor,Device Model,28.0000,0.0578,0.0592,0.0013,0.0222,0.0388,0.0759,0.2759
 Malware Indicators,Browser Patch Minor,Device Type,28.0000,0.0578,0.0592,0.0013,0.0222,0.0388,0.0759,0.2759
-Malware Indicators,Browser Patch Minor,Packet_T,5572.0000,0.4589,0.2928,0.0000,0.2308,0.4000,0.6667,1.0000
+Malware Indicators,Browser Patch Minor,Scale Packet Length,5572.0000,0.4589,0.2928,0.0000,0.2308,0.4000,0.6667,1.0000
 Malware Indicators,OS Name,OS Version,66.0000,0.0706,0.0668,0.0060,0.0263,0.0503,0.0855,0.3846
 Malware Indicators,OS Name,OS Version Minor,46.0000,0.0710,0.0710,0.0096,0.0320,0.0551,0.0711,0.3750
 Malware Indicators,OS Name,OS Version Patch,58.0000,0.0777,0.0597,0.0075,0.0372,0.0611,0.0930,0.2667
@@ -1492,10 +1492,10 @@ Malware Indicators,OS Version Patch,Global Destination IP,42.0000,0.2619,0.3120,
 Malware Indicators,OS Version Patch,Is Proxy,44.0000,0.0637,0.0418,0.0124,0.0325,0.0562,0.0839,0.1911
 Malware Indicators,OS Version Patch Minor,Device Model,16.0000,0.0536,0.0688,0.0042,0.0221,0.0315,0.0434,0.2759
 Malware Indicators,OS Version Patch Minor,Device Type,16.0000,0.0536,0.0688,0.0042,0.0221,0.0315,0.0434,0.2759
-Malware Indicators,OS Version Patch Minor,Packet_T,2874.0000,0.2638,0.1448,0.0000,0.1579,0.2500,0.3529,1.0000
+Malware Indicators,OS Version Patch Minor,Scale Packet Length,2874.0000,0.2638,0.1448,0.0000,0.1579,0.2500,0.3529,1.0000
 Malware Indicators,Device Brand,Device Model,16.0000,0.0536,0.0688,0.0042,0.0221,0.0315,0.0434,0.2759
 Malware Indicators,Device Brand,Device Type,16.0000,0.0536,0.0688,0.0042,0.0221,0.0315,0.0434,0.2759
-Malware Indicators,Device Brand,Packet_T,8072.0000,0.5350,0.3049,0.0000,0.2857,0.5000,0.7500,1.0000
+Malware Indicators,Device Brand,Scale Packet Length,8072.0000,0.5350,0.3049,0.0000,0.2857,0.5000,0.7500,1.0000
 Malware Indicators,Device Model,Device Type,16.0000,0.0536,0.0688,0.0042,0.0221,0.0315,0.0434,0.2759
 Malware Indicators,Device Model,Packet Bin,48.0000,0.0932,0.1222,0.0046,0.0221,0.0422,0.1049,0.5000
 Malware Indicators,Device Model,Global Source IP,30.0000,0.1884,0.2491,0.0000,0.0277,0.0754,0.2500,1.0000
@@ -1503,10 +1503,10 @@ Malware Indicators,Device Model,Global Destination IP,30.0000,0.1801,0.2293,0.00
 Malware Indicators,Device Type,Packet Bin,48.0000,0.0932,0.1222,0.0046,0.0221,0.0422,0.1049,0.5000
 Malware Indicators,Device Type,Global Source IP,30.0000,0.1884,0.2491,0.0000,0.0277,0.0754,0.2500,1.0000
 Malware Indicators,Device Type,Global Destination IP,30.0000,0.1801,0.2293,0.0044,0.0300,0.1030,0.2167,1.0000
-Malware Indicators,Packet Bin,Packet_T,2874.0000,0.2638,0.1448,0.0000,0.1579,0.2500,0.3529,1.0000
-Malware Indicators,Packet_T,Global Source IP,3046.0000,0.3053,0.2193,0.0000,0.1667,0.2500,0.3750,1.0000
-Malware Indicators,Packet_T,Global Destination IP,3043.0000,0.3051,0.2187,0.0000,0.1667,0.2500,0.3750,1.0000
-Malware Indicators,Packet_T,Is Proxy,5743.0000,0.3876,0.2221,0.0000,0.2222,0.3333,0.5000,1.0000
+Malware Indicators,Packet Bin,Scale Packet Length,2874.0000,0.2638,0.1448,0.0000,0.1579,0.2500,0.3529,1.0000
+Malware Indicators,Scale Packet Length,Global Source IP,3046.0000,0.3053,0.2193,0.0000,0.1667,0.2500,0.3750,1.0000
+Malware Indicators,Scale Packet Length,Global Destination IP,3043.0000,0.3051,0.2187,0.0000,0.1667,0.2500,0.3750,1.0000
+Malware Indicators,Scale Packet Length,Is Proxy,5743.0000,0.3876,0.2221,0.0000,0.2222,0.3333,0.5000,1.0000
 Anomaly Scores,OS Version Patch Minor,Global Source IP,10005.0000,0.5419,0.2911,0.0000,0.3333,0.5000,0.7500,1.0000
 Anomaly Scores,OS Version Patch Minor,Global Destination IP,9994.0000,0.5416,0.2911,0.0000,0.3333,0.5000,0.7500,1.0000
 Anomaly Scores,Global Source IP,Global Destination IP,10173.0000,0.5507,0.2947,0.0000,0.3333,0.5000,0.7500,1.0000
@@ -1523,7 +1523,7 @@ Alerts/Warnings,Attack Signature,OS Version Minor,56.0000,0.0615,0.0402,0.0070,0
 Alerts/Warnings,Attack Signature,OS Version Patch,44.0000,0.0628,0.0344,0.0092,0.0358,0.0622,0.0875,0.1635
 Alerts/Warnings,Attack Signature,Device Model,32.0000,0.0716,0.0866,0.0082,0.0208,0.0380,0.0711,0.3889
 Alerts/Warnings,Attack Signature,Device Type,32.0000,0.0716,0.0866,0.0082,0.0208,0.0380,0.0711,0.3889
-Alerts/Warnings,Attack Signature,Packet_T,5746.0000,0.3906,0.2195,0.0000,0.2222,0.3571,0.5000,1.0000
+Alerts/Warnings,Attack Signature,Scale Packet Length,5746.0000,0.3906,0.2195,0.0000,0.2222,0.3571,0.5000,1.0000
 Alerts/Warnings,Action Taken,Month,72.0000,0.0446,0.0242,0.0021,0.0265,0.0409,0.0557,0.1115
 Alerts/Warnings,Action Taken,Day,186.0000,0.0627,0.0317,0.0050,0.0394,0.0644,0.0829,0.1644
 Alerts/Warnings,Action Taken,Hour,144.0000,0.0578,0.0313,0.0038,0.0354,0.0522,0.0757,0.1480
@@ -1539,7 +1539,7 @@ Alerts/Warnings,Action Taken,OS Version Minor,84.0000,0.0696,0.0474,0.0051,0.029
 Alerts/Warnings,Action Taken,OS Version Patch,66.0000,0.0696,0.0422,0.0000,0.0425,0.0663,0.0918,0.1717
 Alerts/Warnings,Action Taken,Device Model,48.0000,0.0766,0.0876,0.0000,0.0295,0.0506,0.0868,0.4000
 Alerts/Warnings,Action Taken,Device Type,48.0000,0.0766,0.0876,0.0000,0.0295,0.0506,0.0868,0.4000
-Alerts/Warnings,Action Taken,Packet_T,8534.0000,0.4916,0.2721,0.0000,0.2500,0.5000,0.6667,1.0000
+Alerts/Warnings,Action Taken,Scale Packet Length,8534.0000,0.4916,0.2721,0.0000,0.2500,0.5000,0.6667,1.0000
 Alerts/Warnings,Severity Level,Month,72.0000,0.0421,0.0232,0.0017,0.0224,0.0416,0.0572,0.1107
 Alerts/Warnings,Severity Level,Day,186.0000,0.0668,0.0349,0.0043,0.0391,0.0661,0.0877,0.1884
 Alerts/Warnings,Severity Level,Hour,144.0000,0.0584,0.0311,0.0078,0.0355,0.0523,0.0778,0.1707
@@ -1556,7 +1556,7 @@ Alerts/Warnings,Severity Level,OS Version Minor,84.0000,0.0700,0.0440,0.0043,0.0
 Alerts/Warnings,Severity Level,OS Version Patch,66.0000,0.0704,0.0427,0.0021,0.0420,0.0643,0.0963,0.1977
 Alerts/Warnings,Severity Level,Device Model,48.0000,0.0800,0.1056,0.0000,0.0272,0.0444,0.0777,0.5000
 Alerts/Warnings,Severity Level,Device Type,48.0000,0.0800,0.1056,0.0000,0.0272,0.0444,0.0777,0.5000
-Alerts/Warnings,Severity Level,Packet_T,8534.0000,0.4881,0.2735,0.0000,0.2500,0.5000,0.6667,1.0000
+Alerts/Warnings,Severity Level,Scale Packet Length,8534.0000,0.4881,0.2735,0.0000,0.2500,0.5000,0.6667,1.0000
 Alerts/Warnings,Network Segment,Month,72.0000,0.0418,0.0215,0.0054,0.0257,0.0375,0.0553,0.0903
 Alerts/Warnings,Network Segment,Day,186.0000,0.0674,0.0331,0.0000,0.0443,0.0661,0.0843,0.1872
 Alerts/Warnings,Network Segment,Hour,144.0000,0.0591,0.0293,0.0107,0.0379,0.0572,0.0785,0.1538
@@ -1571,7 +1571,7 @@ Alerts/Warnings,Network Segment,OS Version Minor,84.0000,0.0806,0.0508,0.0000,0.
 Alerts/Warnings,Network Segment,OS Version Patch,66.0000,0.0648,0.0422,0.0049,0.0354,0.0550,0.0928,0.1863
 Alerts/Warnings,Network Segment,Device Model,48.0000,0.0922,0.1116,0.0042,0.0255,0.0492,0.0979,0.5385
 Alerts/Warnings,Network Segment,Device Type,48.0000,0.0922,0.1116,0.0042,0.0255,0.0492,0.0979,0.5385
-Alerts/Warnings,Network Segment,Packet_T,8509.0000,0.4893,0.2691,0.0000,0.2500,0.5000,0.6667,1.0000
+Alerts/Warnings,Network Segment,Scale Packet Length,8509.0000,0.4893,0.2691,0.0000,0.2500,0.5000,0.6667,1.0000
 Alerts/Warnings,Firewall Logs,Month,48.0000,0.0349,0.0138,0.0068,0.0245,0.0356,0.0451,0.0731
 Alerts/Warnings,Firewall Logs,Day,124.0000,0.0555,0.0264,0.0117,0.0343,0.0537,0.0732,0.1175
 Alerts/Warnings,Firewall Logs,Hour,96.0000,0.0450,0.0213,0.0110,0.0285,0.0445,0.0599,0.1244
@@ -1584,7 +1584,7 @@ Alerts/Warnings,Firewall Logs,Browser Patch,484.0000,0.2296,0.1281,0.0000,0.1356
 Alerts/Warnings,Firewall Logs,OS Version,88.0000,0.0665,0.0530,0.0028,0.0288,0.0523,0.0840,0.2667
 Alerts/Warnings,Firewall Logs,OS Version Minor,56.0000,0.0552,0.0292,0.0089,0.0288,0.0527,0.0766,0.1322
 Alerts/Warnings,Firewall Logs,OS Version Patch,44.0000,0.0587,0.0343,0.0079,0.0311,0.0534,0.0829,0.1688
-Alerts/Warnings,Firewall Logs,Packet_T,5733.0000,0.3902,0.2200,0.0000,0.2222,0.3333,0.5000,1.0000
+Alerts/Warnings,Firewall Logs,Scale Packet Length,5733.0000,0.3902,0.2200,0.0000,0.2222,0.3333,0.5000,1.0000
 Alerts/Warnings,IDS/IPS Alerts,Month,48.0000,0.0375,0.0171,0.0062,0.0260,0.0327,0.0513,0.0791
 Alerts/Warnings,IDS/IPS Alerts,Day,124.0000,0.0516,0.0271,0.0030,0.0295,0.0502,0.0701,0.1226
 Alerts/Warnings,IDS/IPS Alerts,Hour,96.0000,0.0460,0.0252,0.0024,0.0269,0.0429,0.0661,0.1076
@@ -1596,7 +1596,7 @@ Alerts/Warnings,IDS/IPS Alerts,Browser Patch,484.0000,0.2177,0.1216,0.0000,0.125
 Alerts/Warnings,IDS/IPS Alerts,OS Version,88.0000,0.0694,0.0547,0.0030,0.0341,0.0559,0.0931,0.3571
 Alerts/Warnings,IDS/IPS Alerts,OS Version Minor,56.0000,0.0549,0.0317,0.0102,0.0324,0.0510,0.0762,0.1337
 Alerts/Warnings,IDS/IPS Alerts,OS Version Patch,44.0000,0.0602,0.0393,0.0000,0.0272,0.0511,0.0879,0.1479
-Alerts/Warnings,IDS/IPS Alerts,Packet_T,5744.0000,0.3930,0.2230,0.0000,0.2222,0.3636,0.5000,1.0000
+Alerts/Warnings,IDS/IPS Alerts,Scale Packet Length,5744.0000,0.3930,0.2230,0.0000,0.2222,0.3636,0.5000,1.0000
 Alerts/Warnings,Log Source,Day,124.0000,0.0539,0.0288,0.0061,0.0302,0.0525,0.0720,0.1534
 Alerts/Warnings,Log Source,Hour,96.0000,0.0458,0.0237,0.0024,0.0284,0.0446,0.0579,0.1383
 Alerts/Warnings,Log Source,Minute,240.0000,0.0791,0.0415,0.0000,0.0490,0.0743,0.1048,0.2061
@@ -1609,7 +1609,7 @@ Alerts/Warnings,Log Source,OS Version Minor,56.0000,0.0597,0.0372,0.0102,0.0312,
 Alerts/Warnings,Log Source,OS Version Patch,44.0000,0.0521,0.0295,0.0093,0.0316,0.0403,0.0629,0.1250
 Alerts/Warnings,Log Source,Device Model,32.0000,0.0669,0.0869,0.0089,0.0241,0.0344,0.0585,0.3529
 Alerts/Warnings,Log Source,Device Type,32.0000,0.0669,0.0869,0.0089,0.0241,0.0344,0.0585,0.3529
-Alerts/Warnings,Log Source,Packet_T,5743.0000,0.3933,0.2226,0.0000,0.2222,0.3636,0.5000,1.0000
+Alerts/Warnings,Log Source,Scale Packet Length,5743.0000,0.3933,0.2226,0.0000,0.2222,0.3636,0.5000,1.0000
 Alerts/Warnings,Year,Month,92.0000,0.0490,0.0232,0.0000,0.0345,0.0460,0.0610,0.1122
 Alerts/Warnings,Year,Day,248.0000,0.0794,0.0425,0.0053,0.0452,0.0760,0.1100,0.2248
 Alerts/Warnings,Year,Hour,192.0000,0.0707,0.0372,0.0050,0.0408,0.0687,0.0958,0.1818
@@ -1627,7 +1627,7 @@ Alerts/Warnings,Year,OS Version Patch,88.0000,0.0783,0.0543,0.0000,0.0380,0.0683
 Alerts/Warnings,Year,Device Brand,32.0000,0.1283,0.2117,0.0092,0.0205,0.0278,0.0899,0.7778
 Alerts/Warnings,Year,Device Model,64.0000,0.1090,0.1560,0.0039,0.0279,0.0540,0.1095,0.7778
 Alerts/Warnings,Year,Device Type,64.0000,0.1090,0.1560,0.0039,0.0279,0.0540,0.1095,0.7778
-Alerts/Warnings,Year,Packet_T,11110.0000,0.5692,0.2940,0.0000,0.3333,0.5000,0.7500,1.0000
+Alerts/Warnings,Year,Scale Packet Length,11110.0000,0.5692,0.2940,0.0000,0.3333,0.5000,0.7500,1.0000
 Alerts/Warnings,Month,Day,732.0000,0.1355,0.0707,0.0000,0.0847,0.1311,0.1731,0.3860
 Alerts/Warnings,Month,Hour,576.0000,0.1199,0.0677,0.0000,0.0696,0.1111,0.1592,0.4054
 Alerts/Warnings,Month,Minute,1440.0000,0.1849,0.1005,0.0000,0.1111,0.1714,0.2500,0.7368
@@ -1744,7 +1744,7 @@ Alerts/Warnings,IsWeekend,OS Version Minor,56.0000,0.0745,0.0556,0.0050,0.0322,0
 Alerts/Warnings,IsWeekend,OS Version Patch,44.0000,0.0629,0.0382,0.0033,0.0261,0.0649,0.0906,0.1613
 Alerts/Warnings,IsWeekend,Device Model,32.0000,0.0677,0.0612,0.0057,0.0245,0.0477,0.0796,0.2381
 Alerts/Warnings,IsWeekend,Device Type,32.0000,0.0677,0.0612,0.0057,0.0245,0.0477,0.0796,0.2381
-Alerts/Warnings,IsWeekend,Packet_T,5697.0000,0.4286,0.2613,0.0000,0.2308,0.3846,0.6000,1.0000
+Alerts/Warnings,IsWeekend,Scale Packet Length,5697.0000,0.4286,0.2613,0.0000,0.2308,0.3846,0.6000,1.0000
 Alerts/Warnings,Browser Name,Browser Version,406.0000,0.2044,0.1498,0.0000,0.0985,0.1667,0.2857,1.0000
 Alerts/Warnings,Browser Name,Browser Minor,222.0000,0.1372,0.0876,0.0000,0.0737,0.1258,0.1835,0.4359
 Alerts/Warnings,Browser Name,Browser Patch,464.0000,0.2618,0.1880,0.0000,0.1250,0.2222,0.3465,1.0000
@@ -1795,7 +1795,7 @@ Alerts/Warnings,Browser Patch,Is Proxy,484.0000,0.2190,0.1290,0.0000,0.1154,0.20
 Alerts/Warnings,Browser Patch Minor,OS Version,88.0000,0.0828,0.0733,0.0036,0.0329,0.0635,0.1000,0.3846
 Alerts/Warnings,Browser Patch Minor,OS Version Minor,56.0000,0.0624,0.0432,0.0101,0.0383,0.0508,0.0803,0.2294
 Alerts/Warnings,Browser Patch Minor,OS Version Patch,44.0000,0.0579,0.0341,0.0052,0.0374,0.0577,0.0727,0.1648
-Alerts/Warnings,Browser Patch Minor,Packet_T,5590.0000,0.4589,0.2933,0.0000,0.2353,0.4000,0.6667,1.0000
+Alerts/Warnings,Browser Patch Minor,Scale Packet Length,5590.0000,0.4589,0.2933,0.0000,0.2353,0.4000,0.6667,1.0000
 Alerts/Warnings,OS Name,OS Version,66.0000,0.0745,0.0719,0.0036,0.0249,0.0519,0.0898,0.4444
 Alerts/Warnings,OS Name,OS Version Minor,46.0000,0.0598,0.0540,0.0000,0.0255,0.0465,0.0712,0.3103
 Alerts/Warnings,OS Name,OS Version Patch,58.0000,0.0767,0.0550,0.0068,0.0401,0.0612,0.0920,0.2273
@@ -1830,10 +1830,10 @@ Alerts/Warnings,OS Version Patch,Global Destination IP,41.0000,0.2346,0.2958,0.0
 Alerts/Warnings,OS Version Patch,Is Proxy,44.0000,0.0643,0.0394,0.0064,0.0350,0.0540,0.0879,0.1733
 Alerts/Warnings,OS Version Patch Minor,Device Model,16.0000,0.0514,0.0539,0.0108,0.0208,0.0239,0.0495,0.1674
 Alerts/Warnings,OS Version Patch Minor,Device Type,16.0000,0.0514,0.0539,0.0108,0.0208,0.0239,0.0495,0.1674
-Alerts/Warnings,OS Version Patch Minor,Packet_T,2874.0000,0.2687,0.1465,0.0000,0.1667,0.2500,0.3571,1.0000
+Alerts/Warnings,OS Version Patch Minor,Scale Packet Length,2874.0000,0.2687,0.1465,0.0000,0.1667,0.2500,0.3571,1.0000
 Alerts/Warnings,Device Brand,Device Model,16.0000,0.0514,0.0539,0.0108,0.0208,0.0239,0.0495,0.1674
 Alerts/Warnings,Device Brand,Device Type,16.0000,0.0514,0.0539,0.0108,0.0208,0.0239,0.0495,0.1674
-Alerts/Warnings,Device Brand,Packet_T,8080.0000,0.5346,0.3047,0.0000,0.2837,0.5000,0.7500,1.0000
+Alerts/Warnings,Device Brand,Scale Packet Length,8080.0000,0.5346,0.3047,0.0000,0.2837,0.5000,0.7500,1.0000
 Alerts/Warnings,Device Model,Device Type,16.0000,0.0514,0.0539,0.0108,0.0208,0.0239,0.0495,0.1674
 Alerts/Warnings,Device Model,Packet Bin,48.0000,0.0784,0.0905,0.0061,0.0210,0.0410,0.0929,0.3750
 Alerts/Warnings,Device Model,Global Source IP,31.0000,0.2385,0.3163,0.0000,0.0217,0.1250,0.3030,1.0000
@@ -1843,10 +1843,10 @@ Alerts/Warnings,Device Type,Packet Bin,48.0000,0.0784,0.0905,0.0061,0.0210,0.041
 Alerts/Warnings,Device Type,Global Source IP,31.0000,0.2385,0.3163,0.0000,0.0217,0.1250,0.3030,1.0000
 Alerts/Warnings,Device Type,Global Destination IP,31.0000,0.2266,0.2755,0.0104,0.0241,0.1250,0.3333,1.0000
 Alerts/Warnings,Device Type,Is Proxy,32.0000,0.0666,0.0875,0.0077,0.0209,0.0348,0.0632,0.3571
-Alerts/Warnings,Packet Bin,Packet_T,2874.0000,0.2687,0.1465,0.0000,0.1667,0.2500,0.3571,1.0000
-Alerts/Warnings,Packet_T,Global Source IP,3045.0000,0.3095,0.2186,0.0000,0.1667,0.2667,0.3846,1.0000
-Alerts/Warnings,Packet_T,Global Destination IP,3040.0000,0.3085,0.2175,0.0000,0.1667,0.2667,0.3846,1.0000
-Alerts/Warnings,Packet_T,Is Proxy,5742.0000,0.3889,0.2251,0.0000,0.2222,0.3333,0.5000,1.0000
+Alerts/Warnings,Packet Bin,Scale Packet Length,2874.0000,0.2687,0.1465,0.0000,0.1667,0.2500,0.3571,1.0000
+Alerts/Warnings,Scale Packet Length,Global Source IP,3045.0000,0.3095,0.2186,0.0000,0.1667,0.2667,0.3846,1.0000
+Alerts/Warnings,Scale Packet Length,Global Destination IP,3040.0000,0.3085,0.2175,0.0000,0.1667,0.2667,0.3846,1.0000
+Alerts/Warnings,Scale Packet Length,Is Proxy,5742.0000,0.3889,0.2251,0.0000,0.2222,0.3333,0.5000,1.0000
 Alerts/Warnings,Global Source IP,Global Destination IP,6.0000,0.0759,0.0533,0.0093,0.0293,0.0938,0.1128,0.1313
 Attack Signature,Action Taken,Month,72.0000,0.0429,0.0237,0.0019,0.0244,0.0393,0.0615,0.1078
 Attack Signature,Action Taken,Day,186.0000,0.0647,0.0334,0.0042,0.0395,0.0593,0.0805,0.1689
@@ -1864,7 +1864,7 @@ Attack Signature,Action Taken,OS Version Minor,84.0000,0.0740,0.0483,0.0063,0.03
 Attack Signature,Action Taken,OS Version Patch,66.0000,0.0661,0.0504,0.0000,0.0293,0.0533,0.0949,0.2261
 Attack Signature,Action Taken,Device Model,48.0000,0.0768,0.0830,0.0040,0.0209,0.0453,0.0996,0.3636
 Attack Signature,Action Taken,Device Type,48.0000,0.0768,0.0830,0.0040,0.0209,0.0453,0.0996,0.3636
-Attack Signature,Action Taken,Packet_T,8538.0000,0.4889,0.2713,0.0000,0.2500,0.5000,0.6667,1.0000
+Attack Signature,Action Taken,Scale Packet Length,8538.0000,0.4889,0.2713,0.0000,0.2500,0.5000,0.6667,1.0000
 Attack Signature,Severity Level,Month,72.0000,0.0395,0.0207,0.0078,0.0266,0.0345,0.0511,0.0998
 Attack Signature,Severity Level,Day,186.0000,0.0628,0.0334,0.0053,0.0361,0.0586,0.0869,0.1688
 Attack Signature,Severity Level,Hour,144.0000,0.0609,0.0297,0.0032,0.0404,0.0561,0.0773,0.1924
@@ -1879,7 +1879,7 @@ Attack Signature,Severity Level,OS Version Minor,84.0000,0.0742,0.0476,0.0000,0.
 Attack Signature,Severity Level,OS Version Patch,66.0000,0.0803,0.0462,0.0069,0.0453,0.0739,0.1024,0.2414
 Attack Signature,Severity Level,Device Model,48.0000,0.0840,0.1031,0.0050,0.0253,0.0479,0.0801,0.5000
 Attack Signature,Severity Level,Device Type,48.0000,0.0840,0.1031,0.0050,0.0253,0.0479,0.0801,0.5000
-Attack Signature,Severity Level,Packet_T,8543.0000,0.4916,0.2718,0.0000,0.2500,0.5000,0.6667,1.0000
+Attack Signature,Severity Level,Scale Packet Length,8543.0000,0.4916,0.2718,0.0000,0.2500,0.5000,0.6667,1.0000
 Attack Signature,Network Segment,Month,72.0000,0.0451,0.0218,0.0084,0.0300,0.0430,0.0575,0.1083
 Attack Signature,Network Segment,Day,186.0000,0.0677,0.0348,0.0000,0.0397,0.0644,0.0907,0.1652
 Attack Signature,Network Segment,Hour,144.0000,0.0562,0.0302,0.0035,0.0328,0.0498,0.0729,0.1296
@@ -1894,7 +1894,7 @@ Attack Signature,Network Segment,OS Version Minor,84.0000,0.0703,0.0452,0.0000,0
 Attack Signature,Network Segment,OS Version Patch,66.0000,0.0697,0.0424,0.0034,0.0370,0.0635,0.0984,0.1667
 Attack Signature,Network Segment,Device Model,48.0000,0.0930,0.1185,0.0048,0.0232,0.0589,0.1011,0.5556
 Attack Signature,Network Segment,Device Type,48.0000,0.0930,0.1185,0.0048,0.0232,0.0589,0.1011,0.5556
-Attack Signature,Network Segment,Packet_T,8536.0000,0.4907,0.2723,0.0000,0.2500,0.5000,0.6667,1.0000
+Attack Signature,Network Segment,Scale Packet Length,8536.0000,0.4907,0.2723,0.0000,0.2500,0.5000,0.6667,1.0000
 Attack Signature,Firewall Logs,Month,48.0000,0.0365,0.0149,0.0150,0.0233,0.0344,0.0483,0.0644
 Attack Signature,Firewall Logs,Day,124.0000,0.0524,0.0294,0.0029,0.0296,0.0490,0.0695,0.1607
 Attack Signature,Firewall Logs,Hour,96.0000,0.0430,0.0212,0.0098,0.0276,0.0396,0.0573,0.1143
@@ -1907,7 +1907,7 @@ Attack Signature,Firewall Logs,Browser Patch,484.0000,0.2156,0.1208,0.0000,0.130
 Attack Signature,Firewall Logs,OS Version,88.0000,0.0670,0.0602,0.0029,0.0293,0.0520,0.0835,0.4000
 Attack Signature,Firewall Logs,OS Version Minor,56.0000,0.0524,0.0320,0.0014,0.0279,0.0443,0.0726,0.1316
 Attack Signature,Firewall Logs,OS Version Patch,44.0000,0.0652,0.0370,0.0034,0.0407,0.0636,0.0881,0.1437
-Attack Signature,Firewall Logs,Packet_T,5742.0000,0.3908,0.2218,0.0000,0.2222,0.3333,0.5000,1.0000
+Attack Signature,Firewall Logs,Scale Packet Length,5742.0000,0.3908,0.2218,0.0000,0.2222,0.3333,0.5000,1.0000
 Attack Signature,IDS/IPS Alerts,Month,48.0000,0.0366,0.0175,0.0048,0.0259,0.0349,0.0463,0.0881
 Attack Signature,IDS/IPS Alerts,Day,124.0000,0.0544,0.0271,0.0066,0.0330,0.0529,0.0711,0.1311
 Attack Signature,IDS/IPS Alerts,Hour,96.0000,0.0439,0.0222,0.0025,0.0282,0.0431,0.0574,0.1024
@@ -1922,7 +1922,7 @@ Attack Signature,IDS/IPS Alerts,OS Version Minor,56.0000,0.0535,0.0373,0.0033,0.
 Attack Signature,IDS/IPS Alerts,OS Version Patch,44.0000,0.0587,0.0457,0.0016,0.0240,0.0411,0.0973,0.1702
 Attack Signature,IDS/IPS Alerts,Device Model,32.0000,0.0636,0.0623,0.0053,0.0219,0.0385,0.0857,0.2500
 Attack Signature,IDS/IPS Alerts,Device Type,32.0000,0.0636,0.0623,0.0053,0.0219,0.0385,0.0857,0.2500
-Attack Signature,IDS/IPS Alerts,Packet_T,5741.0000,0.3920,0.2224,0.0000,0.2222,0.3333,0.5000,1.0000
+Attack Signature,IDS/IPS Alerts,Scale Packet Length,5741.0000,0.3920,0.2224,0.0000,0.2222,0.3333,0.5000,1.0000
 Attack Signature,Log Source,Month,48.0000,0.0352,0.0187,0.0077,0.0210,0.0328,0.0448,0.1006
 Attack Signature,Log Source,Day,124.0000,0.0539,0.0311,0.0028,0.0304,0.0500,0.0688,0.1507
 Attack Signature,Log Source,Hour,96.0000,0.0466,0.0254,0.0000,0.0268,0.0465,0.0634,0.1402
@@ -1937,7 +1937,7 @@ Attack Signature,Log Source,OS Version Minor,56.0000,0.0614,0.0396,0.0003,0.0325
 Attack Signature,Log Source,OS Version Patch,44.0000,0.0595,0.0387,0.0000,0.0246,0.0597,0.0861,0.1466
 Attack Signature,Log Source,Device Model,32.0000,0.0594,0.0638,0.0036,0.0243,0.0451,0.0638,0.3158
 Attack Signature,Log Source,Device Type,32.0000,0.0594,0.0638,0.0036,0.0243,0.0451,0.0638,0.3158
-Attack Signature,Log Source,Packet_T,5746.0000,0.3894,0.2206,0.0000,0.2222,0.3333,0.5000,1.0000
+Attack Signature,Log Source,Scale Packet Length,5746.0000,0.3894,0.2206,0.0000,0.2222,0.3333,0.5000,1.0000
 Attack Signature,Year,Month,92.0000,0.0472,0.0257,0.0069,0.0279,0.0417,0.0624,0.1137
 Attack Signature,Year,Day,248.0000,0.0764,0.0412,0.0055,0.0456,0.0693,0.1065,0.2520
 Attack Signature,Year,Hour,192.0000,0.0649,0.0357,0.0000,0.0373,0.0609,0.0859,0.2000
@@ -1953,7 +1953,7 @@ Attack Signature,Year,OS Version Minor,112.0000,0.0844,0.0495,0.0021,0.0457,0.07
 Attack Signature,Year,OS Version Patch,88.0000,0.0837,0.0536,0.0005,0.0418,0.0740,0.1142,0.2727
 Attack Signature,Year,Device Model,64.0000,0.0986,0.1316,0.0016,0.0221,0.0550,0.1117,0.7143
 Attack Signature,Year,Device Type,64.0000,0.0986,0.1316,0.0016,0.0221,0.0550,0.1117,0.7143
-Attack Signature,Year,Packet_T,11122.0000,0.5713,0.2959,0.0000,0.3333,0.5000,0.7500,1.0000
+Attack Signature,Year,Scale Packet Length,11122.0000,0.5713,0.2959,0.0000,0.3333,0.5000,0.7500,1.0000
 Attack Signature,Month,Day,732.0000,0.1348,0.0709,0.0000,0.0816,0.1270,0.1801,0.4286
 Attack Signature,Month,Hour,576.0000,0.1191,0.0650,0.0000,0.0700,0.1096,0.1579,0.3542
 Attack Signature,Month,Minute,1440.0000,0.1866,0.1020,0.0000,0.1135,0.1724,0.2500,0.5714
@@ -2069,7 +2069,7 @@ Attack Signature,IsWeekend,Browser Patch,484.0000,0.2364,0.1540,0.0000,0.1212,0.
 Attack Signature,IsWeekend,OS Version,88.0000,0.0706,0.0562,0.0043,0.0357,0.0583,0.0843,0.4000
 Attack Signature,IsWeekend,OS Version Minor,56.0000,0.0721,0.0572,0.0054,0.0297,0.0558,0.0983,0.2477
 Attack Signature,IsWeekend,OS Version Patch,44.0000,0.0654,0.0471,0.0053,0.0308,0.0591,0.0783,0.1925
-Attack Signature,IsWeekend,Packet_T,5694.0000,0.4227,0.2596,0.0000,0.2222,0.3750,0.6000,1.0000
+Attack Signature,IsWeekend,Scale Packet Length,5694.0000,0.4227,0.2596,0.0000,0.2222,0.3750,0.6000,1.0000
 Attack Signature,Browser Name,Browser Version,406.0000,0.1998,0.1487,0.0000,0.0938,0.1569,0.2778,0.8333
 Attack Signature,Browser Name,Browser Minor,222.0000,0.1311,0.0800,0.0089,0.0682,0.1195,0.1812,0.3636
 Attack Signature,Browser Name,Browser Patch,464.0000,0.2540,0.1771,0.0000,0.1176,0.2153,0.3333,0.8333
@@ -2123,7 +2123,7 @@ Attack Signature,Browser Patch Minor,OS Name,20.0000,0.0315,0.0201,0.0036,0.0202
 Attack Signature,Browser Patch Minor,OS Version,88.0000,0.0832,0.0749,0.0000,0.0329,0.0562,0.1116,0.4000
 Attack Signature,Browser Patch Minor,OS Version Minor,56.0000,0.0633,0.0401,0.0028,0.0351,0.0598,0.0832,0.2222
 Attack Signature,Browser Patch Minor,OS Version Patch,44.0000,0.0632,0.0420,0.0052,0.0375,0.0571,0.0874,0.2105
-Attack Signature,Browser Patch Minor,Packet_T,5579.0000,0.4573,0.2908,0.0000,0.2308,0.4000,0.6667,1.0000
+Attack Signature,Browser Patch Minor,Scale Packet Length,5579.0000,0.4573,0.2908,0.0000,0.2308,0.4000,0.6667,1.0000
 Attack Signature,OS Name,OS Version,66.0000,0.0666,0.0597,0.0039,0.0278,0.0461,0.0812,0.3226
 Attack Signature,OS Name,OS Version Minor,46.0000,0.0577,0.0441,0.0052,0.0260,0.0471,0.0689,0.2105
 Attack Signature,OS Name,OS Version Patch,58.0000,0.0850,0.0663,0.0052,0.0419,0.0695,0.1065,0.3125
@@ -2153,8 +2153,8 @@ Attack Signature,OS Version Patch,Packet Bin,66.0000,0.0791,0.0508,0.0039,0.0475
 Attack Signature,OS Version Patch,Global Source IP,42.0000,0.3003,0.3490,0.0000,0.0446,0.0693,0.6250,1.0000
 Attack Signature,OS Version Patch,Global Destination IP,43.0000,0.2688,0.3286,0.0000,0.0454,0.0803,0.5000,1.0000
 Attack Signature,OS Version Patch,Is Proxy,44.0000,0.0675,0.0388,0.0040,0.0348,0.0708,0.0885,0.1801
-Attack Signature,OS Version Patch Minor,Packet_T,2874.0000,0.2661,0.1442,0.0000,0.1667,0.2500,0.3571,0.9000
-Attack Signature,Device Brand,Packet_T,8059.0000,0.5326,0.3071,0.0000,0.2727,0.5000,0.7500,1.0000
+Attack Signature,OS Version Patch Minor,Scale Packet Length,2874.0000,0.2661,0.1442,0.0000,0.1667,0.2500,0.3571,0.9000
+Attack Signature,Device Brand,Scale Packet Length,8059.0000,0.5326,0.3071,0.0000,0.2727,0.5000,0.7500,1.0000
 Attack Signature,Device Model,Packet Bin,48.0000,0.0835,0.0826,0.0009,0.0236,0.0527,0.1090,0.3077
 Attack Signature,Device Model,Global Source IP,30.0000,0.1808,0.2400,0.0000,0.0212,0.0883,0.2222,1.0000
 Attack Signature,Device Model,Global Destination IP,30.0000,0.1890,0.2477,0.0000,0.0221,0.0870,0.2599,1.0000
@@ -2163,10 +2163,10 @@ Attack Signature,Device Type,Packet Bin,48.0000,0.0835,0.0826,0.0009,0.0236,0.05
 Attack Signature,Device Type,Global Source IP,30.0000,0.1808,0.2400,0.0000,0.0212,0.0883,0.2222,1.0000
 Attack Signature,Device Type,Global Destination IP,30.0000,0.1890,0.2477,0.0000,0.0221,0.0870,0.2599,1.0000
 Attack Signature,Device Type,Is Proxy,32.0000,0.0569,0.0610,0.0022,0.0231,0.0391,0.0572,0.2941
-Attack Signature,Packet Bin,Packet_T,2874.0000,0.2661,0.1442,0.0000,0.1667,0.2500,0.3571,0.9000
-Attack Signature,Packet_T,Global Source IP,3045.0000,0.3072,0.2171,0.0000,0.1667,0.2609,0.3846,1.0000
-Attack Signature,Packet_T,Global Destination IP,3038.0000,0.3047,0.2154,0.0000,0.1667,0.2500,0.3750,1.0000
-Attack Signature,Packet_T,Is Proxy,5746.0000,0.3882,0.2220,0.0000,0.2222,0.3333,0.5000,1.0000
+Attack Signature,Packet Bin,Scale Packet Length,2874.0000,0.2661,0.1442,0.0000,0.1667,0.2500,0.3571,0.9000
+Attack Signature,Scale Packet Length,Global Source IP,3045.0000,0.3072,0.2171,0.0000,0.1667,0.2609,0.3846,1.0000
+Attack Signature,Scale Packet Length,Global Destination IP,3038.0000,0.3047,0.2154,0.0000,0.1667,0.2500,0.3750,1.0000
+Attack Signature,Scale Packet Length,Is Proxy,5746.0000,0.3882,0.2220,0.0000,0.2222,0.3333,0.5000,1.0000
 Action Taken,Severity Level,Month,108.0000,0.0559,0.0262,0.0047,0.0374,0.0530,0.0726,0.1331
 Action Taken,Severity Level,Day,279.0000,0.0773,0.0434,0.0000,0.0446,0.0709,0.1074,0.2464
 Action Taken,Severity Level,Hour,216.0000,0.0730,0.0393,0.0000,0.0415,0.0699,0.0996,0.2081
@@ -2214,7 +2214,7 @@ Action Taken,Firewall Logs,OS Version Minor,84.0000,0.0758,0.0470,0.0017,0.0443,
 Action Taken,Firewall Logs,OS Version Patch,66.0000,0.0680,0.0441,0.0019,0.0380,0.0622,0.0838,0.2308
 Action Taken,Firewall Logs,Device Model,48.0000,0.0877,0.1075,0.0068,0.0327,0.0623,0.0938,0.6667
 Action Taken,Firewall Logs,Device Type,48.0000,0.0877,0.1075,0.0068,0.0327,0.0623,0.0938,0.6667
-Action Taken,Firewall Logs,Packet_T,8532.0000,0.4884,0.2732,0.0000,0.2500,0.5000,0.6667,1.0000
+Action Taken,Firewall Logs,Scale Packet Length,8532.0000,0.4884,0.2732,0.0000,0.2500,0.5000,0.6667,1.0000
 Action Taken,IDS/IPS Alerts,Month,72.0000,0.0472,0.0268,0.0022,0.0309,0.0442,0.0612,0.1291
 Action Taken,IDS/IPS Alerts,Day,186.0000,0.0620,0.0346,0.0091,0.0365,0.0557,0.0846,0.1667
 Action Taken,IDS/IPS Alerts,Hour,144.0000,0.0560,0.0302,0.0035,0.0323,0.0544,0.0771,0.1494
@@ -2229,7 +2229,7 @@ Action Taken,IDS/IPS Alerts,OS Version Minor,84.0000,0.0796,0.0487,0.0057,0.0428
 Action Taken,IDS/IPS Alerts,OS Version Patch,66.0000,0.0676,0.0402,0.0096,0.0366,0.0582,0.1050,0.1653
 Action Taken,IDS/IPS Alerts,Device Model,48.0000,0.0924,0.1310,0.0030,0.0232,0.0518,0.1072,0.6667
 Action Taken,IDS/IPS Alerts,Device Type,48.0000,0.0924,0.1310,0.0030,0.0232,0.0518,0.1072,0.6667
-Action Taken,IDS/IPS Alerts,Packet_T,8538.0000,0.4925,0.2722,0.0000,0.2500,0.5000,0.6667,1.0000
+Action Taken,IDS/IPS Alerts,Scale Packet Length,8538.0000,0.4925,0.2722,0.0000,0.2500,0.5000,0.6667,1.0000
 Action Taken,Log Source,Month,72.0000,0.0441,0.0236,0.0054,0.0258,0.0458,0.0578,0.1042
 Action Taken,Log Source,Day,186.0000,0.0678,0.0350,0.0040,0.0417,0.0649,0.0885,0.1833
 Action Taken,Log Source,Hour,144.0000,0.0571,0.0283,0.0040,0.0336,0.0553,0.0773,0.1413
@@ -2245,7 +2245,7 @@ Action Taken,Log Source,OS Version Minor,84.0000,0.0760,0.0449,0.0037,0.0452,0.0
 Action Taken,Log Source,OS Version Patch,66.0000,0.0736,0.0421,0.0022,0.0417,0.0785,0.0923,0.1810
 Action Taken,Log Source,Device Model,48.0000,0.0782,0.0936,0.0000,0.0238,0.0490,0.0869,0.4286
 Action Taken,Log Source,Device Type,48.0000,0.0782,0.0936,0.0000,0.0238,0.0490,0.0869,0.4286
-Action Taken,Log Source,Packet_T,8545.0000,0.4926,0.2738,0.0000,0.2500,0.5000,0.6667,1.0000
+Action Taken,Log Source,Scale Packet Length,8545.0000,0.4926,0.2738,0.0000,0.2500,0.5000,0.6667,1.0000
 Action Taken,Year,Month,138.0000,0.0561,0.0297,0.0066,0.0334,0.0543,0.0711,0.1415
 Action Taken,Year,Day,372.0000,0.0924,0.0513,0.0000,0.0526,0.0851,0.1277,0.3095
 Action Taken,Year,Hour,288.0000,0.0777,0.0433,0.0000,0.0440,0.0719,0.1049,0.2143
@@ -2374,7 +2374,7 @@ Action Taken,IsWeekend,OS Version Patch,66.0000,0.0698,0.0452,0.0070,0.0285,0.06
 Action Taken,IsWeekend,Device Brand,24.0000,0.1048,0.1498,0.0070,0.0242,0.0338,0.0975,0.6000
 Action Taken,IsWeekend,Device Model,48.0000,0.0941,0.1104,0.0032,0.0262,0.0588,0.1177,0.6000
 Action Taken,IsWeekend,Device Type,48.0000,0.0941,0.1104,0.0032,0.0262,0.0588,0.1177,0.6000
-Action Taken,IsWeekend,Packet_T,8315.0000,0.5183,0.2938,0.0000,0.2500,0.5000,0.6667,1.0000
+Action Taken,IsWeekend,Scale Packet Length,8315.0000,0.5183,0.2938,0.0000,0.2500,0.5000,0.6667,1.0000
 Action Taken,IsWeekend,Global Source IP,12.0000,0.1521,0.1624,0.0091,0.0203,0.0841,0.2659,0.4286
 Action Taken,IsWeekend,Global Destination IP,12.0000,0.0966,0.1100,0.0089,0.0213,0.0495,0.1371,0.3846
 Action Taken,Browser Name,Browser Version,609.0000,0.2577,0.1912,0.0000,0.1143,0.2037,0.3750,1.0000
@@ -2425,7 +2425,7 @@ Action Taken,Browser Patch,Is Proxy,726.0000,0.2665,0.1593,0.0000,0.1538,0.2500,
 Action Taken,Browser Patch Minor,OS Version,132.0000,0.1036,0.0956,0.0048,0.0417,0.0782,0.1432,0.6154
 Action Taken,Browser Patch Minor,OS Version Minor,84.0000,0.0792,0.0504,0.0047,0.0354,0.0746,0.1061,0.2167
 Action Taken,Browser Patch Minor,OS Version Patch,66.0000,0.0744,0.0477,0.0047,0.0355,0.0714,0.0910,0.2647
-Action Taken,Browser Patch Minor,Packet_T,7984.0000,0.5403,0.3071,0.0000,0.2857,0.5000,0.7500,1.0000
+Action Taken,Browser Patch Minor,Scale Packet Length,7984.0000,0.5403,0.3071,0.0000,0.2857,0.5000,0.7500,1.0000
 Action Taken,OS Name,OS Version,99.0000,0.0814,0.0839,0.0054,0.0323,0.0513,0.0913,0.5000
 Action Taken,OS Name,OS Version Minor,69.0000,0.0819,0.0714,0.0064,0.0380,0.0682,0.0905,0.3889
 Action Taken,OS Name,OS Version Patch,87.0000,0.0813,0.0616,0.0064,0.0351,0.0650,0.1164,0.3000
@@ -2461,7 +2461,7 @@ Action Taken,OS Version Patch,Packet Bin,99.0000,0.0903,0.0551,0.0061,0.0482,0.0
 Action Taken,OS Version Patch,Global Source IP,61.0000,0.3115,0.3862,0.0000,0.0341,0.0691,0.5000,1.0000
 Action Taken,OS Version Patch,Global Destination IP,61.0000,0.2988,0.3606,0.0000,0.0382,0.0696,0.5000,1.0000
 Action Taken,OS Version Patch,Is Proxy,66.0000,0.0714,0.0476,0.0062,0.0346,0.0669,0.1031,0.2300
-Action Taken,OS Version Patch Minor,Packet_T,4311.0000,0.3318,0.1870,0.0000,0.2000,0.3000,0.4444,1.0000
+Action Taken,OS Version Patch Minor,Scale Packet Length,4311.0000,0.3318,0.1870,0.0000,0.2000,0.3000,0.4444,1.0000
 Action Taken,Device Model,Packet Bin,72.0000,0.1137,0.1536,0.0000,0.0235,0.0668,0.1385,0.7500
 Action Taken,Device Model,Global Source IP,44.0000,0.2382,0.2671,0.0020,0.0303,0.1420,0.3812,1.0000
 Action Taken,Device Model,Global Destination IP,45.0000,0.2603,0.2990,0.0083,0.0357,0.1500,0.4000,1.0000
@@ -2470,10 +2470,10 @@ Action Taken,Device Type,Packet Bin,72.0000,0.1137,0.1536,0.0000,0.0235,0.0668,0
 Action Taken,Device Type,Global Source IP,44.0000,0.2382,0.2671,0.0020,0.0303,0.1420,0.3812,1.0000
 Action Taken,Device Type,Global Destination IP,45.0000,0.2603,0.2990,0.0083,0.0357,0.1500,0.4000,1.0000
 Action Taken,Device Type,Is Proxy,48.0000,0.0786,0.0910,0.0077,0.0267,0.0504,0.0867,0.5556
-Action Taken,Packet Bin,Packet_T,4311.0000,0.3318,0.1870,0.0000,0.2000,0.3000,0.4444,1.0000
-Action Taken,Packet_T,Global Source IP,4487.0000,0.3584,0.2238,0.0000,0.2000,0.3333,0.5000,1.0000
-Action Taken,Packet_T,Global Destination IP,4480.0000,0.3574,0.2235,0.0000,0.2000,0.3333,0.5000,1.0000
-Action Taken,Packet_T,Is Proxy,8550.0000,0.4932,0.2717,0.0000,0.2500,0.5000,0.6667,1.0000
+Action Taken,Packet Bin,Scale Packet Length,4311.0000,0.3318,0.1870,0.0000,0.2000,0.3000,0.4444,1.0000
+Action Taken,Scale Packet Length,Global Source IP,4487.0000,0.3584,0.2238,0.0000,0.2000,0.3333,0.5000,1.0000
+Action Taken,Scale Packet Length,Global Destination IP,4480.0000,0.3574,0.2235,0.0000,0.2000,0.3333,0.5000,1.0000
+Action Taken,Scale Packet Length,Is Proxy,8550.0000,0.4932,0.2717,0.0000,0.2500,0.5000,0.6667,1.0000
 Severity Level,Network Segment,Month,108.0000,0.0482,0.0260,0.0026,0.0289,0.0430,0.0634,0.1321
 Severity Level,Network Segment,Day,279.0000,0.0809,0.0420,0.0000,0.0501,0.0752,0.1068,0.2045
 Severity Level,Network Segment,Hour,216.0000,0.0740,0.0381,0.0049,0.0464,0.0681,0.1021,0.1676
@@ -2504,7 +2504,7 @@ Severity Level,Firewall Logs,OS Version Minor,84.0000,0.0730,0.0481,0.0078,0.039
 Severity Level,Firewall Logs,OS Version Patch,66.0000,0.0772,0.0430,0.0037,0.0512,0.0710,0.1034,0.2421
 Severity Level,Firewall Logs,Device Model,48.0000,0.0865,0.1103,0.0050,0.0238,0.0502,0.0834,0.5556
 Severity Level,Firewall Logs,Device Type,48.0000,0.0865,0.1103,0.0050,0.0238,0.0502,0.0834,0.5556
-Severity Level,Firewall Logs,Packet_T,8533.0000,0.4918,0.2717,0.0000,0.2500,0.5000,0.6667,1.0000
+Severity Level,Firewall Logs,Scale Packet Length,8533.0000,0.4918,0.2717,0.0000,0.2500,0.5000,0.6667,1.0000
 Severity Level,IDS/IPS Alerts,Month,72.0000,0.0411,0.0223,0.0071,0.0256,0.0380,0.0532,0.1153
 Severity Level,IDS/IPS Alerts,Day,186.0000,0.0609,0.0306,0.0000,0.0385,0.0601,0.0815,0.1523
 Severity Level,IDS/IPS Alerts,Hour,144.0000,0.0592,0.0307,0.0102,0.0353,0.0544,0.0781,0.1679
@@ -2520,7 +2520,7 @@ Severity Level,IDS/IPS Alerts,OS Version Minor,84.0000,0.0806,0.0544,0.0044,0.04
 Severity Level,IDS/IPS Alerts,OS Version Patch,66.0000,0.0753,0.0451,0.0057,0.0413,0.0775,0.1000,0.2393
 Severity Level,IDS/IPS Alerts,Device Model,48.0000,0.0757,0.0997,0.0016,0.0225,0.0425,0.0847,0.4375
 Severity Level,IDS/IPS Alerts,Device Type,48.0000,0.0757,0.0997,0.0016,0.0225,0.0425,0.0847,0.4375
-Severity Level,IDS/IPS Alerts,Packet_T,8534.0000,0.4922,0.2732,0.0000,0.2500,0.5000,0.6667,1.0000
+Severity Level,IDS/IPS Alerts,Scale Packet Length,8534.0000,0.4922,0.2732,0.0000,0.2500,0.5000,0.6667,1.0000
 Severity Level,Log Source,Month,72.0000,0.0418,0.0250,0.0068,0.0221,0.0400,0.0549,0.1261
 Severity Level,Log Source,Day,186.0000,0.0691,0.0383,0.0043,0.0411,0.0659,0.0913,0.1901
 Severity Level,Log Source,Hour,144.0000,0.0566,0.0311,0.0038,0.0348,0.0513,0.0739,0.1801
@@ -2535,7 +2535,7 @@ Severity Level,Log Source,OS Version Minor,84.0000,0.0774,0.0550,0.0068,0.0334,0
 Severity Level,Log Source,OS Version Patch,66.0000,0.0707,0.0421,0.0046,0.0418,0.0677,0.0954,0.1961
 Severity Level,Log Source,Device Model,48.0000,0.0781,0.1002,0.0038,0.0247,0.0454,0.0725,0.5000
 Severity Level,Log Source,Device Type,48.0000,0.0781,0.1002,0.0038,0.0247,0.0454,0.0725,0.5000
-Severity Level,Log Source,Packet_T,8549.0000,0.4935,0.2737,0.0000,0.2500,0.5000,0.6667,1.0000
+Severity Level,Log Source,Scale Packet Length,8549.0000,0.4935,0.2737,0.0000,0.2500,0.5000,0.6667,1.0000
 Severity Level,Year,Month,138.0000,0.0569,0.0307,0.0068,0.0291,0.0568,0.0740,0.1503
 Severity Level,Year,Day,372.0000,0.0924,0.0495,0.0000,0.0537,0.0891,0.1199,0.3158
 Severity Level,Year,Hour,288.0000,0.0847,0.0456,0.0000,0.0534,0.0788,0.1127,0.2586
@@ -2661,7 +2661,7 @@ Severity Level,IsWeekend,OS Version Minor,84.0000,0.0872,0.0642,0.0067,0.0421,0.
 Severity Level,IsWeekend,OS Version Patch,66.0000,0.0727,0.0459,0.0094,0.0463,0.0645,0.0919,0.2407
 Severity Level,IsWeekend,Device Model,48.0000,0.0903,0.1163,0.0048,0.0312,0.0606,0.0892,0.6000
 Severity Level,IsWeekend,Device Type,48.0000,0.0903,0.1163,0.0048,0.0312,0.0606,0.0892,0.6000
-Severity Level,IsWeekend,Packet_T,8298.0000,0.5187,0.2939,0.0000,0.2727,0.5000,0.6667,1.0000
+Severity Level,IsWeekend,Scale Packet Length,8298.0000,0.5187,0.2939,0.0000,0.2727,0.5000,0.6667,1.0000
 Severity Level,Browser Name,Browser Version,609.0000,0.2521,0.1995,0.0000,0.1026,0.2000,0.3333,1.0000
 Severity Level,Browser Name,Browser Minor,333.0000,0.1679,0.1013,0.0000,0.0938,0.1515,0.2333,0.6250
 Severity Level,Browser Name,Browser Patch,696.0000,0.3073,0.2302,0.0000,0.1429,0.2500,0.4098,1.0000
@@ -2717,7 +2717,7 @@ Severity Level,Browser Patch Minor,OS Version Patch,66.0000,0.0787,0.0541,0.0057
 Severity Level,Browser Patch Minor,Device Model,42.0000,0.0670,0.0697,0.0015,0.0227,0.0424,0.0865,0.3333
 Severity Level,Browser Patch Minor,Device Type,42.0000,0.0670,0.0697,0.0015,0.0227,0.0424,0.0865,0.3333
 Severity Level,Browser Patch Minor,Packet Bin,18.0000,0.0289,0.0140,0.0030,0.0215,0.0297,0.0367,0.0501
-Severity Level,Browser Patch Minor,Packet_T,7951.0000,0.5361,0.3088,0.0000,0.2857,0.5000,0.7500,1.0000
+Severity Level,Browser Patch Minor,Scale Packet Length,7951.0000,0.5361,0.3088,0.0000,0.2857,0.5000,0.7500,1.0000
 Severity Level,OS Name,OS Version,99.0000,0.0886,0.0675,0.0043,0.0388,0.0682,0.1130,0.3571
 Severity Level,OS Name,OS Version Minor,69.0000,0.0815,0.0588,0.0062,0.0431,0.0699,0.1068,0.2857
 Severity Level,OS Name,OS Version Patch,87.0000,0.0992,0.0749,0.0062,0.0532,0.0778,0.1358,0.4737
@@ -2755,7 +2755,7 @@ Severity Level,OS Version Patch,Global Destination IP,62.0000,0.3283,0.3686,0.00
 Severity Level,OS Version Patch,Is Proxy,66.0000,0.0745,0.0489,0.0049,0.0319,0.0723,0.1057,0.2037
 Severity Level,OS Version Patch Minor,Device Model,24.0000,0.0662,0.0816,0.0039,0.0270,0.0344,0.0655,0.3333
 Severity Level,OS Version Patch Minor,Device Type,24.0000,0.0662,0.0816,0.0039,0.0270,0.0344,0.0655,0.3333
-Severity Level,OS Version Patch Minor,Packet_T,4311.0000,0.3338,0.1871,0.0000,0.2000,0.3077,0.4444,1.0000
+Severity Level,OS Version Patch Minor,Scale Packet Length,4311.0000,0.3338,0.1871,0.0000,0.2000,0.3077,0.4444,1.0000
 Severity Level,Device Brand,Device Model,24.0000,0.0662,0.0816,0.0039,0.0270,0.0344,0.0655,0.3333
 Severity Level,Device Brand,Device Type,24.0000,0.0662,0.0816,0.0039,0.0270,0.0344,0.0655,0.3333
 Severity Level,Device Model,Device Type,24.0000,0.0662,0.0816,0.0039,0.0270,0.0344,0.0655,0.3333
@@ -2767,10 +2767,10 @@ Severity Level,Device Type,Packet Bin,72.0000,0.1182,0.1657,0.0000,0.0300,0.0627
 Severity Level,Device Type,Global Source IP,45.0000,0.2523,0.2821,0.0049,0.0346,0.1304,0.4000,1.0000
 Severity Level,Device Type,Global Destination IP,44.0000,0.2549,0.2786,0.0020,0.0327,0.1378,0.4000,1.0000
 Severity Level,Device Type,Is Proxy,48.0000,0.0793,0.1062,0.0074,0.0282,0.0397,0.1009,0.5714
-Severity Level,Packet Bin,Packet_T,4311.0000,0.3338,0.1871,0.0000,0.2000,0.3077,0.4444,1.0000
-Severity Level,Packet_T,Global Source IP,4483.0000,0.3595,0.2228,0.0000,0.2000,0.3333,0.4545,1.0000
-Severity Level,Packet_T,Global Destination IP,4479.0000,0.3592,0.2222,0.0000,0.2000,0.3333,0.4545,1.0000
-Severity Level,Packet_T,Is Proxy,8536.0000,0.4870,0.2725,0.0000,0.2500,0.5000,0.6667,1.0000
+Severity Level,Packet Bin,Scale Packet Length,4311.0000,0.3338,0.1871,0.0000,0.2000,0.3077,0.4444,1.0000
+Severity Level,Scale Packet Length,Global Source IP,4483.0000,0.3595,0.2228,0.0000,0.2000,0.3333,0.4545,1.0000
+Severity Level,Scale Packet Length,Global Destination IP,4479.0000,0.3592,0.2222,0.0000,0.2000,0.3333,0.4545,1.0000
+Severity Level,Scale Packet Length,Is Proxy,8536.0000,0.4870,0.2725,0.0000,0.2500,0.5000,0.6667,1.0000
 Network Segment,Firewall Logs,Month,72.0000,0.0451,0.0191,0.0103,0.0313,0.0435,0.0568,0.0984
 Network Segment,Firewall Logs,Day,186.0000,0.0637,0.0340,0.0000,0.0377,0.0609,0.0839,0.1891
 Network Segment,Firewall Logs,Hour,144.0000,0.0585,0.0278,0.0151,0.0376,0.0561,0.0755,0.1465
@@ -2786,7 +2786,7 @@ Network Segment,Firewall Logs,OS Version Minor,84.0000,0.0684,0.0390,0.0053,0.03
 Network Segment,Firewall Logs,OS Version Patch,66.0000,0.0670,0.0425,0.0072,0.0319,0.0621,0.0943,0.1900
 Network Segment,Firewall Logs,Device Model,48.0000,0.0770,0.0844,0.0040,0.0241,0.0449,0.1094,0.3636
 Network Segment,Firewall Logs,Device Type,48.0000,0.0770,0.0844,0.0040,0.0241,0.0449,0.1094,0.3636
-Network Segment,Firewall Logs,Packet_T,8541.0000,0.4869,0.2736,0.0000,0.2500,0.5000,0.6667,1.0000
+Network Segment,Firewall Logs,Scale Packet Length,8541.0000,0.4869,0.2736,0.0000,0.2500,0.5000,0.6667,1.0000
 Network Segment,IDS/IPS Alerts,Month,72.0000,0.0422,0.0221,0.0000,0.0235,0.0404,0.0574,0.0955
 Network Segment,IDS/IPS Alerts,Day,186.0000,0.0676,0.0338,0.0074,0.0410,0.0654,0.0886,0.1721
 Network Segment,IDS/IPS Alerts,Hour,144.0000,0.0581,0.0289,0.0035,0.0363,0.0555,0.0761,0.1404
@@ -2801,7 +2801,7 @@ Network Segment,IDS/IPS Alerts,OS Version Minor,84.0000,0.0757,0.0420,0.0055,0.0
 Network Segment,IDS/IPS Alerts,OS Version Patch,66.0000,0.0692,0.0440,0.0062,0.0332,0.0626,0.0953,0.1765
 Network Segment,IDS/IPS Alerts,Device Model,48.0000,0.0856,0.0998,0.0043,0.0252,0.0578,0.0822,0.4286
 Network Segment,IDS/IPS Alerts,Device Type,48.0000,0.0856,0.0998,0.0043,0.0252,0.0578,0.0822,0.4286
-Network Segment,IDS/IPS Alerts,Packet_T,8533.0000,0.4921,0.2706,0.0000,0.2500,0.5000,0.6667,1.0000
+Network Segment,IDS/IPS Alerts,Scale Packet Length,8533.0000,0.4921,0.2706,0.0000,0.2500,0.5000,0.6667,1.0000
 Network Segment,Log Source,Month,72.0000,0.0437,0.0215,0.0017,0.0289,0.0431,0.0540,0.0965
 Network Segment,Log Source,Day,186.0000,0.0687,0.0376,0.0049,0.0417,0.0632,0.0837,0.1879
 Network Segment,Log Source,Hour,144.0000,0.0546,0.0320,0.0035,0.0313,0.0516,0.0716,0.1784
@@ -2814,7 +2814,7 @@ Network Segment,Log Source,Browser Patch,726.0000,0.2623,0.1498,0.0000,0.1538,0.
 Network Segment,Log Source,OS Version,132.0000,0.0759,0.0680,0.0000,0.0311,0.0551,0.0980,0.5000
 Network Segment,Log Source,OS Version Minor,84.0000,0.0738,0.0539,0.0057,0.0374,0.0658,0.0946,0.3333
 Network Segment,Log Source,OS Version Patch,66.0000,0.0670,0.0413,0.0000,0.0387,0.0580,0.0943,0.1650
-Network Segment,Log Source,Packet_T,8554.0000,0.4896,0.2740,0.0000,0.2500,0.5000,0.6667,1.0000
+Network Segment,Log Source,Scale Packet Length,8554.0000,0.4896,0.2740,0.0000,0.2500,0.5000,0.6667,1.0000
 Network Segment,Year,Month,138.0000,0.0581,0.0290,0.0034,0.0331,0.0564,0.0794,0.1246
 Network Segment,Year,Day,372.0000,0.0986,0.0537,0.0000,0.0599,0.0880,0.1279,0.3103
 Network Segment,Year,Hour,288.0000,0.0803,0.0419,0.0000,0.0508,0.0746,0.1066,0.2482
@@ -2943,7 +2943,7 @@ Network Segment,IsWeekend,OS Version Minor,84.0000,0.0839,0.0599,0.0028,0.0394,0
 Network Segment,IsWeekend,OS Version Patch,66.0000,0.0724,0.0484,0.0038,0.0371,0.0626,0.0967,0.2258
 Network Segment,IsWeekend,Device Model,48.0000,0.0824,0.1094,0.0046,0.0219,0.0498,0.1010,0.6667
 Network Segment,IsWeekend,Device Type,48.0000,0.0824,0.1094,0.0046,0.0219,0.0498,0.1010,0.6667
-Network Segment,IsWeekend,Packet_T,8334.0000,0.5217,0.2960,0.0000,0.2727,0.5000,0.6667,1.0000
+Network Segment,IsWeekend,Scale Packet Length,8334.0000,0.5217,0.2960,0.0000,0.2727,0.5000,0.6667,1.0000
 Network Segment,Browser Name,Browser Version,608.0000,0.2548,0.1894,0.0000,0.1185,0.2051,0.3588,1.0000
 Network Segment,Browser Name,Browser Minor,333.0000,0.1661,0.1034,0.0000,0.0870,0.1538,0.2286,0.4583
 Network Segment,Browser Name,Browser Patch,694.0000,0.3168,0.2317,0.0000,0.1429,0.2500,0.4154,1.0000
@@ -2994,7 +2994,7 @@ Network Segment,Browser Patch Minor,OS Version Minor,84.0000,0.0817,0.0542,0.000
 Network Segment,Browser Patch Minor,OS Version Patch,66.0000,0.0773,0.0464,0.0085,0.0452,0.0725,0.1091,0.1887
 Network Segment,Browser Patch Minor,Device Model,42.0000,0.0685,0.0651,0.0071,0.0232,0.0489,0.0944,0.3478
 Network Segment,Browser Patch Minor,Device Type,42.0000,0.0685,0.0651,0.0071,0.0232,0.0489,0.0944,0.3478
-Network Segment,Browser Patch Minor,Packet_T,8002.0000,0.5406,0.3096,0.0000,0.2857,0.5000,0.7500,1.0000
+Network Segment,Browser Patch Minor,Scale Packet Length,8002.0000,0.5406,0.3096,0.0000,0.2857,0.5000,0.7500,1.0000
 Network Segment,OS Name,OS Version,99.0000,0.0814,0.0744,0.0036,0.0307,0.0667,0.1018,0.4091
 Network Segment,OS Name,OS Version Minor,69.0000,0.0794,0.0662,0.0028,0.0346,0.0672,0.1036,0.3750
 Network Segment,OS Name,OS Version Patch,87.0000,0.0844,0.0745,0.0028,0.0332,0.0698,0.0984,0.4194
@@ -3026,7 +3026,7 @@ Network Segment,OS Version Patch,Packet Bin,99.0000,0.0831,0.0548,0.0065,0.0377,
 Network Segment,OS Version Patch,Global Source IP,60.0000,0.3456,0.3978,0.0061,0.0334,0.0667,0.7500,1.0000
 Network Segment,OS Version Patch,Global Destination IP,63.0000,0.3589,0.4029,0.0060,0.0395,0.0925,0.7083,1.0000
 Network Segment,OS Version Patch,Is Proxy,66.0000,0.0729,0.0449,0.0076,0.0404,0.0644,0.0939,0.2000
-Network Segment,OS Version Patch Minor,Packet_T,4311.0000,0.3327,0.1877,0.0000,0.2000,0.3077,0.4444,1.0000
+Network Segment,OS Version Patch Minor,Scale Packet Length,4311.0000,0.3327,0.1877,0.0000,0.2000,0.3077,0.4444,1.0000
 Network Segment,Device Brand,Packet Bin,36.0000,0.1210,0.1756,0.0041,0.0204,0.0277,0.0978,0.5000
 Network Segment,Device Model,Packet Bin,72.0000,0.1106,0.1354,0.0087,0.0244,0.0614,0.1340,0.5000
 Network Segment,Device Model,Global Source IP,45.0000,0.2669,0.2905,0.0057,0.0286,0.1392,0.4286,1.0000
@@ -3036,10 +3036,10 @@ Network Segment,Device Type,Packet Bin,72.0000,0.1106,0.1354,0.0087,0.0244,0.061
 Network Segment,Device Type,Global Source IP,45.0000,0.2669,0.2905,0.0057,0.0286,0.1392,0.4286,1.0000
 Network Segment,Device Type,Global Destination IP,45.0000,0.2678,0.3002,0.0052,0.0312,0.1364,0.4000,1.0000
 Network Segment,Device Type,Is Proxy,48.0000,0.0800,0.0951,0.0041,0.0206,0.0491,0.0864,0.4444
-Network Segment,Packet Bin,Packet_T,4311.0000,0.3327,0.1877,0.0000,0.2000,0.3077,0.4444,1.0000
-Network Segment,Packet_T,Global Source IP,4483.0000,0.3580,0.2233,0.0000,0.2000,0.3333,0.4545,1.0000
-Network Segment,Packet_T,Global Destination IP,4483.0000,0.3587,0.2246,0.0000,0.2000,0.3333,0.4545,1.0000
-Network Segment,Packet_T,Is Proxy,8531.0000,0.4886,0.2728,0.0000,0.2500,0.5000,0.6667,1.0000
+Network Segment,Packet Bin,Scale Packet Length,4311.0000,0.3327,0.1877,0.0000,0.2000,0.3077,0.4444,1.0000
+Network Segment,Scale Packet Length,Global Source IP,4483.0000,0.3580,0.2233,0.0000,0.2000,0.3333,0.4545,1.0000
+Network Segment,Scale Packet Length,Global Destination IP,4483.0000,0.3587,0.2246,0.0000,0.2000,0.3333,0.4545,1.0000
+Network Segment,Scale Packet Length,Is Proxy,8531.0000,0.4886,0.2728,0.0000,0.2500,0.5000,0.6667,1.0000
 Geo-location Data,OS Version Patch Minor,Global Source IP,8898.0000,0.5042,0.2814,0.0000,0.2500,0.5000,0.6667,1.0000
 Geo-location Data,OS Version Patch Minor,Global Destination IP,8893.0000,0.5042,0.2818,0.0000,0.2500,0.5000,0.6667,1.0000
 Geo-location Data,Global Source IP,Global Destination IP,9068.0000,0.5149,0.2873,0.0000,0.2500,0.5000,0.6667,1.0000
@@ -3054,7 +3054,7 @@ Firewall Logs,IDS/IPS Alerts,Browser Patch,484.0000,0.2259,0.1214,0.0000,0.1304,
 Firewall Logs,IDS/IPS Alerts,OS Version,88.0000,0.0706,0.0754,0.0020,0.0249,0.0491,0.0832,0.5000
 Firewall Logs,IDS/IPS Alerts,OS Version Minor,56.0000,0.0542,0.0355,0.0046,0.0230,0.0563,0.0728,0.1631
 Firewall Logs,IDS/IPS Alerts,OS Version Patch,44.0000,0.0620,0.0439,0.0070,0.0296,0.0521,0.0835,0.1779
-Firewall Logs,IDS/IPS Alerts,Packet_T,5743.0000,0.3929,0.2218,0.0000,0.2222,0.3636,0.5000,1.0000
+Firewall Logs,IDS/IPS Alerts,Scale Packet Length,5743.0000,0.3929,0.2218,0.0000,0.2222,0.3636,0.5000,1.0000
 Firewall Logs,Log Source,Month,48.0000,0.0350,0.0170,0.0046,0.0207,0.0331,0.0414,0.0797
 Firewall Logs,Log Source,Day,124.0000,0.0541,0.0289,0.0056,0.0317,0.0519,0.0700,0.1657
 Firewall Logs,Log Source,Hour,96.0000,0.0428,0.0230,0.0044,0.0254,0.0413,0.0590,0.1312
@@ -3068,7 +3068,7 @@ Firewall Logs,Log Source,Browser Patch,484.0000,0.2215,0.1250,0.0000,0.1250,0.20
 Firewall Logs,Log Source,OS Version,88.0000,0.0684,0.0570,0.0045,0.0315,0.0522,0.0909,0.2941
 Firewall Logs,Log Source,OS Version Minor,56.0000,0.0555,0.0383,0.0054,0.0253,0.0443,0.0832,0.1478
 Firewall Logs,Log Source,OS Version Patch,44.0000,0.0588,0.0382,0.0044,0.0306,0.0533,0.0764,0.1456
-Firewall Logs,Log Source,Packet_T,5744.0000,0.3886,0.2219,0.0000,0.2222,0.3333,0.5000,1.0000
+Firewall Logs,Log Source,Scale Packet Length,5744.0000,0.3886,0.2219,0.0000,0.2222,0.3333,0.5000,1.0000
 Firewall Logs,Year,Month,92.0000,0.0461,0.0226,0.0041,0.0273,0.0449,0.0636,0.0937
 Firewall Logs,Year,Day,248.0000,0.0754,0.0411,0.0070,0.0426,0.0692,0.1006,0.2283
 Firewall Logs,Year,Hour,192.0000,0.0629,0.0332,0.0041,0.0423,0.0574,0.0818,0.1698
@@ -3084,7 +3084,7 @@ Firewall Logs,Year,OS Version Minor,112.0000,0.0874,0.0595,0.0068,0.0414,0.0763,
 Firewall Logs,Year,OS Version Patch,88.0000,0.0860,0.0643,0.0000,0.0398,0.0714,0.1172,0.3375
 Firewall Logs,Year,Device Model,64.0000,0.1030,0.1310,0.0071,0.0273,0.0534,0.1051,0.6667
 Firewall Logs,Year,Device Type,64.0000,0.1030,0.1310,0.0071,0.0273,0.0534,0.1051,0.6667
-Firewall Logs,Year,Packet_T,11072.0000,0.5708,0.2969,0.0000,0.3333,0.5000,0.7500,1.0000
+Firewall Logs,Year,Scale Packet Length,11072.0000,0.5708,0.2969,0.0000,0.3333,0.5000,0.7500,1.0000
 Firewall Logs,Month,Day,732.0000,0.1367,0.0702,0.0000,0.0855,0.1324,0.1739,0.4595
 Firewall Logs,Month,Hour,576.0000,0.1213,0.0657,0.0000,0.0714,0.1118,0.1610,0.3220
 Firewall Logs,Month,Minute,1440.0000,0.1837,0.0981,0.0000,0.1071,0.1724,0.2500,0.7143
@@ -3195,7 +3195,7 @@ Firewall Logs,IsWeekend,Browser Patch,484.0000,0.2311,0.1356,0.0000,0.1328,0.209
 Firewall Logs,IsWeekend,OS Version,88.0000,0.0746,0.0609,0.0050,0.0369,0.0609,0.0888,0.3636
 Firewall Logs,IsWeekend,OS Version Minor,56.0000,0.0745,0.0469,0.0022,0.0431,0.0601,0.1013,0.2211
 Firewall Logs,IsWeekend,OS Version Patch,44.0000,0.0623,0.0411,0.0045,0.0313,0.0545,0.0872,0.1685
-Firewall Logs,IsWeekend,Packet_T,5685.0000,0.4219,0.2586,0.0000,0.2308,0.3750,0.6000,1.0000
+Firewall Logs,IsWeekend,Scale Packet Length,5685.0000,0.4219,0.2586,0.0000,0.2308,0.3750,0.6000,1.0000
 Firewall Logs,Browser Name,Browser Version,406.0000,0.1984,0.1481,0.0000,0.0913,0.1667,0.2712,0.8000
 Firewall Logs,Browser Name,Browser Minor,222.0000,0.1371,0.0831,0.0000,0.0702,0.1304,0.1818,0.5000
 Firewall Logs,Browser Name,Browser Patch,464.0000,0.2530,0.1819,0.0000,0.1250,0.2132,0.3333,1.0000
@@ -3244,7 +3244,7 @@ Firewall Logs,Browser Patch,Is Proxy,484.0000,0.2187,0.1227,0.0000,0.1250,0.2083
 Firewall Logs,Browser Patch Minor,OS Version,88.0000,0.0878,0.0825,0.0016,0.0352,0.0629,0.1162,0.5882
 Firewall Logs,Browser Patch Minor,OS Version Minor,56.0000,0.0613,0.0374,0.0068,0.0389,0.0567,0.0747,0.2054
 Firewall Logs,Browser Patch Minor,OS Version Patch,44.0000,0.0613,0.0441,0.0078,0.0326,0.0571,0.0780,0.2673
-Firewall Logs,Browser Patch Minor,Packet_T,5575.0000,0.4529,0.2931,0.0000,0.2222,0.4000,0.6667,1.0000
+Firewall Logs,Browser Patch Minor,Scale Packet Length,5575.0000,0.4529,0.2931,0.0000,0.2222,0.4000,0.6667,1.0000
 Firewall Logs,OS Name,OS Version,66.0000,0.0739,0.0666,0.0029,0.0278,0.0504,0.0959,0.3077
 Firewall Logs,OS Name,OS Version Minor,46.0000,0.0551,0.0409,0.0055,0.0227,0.0471,0.0806,0.1798
 Firewall Logs,OS Name,OS Version Patch,58.0000,0.0814,0.0770,0.0038,0.0276,0.0534,0.1024,0.3830
@@ -3276,18 +3276,18 @@ Firewall Logs,OS Version Patch,Packet Bin,66.0000,0.0773,0.0582,0.0024,0.0261,0.
 Firewall Logs,OS Version Patch,Global Source IP,42.0000,0.2698,0.3515,0.0000,0.0337,0.0766,0.4464,1.0000
 Firewall Logs,OS Version Patch,Global Destination IP,42.0000,0.2516,0.3305,0.0000,0.0344,0.0732,0.4375,1.0000
 Firewall Logs,OS Version Patch,Is Proxy,44.0000,0.0642,0.0451,0.0080,0.0265,0.0539,0.0959,0.1862
-Firewall Logs,OS Version Patch Minor,Packet_T,2874.0000,0.2665,0.1433,0.0000,0.1667,0.2500,0.3571,1.0000
-Firewall Logs,Device Brand,Packet_T,8070.0000,0.5326,0.3085,0.0000,0.2500,0.5000,0.7500,1.0000
+Firewall Logs,OS Version Patch Minor,Scale Packet Length,2874.0000,0.2665,0.1433,0.0000,0.1667,0.2500,0.3571,1.0000
+Firewall Logs,Device Brand,Scale Packet Length,8070.0000,0.5326,0.3085,0.0000,0.2500,0.5000,0.7500,1.0000
 Firewall Logs,Device Model,Packet Bin,48.0000,0.0828,0.0802,0.0000,0.0287,0.0565,0.0964,0.3333
 Firewall Logs,Device Model,Global Source IP,30.0000,0.1602,0.2040,0.0000,0.0214,0.0875,0.2222,1.0000
 Firewall Logs,Device Model,Global Destination IP,30.0000,0.2190,0.2850,0.0067,0.0290,0.0957,0.2222,1.0000
 Firewall Logs,Device Type,Packet Bin,48.0000,0.0828,0.0802,0.0000,0.0287,0.0565,0.0964,0.3333
 Firewall Logs,Device Type,Global Source IP,30.0000,0.1602,0.2040,0.0000,0.0214,0.0875,0.2222,1.0000
 Firewall Logs,Device Type,Global Destination IP,30.0000,0.2190,0.2850,0.0067,0.0290,0.0957,0.2222,1.0000
-Firewall Logs,Packet Bin,Packet_T,2874.0000,0.2665,0.1433,0.0000,0.1667,0.2500,0.3571,1.0000
-Firewall Logs,Packet_T,Global Source IP,3045.0000,0.3073,0.2170,0.0000,0.1667,0.2500,0.3750,1.0000
-Firewall Logs,Packet_T,Global Destination IP,3039.0000,0.3055,0.2155,0.0000,0.1667,0.2500,0.3750,1.0000
-Firewall Logs,Packet_T,Is Proxy,5743.0000,0.3875,0.2203,0.0000,0.2222,0.3333,0.5000,1.0000
+Firewall Logs,Packet Bin,Scale Packet Length,2874.0000,0.2665,0.1433,0.0000,0.1667,0.2500,0.3571,1.0000
+Firewall Logs,Scale Packet Length,Global Source IP,3045.0000,0.3073,0.2170,0.0000,0.1667,0.2500,0.3750,1.0000
+Firewall Logs,Scale Packet Length,Global Destination IP,3039.0000,0.3055,0.2155,0.0000,0.1667,0.2500,0.3750,1.0000
+Firewall Logs,Scale Packet Length,Is Proxy,5743.0000,0.3875,0.2203,0.0000,0.2222,0.3333,0.5000,1.0000
 Firewall Logs,Global Source IP,Global Destination IP,6.0000,0.0652,0.0519,0.0041,0.0218,0.0735,0.0933,0.1354
 IDS/IPS Alerts,Log Source,Month,48.0000,0.0373,0.0202,0.0073,0.0207,0.0346,0.0521,0.0966
 IDS/IPS Alerts,Log Source,Day,124.0000,0.0539,0.0270,0.0060,0.0329,0.0498,0.0717,0.1348
@@ -3303,7 +3303,7 @@ IDS/IPS Alerts,Log Source,OS Version Minor,56.0000,0.0651,0.0414,0.0051,0.0327,0
 IDS/IPS Alerts,Log Source,OS Version Patch,44.0000,0.0561,0.0360,0.0075,0.0287,0.0506,0.0751,0.1455
 IDS/IPS Alerts,Log Source,Device Model,32.0000,0.0547,0.0477,0.0036,0.0223,0.0415,0.0778,0.2174
 IDS/IPS Alerts,Log Source,Device Type,32.0000,0.0547,0.0477,0.0036,0.0223,0.0415,0.0778,0.2174
-IDS/IPS Alerts,Log Source,Packet_T,5742.0000,0.3922,0.2232,0.0000,0.2222,0.3571,0.5000,1.0000
+IDS/IPS Alerts,Log Source,Scale Packet Length,5742.0000,0.3922,0.2232,0.0000,0.2222,0.3571,0.5000,1.0000
 IDS/IPS Alerts,Year,Month,92.0000,0.0502,0.0286,0.0042,0.0316,0.0451,0.0695,0.1457
 IDS/IPS Alerts,Year,Day,248.0000,0.0764,0.0421,0.0000,0.0461,0.0697,0.0985,0.2378
 IDS/IPS Alerts,Year,Hour,192.0000,0.0642,0.0329,0.0047,0.0398,0.0560,0.0862,0.1553
@@ -3321,7 +3321,7 @@ IDS/IPS Alerts,Year,OS Version Patch,88.0000,0.0799,0.0558,0.0046,0.0406,0.0676,
 IDS/IPS Alerts,Year,Device Brand,32.0000,0.1145,0.1689,0.0025,0.0209,0.0305,0.0859,0.6000
 IDS/IPS Alerts,Year,Device Model,64.0000,0.1029,0.1229,0.0025,0.0347,0.0540,0.1079,0.6000
 IDS/IPS Alerts,Year,Device Type,64.0000,0.1029,0.1229,0.0025,0.0347,0.0540,0.1079,0.6000
-IDS/IPS Alerts,Year,Packet_T,11123.0000,0.5714,0.2948,0.0000,0.3333,0.5000,0.7500,1.0000
+IDS/IPS Alerts,Year,Scale Packet Length,11123.0000,0.5714,0.2948,0.0000,0.3333,0.5000,0.7500,1.0000
 IDS/IPS Alerts,Month,Day,732.0000,0.1362,0.0728,0.0000,0.0816,0.1275,0.1833,0.4194
 IDS/IPS Alerts,Month,Hour,576.0000,0.1210,0.0600,0.0000,0.0767,0.1127,0.1538,0.3600
 IDS/IPS Alerts,Month,Minute,1440.0000,0.1873,0.1036,0.0000,0.1111,0.1739,0.2500,0.5556
@@ -3430,7 +3430,7 @@ IDS/IPS Alerts,IsWeekend,Browser Patch,484.0000,0.2413,0.1633,0.0000,0.1250,0.20
 IDS/IPS Alerts,IsWeekend,OS Version,88.0000,0.0732,0.0632,0.0000,0.0281,0.0550,0.1020,0.3158
 IDS/IPS Alerts,IsWeekend,OS Version Minor,56.0000,0.0722,0.0578,0.0039,0.0299,0.0608,0.0892,0.2500
 IDS/IPS Alerts,IsWeekend,OS Version Patch,44.0000,0.0659,0.0431,0.0053,0.0385,0.0633,0.0922,0.1961
-IDS/IPS Alerts,IsWeekend,Packet_T,5691.0000,0.4237,0.2604,0.0000,0.2222,0.3750,0.6000,1.0000
+IDS/IPS Alerts,IsWeekend,Scale Packet Length,5691.0000,0.4237,0.2604,0.0000,0.2222,0.3750,0.6000,1.0000
 IDS/IPS Alerts,Browser Name,Browser Version,406.0000,0.1991,0.1462,0.0000,0.0943,0.1667,0.2658,1.0000
 IDS/IPS Alerts,Browser Name,Browser Minor,222.0000,0.1345,0.0829,0.0000,0.0693,0.1275,0.1891,0.4118
 IDS/IPS Alerts,Browser Name,Browser Patch,464.0000,0.2598,0.1929,0.0000,0.1198,0.2222,0.3529,1.0000
@@ -3481,7 +3481,7 @@ IDS/IPS Alerts,Browser Patch,Is Proxy,484.0000,0.2186,0.1227,0.0000,0.1194,0.210
 IDS/IPS Alerts,Browser Patch Minor,OS Version,88.0000,0.0885,0.0918,0.0000,0.0302,0.0608,0.1116,0.5789
 IDS/IPS Alerts,Browser Patch Minor,OS Version Minor,56.0000,0.0643,0.0429,0.0058,0.0273,0.0548,0.0943,0.1613
 IDS/IPS Alerts,Browser Patch Minor,OS Version Patch,44.0000,0.0613,0.0401,0.0067,0.0325,0.0530,0.0886,0.1717
-IDS/IPS Alerts,Browser Patch Minor,Packet_T,5579.0000,0.4575,0.2909,0.0000,0.2308,0.4000,0.6667,1.0000
+IDS/IPS Alerts,Browser Patch Minor,Scale Packet Length,5579.0000,0.4575,0.2909,0.0000,0.2308,0.4000,0.6667,1.0000
 IDS/IPS Alerts,OS Name,OS Version,66.0000,0.0816,0.0786,0.0102,0.0284,0.0552,0.0996,0.3462
 IDS/IPS Alerts,OS Name,OS Version Minor,46.0000,0.0579,0.0443,0.0029,0.0247,0.0436,0.0847,0.1667
 IDS/IPS Alerts,OS Name,OS Version Patch,58.0000,0.0762,0.0613,0.0030,0.0392,0.0561,0.1053,0.2982
@@ -3511,8 +3511,8 @@ IDS/IPS Alerts,OS Version Patch,Packet Bin,66.0000,0.0762,0.0513,0.0000,0.0419,0
 IDS/IPS Alerts,OS Version Patch,Global Source IP,42.0000,0.3121,0.3703,0.0000,0.0375,0.0683,0.5000,1.0000
 IDS/IPS Alerts,OS Version Patch,Global Destination IP,41.0000,0.2648,0.3214,0.0000,0.0368,0.0755,0.4000,1.0000
 IDS/IPS Alerts,OS Version Patch,Is Proxy,44.0000,0.0694,0.0414,0.0068,0.0419,0.0599,0.0980,0.1818
-IDS/IPS Alerts,OS Version Patch Minor,Packet_T,2874.0000,0.2711,0.1455,0.0000,0.1667,0.2500,0.3636,1.0000
-IDS/IPS Alerts,Device Brand,Packet_T,8117.0000,0.5374,0.3079,0.0000,0.2727,0.5000,0.7500,1.0000
+IDS/IPS Alerts,OS Version Patch Minor,Scale Packet Length,2874.0000,0.2711,0.1455,0.0000,0.1667,0.2500,0.3636,1.0000
+IDS/IPS Alerts,Device Brand,Scale Packet Length,8117.0000,0.5374,0.3079,0.0000,0.2727,0.5000,0.7500,1.0000
 IDS/IPS Alerts,Device Model,Packet Bin,48.0000,0.0780,0.0701,0.0056,0.0289,0.0619,0.0909,0.2941
 IDS/IPS Alerts,Device Model,Global Source IP,31.0000,0.2113,0.2959,0.0000,0.0211,0.0693,0.2020,1.0000
 IDS/IPS Alerts,Device Model,Global Destination IP,31.0000,0.2764,0.3184,0.0055,0.0217,0.1220,0.4808,1.0000
@@ -3521,10 +3521,10 @@ IDS/IPS Alerts,Device Type,Packet Bin,48.0000,0.0780,0.0701,0.0056,0.0289,0.0619
 IDS/IPS Alerts,Device Type,Global Source IP,31.0000,0.2113,0.2959,0.0000,0.0211,0.0693,0.2020,1.0000
 IDS/IPS Alerts,Device Type,Global Destination IP,31.0000,0.2764,0.3184,0.0055,0.0217,0.1220,0.4808,1.0000
 IDS/IPS Alerts,Device Type,Is Proxy,32.0000,0.0578,0.0677,0.0021,0.0210,0.0389,0.0525,0.3333
-IDS/IPS Alerts,Packet Bin,Packet_T,2874.0000,0.2711,0.1455,0.0000,0.1667,0.2500,0.3636,1.0000
-IDS/IPS Alerts,Packet_T,Global Source IP,3042.0000,0.3111,0.2164,0.0000,0.1667,0.2667,0.3889,1.0000
-IDS/IPS Alerts,Packet_T,Global Destination IP,3043.0000,0.3114,0.2181,0.0000,0.1667,0.2667,0.3846,1.0000
-IDS/IPS Alerts,Packet_T,Is Proxy,5745.0000,0.3889,0.2230,0.0000,0.2222,0.3333,0.5000,1.0000
+IDS/IPS Alerts,Packet Bin,Scale Packet Length,2874.0000,0.2711,0.1455,0.0000,0.1667,0.2500,0.3636,1.0000
+IDS/IPS Alerts,Scale Packet Length,Global Source IP,3042.0000,0.3111,0.2164,0.0000,0.1667,0.2667,0.3889,1.0000
+IDS/IPS Alerts,Scale Packet Length,Global Destination IP,3043.0000,0.3114,0.2181,0.0000,0.1667,0.2667,0.3846,1.0000
+IDS/IPS Alerts,Scale Packet Length,Is Proxy,5745.0000,0.3889,0.2230,0.0000,0.2222,0.3333,0.5000,1.0000
 Log Source,Year,Month,92.0000,0.0483,0.0218,0.0046,0.0349,0.0494,0.0594,0.1445
 Log Source,Year,Day,248.0000,0.0804,0.0431,0.0000,0.0478,0.0760,0.1059,0.2532
 Log Source,Year,Hour,192.0000,0.0658,0.0348,0.0091,0.0398,0.0597,0.0837,0.1824
@@ -3540,7 +3540,7 @@ Log Source,Year,OS Version Patch,88.0000,0.0920,0.0590,0.0037,0.0522,0.0772,0.13
 Log Source,Year,Device Brand,32.0000,0.1022,0.1679,0.0033,0.0201,0.0273,0.0678,0.7500
 Log Source,Year,Device Model,64.0000,0.0960,0.1224,0.0134,0.0304,0.0580,0.0996,0.7500
 Log Source,Year,Device Type,64.0000,0.0960,0.1224,0.0134,0.0304,0.0580,0.0996,0.7500
-Log Source,Year,Packet_T,11092.0000,0.5725,0.2940,0.0000,0.3333,0.5000,0.7500,1.0000
+Log Source,Year,Scale Packet Length,11092.0000,0.5725,0.2940,0.0000,0.3333,0.5000,0.7500,1.0000
 Log Source,Month,Day,732.0000,0.1364,0.0751,0.0000,0.0793,0.1275,0.1864,0.6154
 Log Source,Month,Hour,576.0000,0.1240,0.0658,0.0000,0.0757,0.1161,0.1625,0.3721
 Log Source,Month,Minute,1440.0000,0.1860,0.0984,0.0000,0.1176,0.1724,0.2414,0.5833
@@ -3656,7 +3656,7 @@ Log Source,IsWeekend,OS Version Minor,56.0000,0.0731,0.0519,0.0077,0.0369,0.0625
 Log Source,IsWeekend,OS Version Patch,44.0000,0.0590,0.0366,0.0052,0.0274,0.0577,0.0829,0.1518
 Log Source,IsWeekend,Device Model,32.0000,0.0726,0.0800,0.0052,0.0272,0.0532,0.0769,0.4000
 Log Source,IsWeekend,Device Type,32.0000,0.0726,0.0800,0.0052,0.0272,0.0532,0.0769,0.4000
-Log Source,IsWeekend,Packet_T,5703.0000,0.4233,0.2598,0.0000,0.2222,0.3750,0.6000,1.0000
+Log Source,IsWeekend,Scale Packet Length,5703.0000,0.4233,0.2598,0.0000,0.2222,0.3750,0.6000,1.0000
 Log Source,Browser Name,Browser Version,406.0000,0.2042,0.1471,0.0000,0.0909,0.1667,0.2892,0.6667
 Log Source,Browser Name,Browser Minor,222.0000,0.1382,0.0856,0.0000,0.0661,0.1333,0.1918,0.5000
 Log Source,Browser Name,Browser Patch,464.0000,0.2554,0.1812,0.0000,0.1250,0.2222,0.3333,1.0000
@@ -3712,7 +3712,7 @@ Log Source,Browser Patch Minor,OS Version Minor,56.0000,0.0687,0.0390,0.0094,0.0
 Log Source,Browser Patch Minor,OS Version Patch,44.0000,0.0587,0.0399,0.0044,0.0262,0.0511,0.0859,0.1573
 Log Source,Browser Patch Minor,Device Model,28.0000,0.0502,0.0448,0.0089,0.0224,0.0360,0.0581,0.1887
 Log Source,Browser Patch Minor,Device Type,28.0000,0.0502,0.0448,0.0089,0.0224,0.0360,0.0581,0.1887
-Log Source,Browser Patch Minor,Packet_T,5584.0000,0.4564,0.2914,0.0000,0.2308,0.4000,0.6667,1.0000
+Log Source,Browser Patch Minor,Scale Packet Length,5584.0000,0.4564,0.2914,0.0000,0.2308,0.4000,0.6667,1.0000
 Log Source,OS Name,OS Version,66.0000,0.0659,0.0608,0.0036,0.0293,0.0464,0.0773,0.3200
 Log Source,OS Name,OS Version Minor,46.0000,0.0634,0.0518,0.0041,0.0292,0.0506,0.0850,0.2667
 Log Source,OS Name,OS Version Patch,58.0000,0.0709,0.0581,0.0041,0.0289,0.0622,0.0999,0.3103
@@ -3744,18 +3744,18 @@ Log Source,OS Version Patch,Packet Bin,66.0000,0.0799,0.0533,0.0030,0.0403,0.069
 Log Source,OS Version Patch,Global Source IP,43.0000,0.3179,0.3633,0.0000,0.0364,0.0896,0.5500,1.0000
 Log Source,OS Version Patch,Global Destination IP,42.0000,0.2871,0.3555,0.0000,0.0351,0.0717,0.5000,1.0000
 Log Source,OS Version Patch,Is Proxy,44.0000,0.0622,0.0394,0.0042,0.0341,0.0591,0.0860,0.1918
-Log Source,OS Version Patch Minor,Packet_T,2874.0000,0.2655,0.1431,0.0000,0.1667,0.2500,0.3571,1.0000
-Log Source,Device Brand,Packet_T,8065.0000,0.5335,0.3042,0.0000,0.2727,0.5000,0.7500,1.0000
+Log Source,OS Version Patch Minor,Scale Packet Length,2874.0000,0.2655,0.1431,0.0000,0.1667,0.2500,0.3571,1.0000
+Log Source,Device Brand,Scale Packet Length,8065.0000,0.5335,0.3042,0.0000,0.2727,0.5000,0.7500,1.0000
 Log Source,Device Model,Packet Bin,48.0000,0.0846,0.0925,0.0033,0.0242,0.0491,0.0971,0.4000
 Log Source,Device Model,Global Source IP,31.0000,0.2026,0.2646,0.0077,0.0249,0.0909,0.2361,1.0000
 Log Source,Device Model,Is Proxy,32.0000,0.0586,0.0598,0.0078,0.0217,0.0444,0.0686,0.3158
 Log Source,Device Type,Packet Bin,48.0000,0.0846,0.0925,0.0033,0.0242,0.0491,0.0971,0.4000
 Log Source,Device Type,Global Source IP,31.0000,0.2026,0.2646,0.0077,0.0249,0.0909,0.2361,1.0000
 Log Source,Device Type,Is Proxy,32.0000,0.0586,0.0598,0.0078,0.0217,0.0444,0.0686,0.3158
-Log Source,Packet Bin,Packet_T,2874.0000,0.2655,0.1431,0.0000,0.1667,0.2500,0.3571,1.0000
-Log Source,Packet_T,Global Source IP,3048.0000,0.3067,0.2181,0.0000,0.1667,0.2500,0.3750,1.0000
-Log Source,Packet_T,Global Destination IP,3044.0000,0.3065,0.2183,0.0000,0.1667,0.2500,0.3750,1.0000
-Log Source,Packet_T,Is Proxy,5745.0000,0.3892,0.2199,0.0000,0.2222,0.3333,0.5000,1.0000
+Log Source,Packet Bin,Scale Packet Length,2874.0000,0.2655,0.1431,0.0000,0.1667,0.2500,0.3571,1.0000
+Log Source,Scale Packet Length,Global Source IP,3048.0000,0.3067,0.2181,0.0000,0.1667,0.2500,0.3750,1.0000
+Log Source,Scale Packet Length,Global Destination IP,3044.0000,0.3065,0.2183,0.0000,0.1667,0.2500,0.3750,1.0000
+Log Source,Scale Packet Length,Is Proxy,5745.0000,0.3892,0.2199,0.0000,0.2222,0.3333,0.5000,1.0000
 Year,Month,Day,1380.0000,0.1870,0.0990,0.0000,0.1081,0.1790,0.2500,0.5625
 Year,Month,Hour,1104.0000,0.1658,0.0925,0.0000,0.0976,0.1500,0.2228,0.7143
 Year,Month,Minute,2760.0000,0.2631,0.1470,0.0000,0.1579,0.2500,0.3529,1.0000
@@ -3951,7 +3951,7 @@ Year,OS Version Patch,Global Destination IP,77.0000,0.2972,0.3804,0.0000,0.0430,
 Year,OS Version Patch,Is Proxy,88.0000,0.0859,0.0552,0.0077,0.0412,0.0750,0.1297,0.2727
 Year,OS Version Patch Minor,Device Model,32.0000,0.0701,0.0842,0.0056,0.0241,0.0352,0.0864,0.3810
 Year,OS Version Patch Minor,Device Type,32.0000,0.0701,0.0842,0.0056,0.0241,0.0352,0.0864,0.3810
-Year,OS Version Patch Minor,Packet_T,5744.0000,0.3955,0.2228,0.0000,0.2222,0.3636,0.5000,1.0000
+Year,OS Version Patch Minor,Scale Packet Length,5744.0000,0.3955,0.2228,0.0000,0.2222,0.3636,0.5000,1.0000
 Year,Device Brand,Device Model,32.0000,0.0701,0.0842,0.0056,0.0241,0.0352,0.0864,0.3810
 Year,Device Brand,Device Type,32.0000,0.0701,0.0842,0.0056,0.0241,0.0352,0.0864,0.3810
 Year,Device Brand,Packet Bin,48.0000,0.1286,0.2148,0.0000,0.0260,0.0373,0.0884,1.0000
@@ -3965,10 +3965,10 @@ Year,Device Type,Packet Bin,96.0000,0.1266,0.1620,0.0000,0.0375,0.0701,0.1453,1.
 Year,Device Type,Global Source IP,60.0000,0.2981,0.3619,0.0000,0.0310,0.0871,0.5000,1.0000
 Year,Device Type,Global Destination IP,58.0000,0.2525,0.2965,0.0000,0.0311,0.0948,0.3937,1.0000
 Year,Device Type,Is Proxy,64.0000,0.1093,0.1540,0.0035,0.0273,0.0526,0.1060,0.6667
-Year,Packet Bin,Packet_T,5744.0000,0.3955,0.2228,0.0000,0.2222,0.3636,0.5000,1.0000
-Year,Packet_T,Global Source IP,5920.0000,0.4141,0.2421,0.0000,0.2308,0.3750,0.5714,1.0000
-Year,Packet_T,Global Destination IP,5913.0000,0.4139,0.2417,0.0000,0.2308,0.3750,0.5714,1.0000
-Year,Packet_T,Is Proxy,11144.0000,0.5707,0.2955,0.0000,0.3333,0.5000,0.7500,1.0000
+Year,Packet Bin,Scale Packet Length,5744.0000,0.3955,0.2228,0.0000,0.2222,0.3636,0.5000,1.0000
+Year,Scale Packet Length,Global Source IP,5920.0000,0.4141,0.2421,0.0000,0.2308,0.3750,0.5714,1.0000
+Year,Scale Packet Length,Global Destination IP,5913.0000,0.4139,0.2417,0.0000,0.2308,0.3750,0.5714,1.0000
+Year,Scale Packet Length,Is Proxy,11144.0000,0.5707,0.2955,0.0000,0.3333,0.5000,0.7500,1.0000
 Month,Day,Hour,8678.0000,0.4996,0.2765,0.0000,0.2500,0.5000,0.6667,1.0000
 Month,Day,DayOfWeek,1380.0000,0.1870,0.0990,0.0000,0.1081,0.1790,0.2500,0.5625
 Month,Day,IsWeekend,623.0000,0.1375,0.0803,0.0000,0.0769,0.1207,0.1818,0.4062
@@ -4718,7 +4718,7 @@ DayOfWeek,IsWeekend,OS Version Patch,77.0000,0.0808,0.0450,0.0012,0.0510,0.0795,
 DayOfWeek,IsWeekend,Device Brand,28.0000,0.0890,0.1133,0.0047,0.0263,0.0375,0.0842,0.4000
 DayOfWeek,IsWeekend,Device Model,56.0000,0.0889,0.0835,0.0047,0.0353,0.0679,0.1120,0.4000
 DayOfWeek,IsWeekend,Device Type,56.0000,0.0889,0.0835,0.0047,0.0353,0.0679,0.1120,0.4000
-DayOfWeek,IsWeekend,Packet_T,9889.0000,0.5293,0.2890,0.0000,0.2500,0.5000,0.6667,1.0000
+DayOfWeek,IsWeekend,Scale Packet Length,9889.0000,0.5293,0.2890,0.0000,0.2500,0.5000,0.6667,1.0000
 DayOfWeek,Browser Name,Browser Version,1404.0000,0.3859,0.2880,0.0000,0.1667,0.3000,0.6000,1.0000
 DayOfWeek,Browser Name,Browser Minor,777.0000,0.2630,0.1628,0.0000,0.1333,0.2500,0.3636,0.8333
 DayOfWeek,Browser Name,Browser Patch,1556.0000,0.4615,0.3052,0.0000,0.2222,0.4286,0.6667,1.0000
@@ -4816,7 +4816,7 @@ DayOfWeek,OS Version Patch,Is Proxy,154.0000,0.1144,0.0721,0.0000,0.0613,0.1022,
 DayOfWeek,OS Version Patch Minor,Device Brand,28.0000,0.0890,0.1133,0.0047,0.0263,0.0375,0.0842,0.4000
 DayOfWeek,OS Version Patch Minor,Device Model,56.0000,0.0889,0.0835,0.0047,0.0353,0.0679,0.1120,0.4000
 DayOfWeek,OS Version Patch Minor,Device Type,56.0000,0.0889,0.0835,0.0047,0.0353,0.0679,0.1120,0.4000
-DayOfWeek,OS Version Patch Minor,Packet_T,9889.0000,0.5293,0.2890,0.0000,0.2500,0.5000,0.6667,1.0000
+DayOfWeek,OS Version Patch Minor,Scale Packet Length,9889.0000,0.5293,0.2890,0.0000,0.2500,0.5000,0.6667,1.0000
 DayOfWeek,Device Brand,Device Model,56.0000,0.0889,0.0835,0.0047,0.0353,0.0679,0.1120,0.4000
 DayOfWeek,Device Brand,Device Type,56.0000,0.0889,0.0835,0.0047,0.0353,0.0679,0.1120,0.4000
 DayOfWeek,Device Brand,Packet Bin,82.0000,0.1531,0.2417,0.0000,0.0237,0.0514,0.1072,1.0000
@@ -4832,10 +4832,10 @@ DayOfWeek,Device Type,Packet Bin,166.0000,0.1528,0.1850,0.0000,0.0479,0.0895,0.1
 DayOfWeek,Device Type,Global Source IP,97.0000,0.2985,0.3266,0.0000,0.0541,0.1333,0.5000,1.0000
 DayOfWeek,Device Type,Global Destination IP,99.0000,0.3254,0.3529,0.0053,0.0564,0.1373,0.5000,1.0000
 DayOfWeek,Device Type,Is Proxy,112.0000,0.1375,0.1886,0.0000,0.0378,0.0754,0.1300,1.0000
-DayOfWeek,Packet Bin,Packet_T,9889.0000,0.5293,0.2890,0.0000,0.2500,0.5000,0.6667,1.0000
+DayOfWeek,Packet Bin,Scale Packet Length,9889.0000,0.5293,0.2890,0.0000,0.2500,0.5000,0.6667,1.0000
 DayOfWeek,Packet Bin,Global Source IP,42.0000,0.1732,0.2140,0.0000,0.0235,0.0501,0.3022,0.8000
-DayOfWeek,Packet_T,Global Source IP,10065.0000,0.5390,0.2937,0.0000,0.2857,0.5000,0.7500,1.0000
-DayOfWeek,Packet_T,Global Destination IP,10058.0000,0.5380,0.2933,0.0000,0.2857,0.5000,0.7500,1.0000
+DayOfWeek,Scale Packet Length,Global Source IP,10065.0000,0.5390,0.2937,0.0000,0.2857,0.5000,0.7500,1.0000
+DayOfWeek,Scale Packet Length,Global Destination IP,10058.0000,0.5380,0.2933,0.0000,0.2857,0.5000,0.7500,1.0000
 DayOfWeek,Global Source IP,Global Destination IP,21.0000,0.1366,0.1258,0.0029,0.0217,0.1250,0.2222,0.3636
 IsWeekend,Browser Name,Browser Version,406.0000,0.2235,0.1810,0.0000,0.0952,0.1682,0.3058,1.0000
 IsWeekend,Browser Name,Browser Minor,222.0000,0.1510,0.1022,0.0000,0.0699,0.1340,0.2066,0.6250
@@ -4891,7 +4891,7 @@ IsWeekend,Browser Patch,Is Proxy,484.0000,0.2330,0.1449,0.0000,0.1333,0.2000,0.3
 IsWeekend,Browser Patch Minor,OS Version,88.0000,0.0942,0.0991,0.0056,0.0319,0.0725,0.1170,0.7500
 IsWeekend,Browser Patch Minor,OS Version Minor,56.0000,0.0785,0.0648,0.0090,0.0334,0.0670,0.1015,0.2881
 IsWeekend,Browser Patch Minor,OS Version Patch,44.0000,0.0684,0.0424,0.0083,0.0426,0.0658,0.0837,0.1953
-IsWeekend,Browser Patch Minor,Packet_T,5463.0000,0.4724,0.3018,0.0000,0.2400,0.4000,0.6667,1.0000
+IsWeekend,Browser Patch Minor,Scale Packet Length,5463.0000,0.4724,0.3018,0.0000,0.2400,0.4000,0.6667,1.0000
 IsWeekend,OS Name,OS Version,66.0000,0.0728,0.0660,0.0087,0.0241,0.0553,0.1027,0.3636
 IsWeekend,OS Name,OS Version Minor,46.0000,0.0721,0.0542,0.0024,0.0388,0.0606,0.0861,0.2857
 IsWeekend,OS Name,OS Version Patch,58.0000,0.0803,0.0731,0.0087,0.0320,0.0591,0.1152,0.4375
@@ -4923,8 +4923,8 @@ IsWeekend,OS Version Patch,Packet Bin,66.0000,0.0871,0.0626,0.0050,0.0406,0.0762
 IsWeekend,OS Version Patch,Global Source IP,42.0000,0.3379,0.3602,0.0049,0.0364,0.1056,0.5536,1.0000
 IsWeekend,OS Version Patch,Global Destination IP,41.0000,0.2667,0.3381,0.0000,0.0307,0.0779,0.5000,1.0000
 IsWeekend,OS Version Patch,Is Proxy,44.0000,0.0645,0.0432,0.0031,0.0297,0.0591,0.0948,0.1801
-IsWeekend,OS Version Patch Minor,Packet_T,2874.0000,0.2909,0.1784,0.0000,0.1667,0.2500,0.3750,1.0000
-IsWeekend,Device Brand,Packet_T,7840.0000,0.5504,0.3167,0.0000,0.2712,0.5000,0.8333,1.0000
+IsWeekend,OS Version Patch Minor,Scale Packet Length,2874.0000,0.2909,0.1784,0.0000,0.1667,0.2500,0.3750,1.0000
+IsWeekend,Device Brand,Scale Packet Length,7840.0000,0.5504,0.3167,0.0000,0.2712,0.5000,0.8333,1.0000
 IsWeekend,Device Brand,Global Source IP,15.0000,0.1997,0.2629,0.0018,0.0248,0.1522,0.2657,1.0000
 IsWeekend,Device Brand,Global Destination IP,16.0000,0.2374,0.3238,0.0022,0.0306,0.1208,0.2156,1.0000
 IsWeekend,Device Model,Packet Bin,48.0000,0.0866,0.1100,0.0000,0.0251,0.0632,0.0936,0.6667
@@ -4935,10 +4935,10 @@ IsWeekend,Device Type,Packet Bin,48.0000,0.0866,0.1100,0.0000,0.0251,0.0632,0.09
 IsWeekend,Device Type,Global Source IP,31.0000,0.2718,0.3155,0.0018,0.0405,0.1429,0.5000,1.0000
 IsWeekend,Device Type,Global Destination IP,31.0000,0.2394,0.2943,0.0022,0.0391,0.1250,0.3485,1.0000
 IsWeekend,Device Type,Is Proxy,32.0000,0.0719,0.0800,0.0015,0.0241,0.0445,0.1018,0.4000
-IsWeekend,Packet Bin,Packet_T,2874.0000,0.2909,0.1784,0.0000,0.1667,0.2500,0.3750,1.0000
-IsWeekend,Packet_T,Global Source IP,3043.0000,0.3299,0.2358,0.0000,0.1667,0.2727,0.4000,1.0000
-IsWeekend,Packet_T,Global Destination IP,3039.0000,0.3289,0.2351,0.0000,0.1667,0.2727,0.4000,1.0000
-IsWeekend,Packet_T,Is Proxy,5697.0000,0.4233,0.2629,0.0000,0.2222,0.3750,0.6000,1.0000
+IsWeekend,Packet Bin,Scale Packet Length,2874.0000,0.2909,0.1784,0.0000,0.1667,0.2500,0.3750,1.0000
+IsWeekend,Scale Packet Length,Global Source IP,3043.0000,0.3299,0.2358,0.0000,0.1667,0.2727,0.4000,1.0000
+IsWeekend,Scale Packet Length,Global Destination IP,3039.0000,0.3289,0.2351,0.0000,0.1667,0.2727,0.4000,1.0000
+IsWeekend,Scale Packet Length,Is Proxy,5697.0000,0.4233,0.2629,0.0000,0.2222,0.3750,0.6000,1.0000
 Browser Name,Browser Version,Browser Minor,473.0000,0.1696,0.1124,0.0000,0.0811,0.1458,0.2308,0.5455
 Browser Name,Browser Version,Browser Patch Minor,203.0000,0.1387,0.1000,0.0040,0.0564,0.1212,0.1899,0.4615
 Browser Name,Browser Version,OS Name,389.0000,0.1674,0.1131,0.0000,0.0857,0.1515,0.2333,1.0000
@@ -5289,15 +5289,15 @@ Browser Patch Minor,OS Version Patch,Packet Bin,66.0000,0.0833,0.0558,0.0110,0.0
 Browser Patch Minor,OS Version Patch,Global Source IP,40.0000,0.2660,0.3494,0.0000,0.0341,0.0630,0.5000,1.0000
 Browser Patch Minor,OS Version Patch,Global Destination IP,42.0000,0.3074,0.3533,0.0000,0.0389,0.0753,0.5000,1.0000
 Browser Patch Minor,OS Version Patch,Is Proxy,44.0000,0.0718,0.0485,0.0091,0.0405,0.0574,0.0917,0.2738
-Browser Patch Minor,OS Version Patch Minor,Packet_T,2869.0000,0.3220,0.2214,0.0000,0.1600,0.2609,0.4286,1.0000
+Browser Patch Minor,OS Version Patch Minor,Scale Packet Length,2869.0000,0.3220,0.2214,0.0000,0.1600,0.2609,0.4286,1.0000
 Browser Patch Minor,Device Model,Global Source IP,28.0000,0.2318,0.2941,0.0092,0.0311,0.1042,0.3438,1.0000
 Browser Patch Minor,Device Model,Global Destination IP,27.0000,0.1817,0.2402,0.0000,0.0239,0.0769,0.2554,1.0000
 Browser Patch Minor,Device Type,Global Source IP,28.0000,0.2318,0.2941,0.0092,0.0311,0.1042,0.3438,1.0000
 Browser Patch Minor,Device Type,Global Destination IP,27.0000,0.1817,0.2402,0.0000,0.0239,0.0769,0.2554,1.0000
-Browser Patch Minor,Packet Bin,Packet_T,2869.0000,0.3220,0.2214,0.0000,0.1600,0.2609,0.4286,1.0000
-Browser Patch Minor,Packet_T,Global Source IP,3036.0000,0.3586,0.2632,0.0000,0.1667,0.2835,0.5000,1.0000
-Browser Patch Minor,Packet_T,Global Destination IP,3033.0000,0.3588,0.2631,0.0000,0.1667,0.2800,0.5000,1.0000
-Browser Patch Minor,Packet_T,Is Proxy,5584.0000,0.4553,0.2919,0.0000,0.2308,0.4000,0.6667,1.0000
+Browser Patch Minor,Packet Bin,Scale Packet Length,2869.0000,0.3220,0.2214,0.0000,0.1600,0.2609,0.4286,1.0000
+Browser Patch Minor,Scale Packet Length,Global Source IP,3036.0000,0.3586,0.2632,0.0000,0.1667,0.2835,0.5000,1.0000
+Browser Patch Minor,Scale Packet Length,Global Destination IP,3033.0000,0.3588,0.2631,0.0000,0.1667,0.2800,0.5000,1.0000
+Browser Patch Minor,Scale Packet Length,Is Proxy,5584.0000,0.4553,0.2919,0.0000,0.2308,0.4000,0.6667,1.0000
 Browser Patch Minor,Global Source IP,Global Destination IP,6.0000,0.0991,0.0730,0.0059,0.0358,0.1288,0.1551,0.1622
 OS Name,OS Version,OS Version Minor,61.0000,0.0694,0.0598,0.0036,0.0300,0.0468,0.0984,0.2653
 OS Name,OS Version,OS Version Patch,69.0000,0.0834,0.0680,0.0036,0.0294,0.0617,0.1356,0.2615
@@ -5324,16 +5324,16 @@ OS Name,OS Version Patch,Packet Bin,87.0000,0.0961,0.0807,0.0042,0.0460,0.0738,0
 OS Name,OS Version Patch,Global Source IP,52.0000,0.2574,0.3109,0.0000,0.0377,0.0846,0.4250,1.0000
 OS Name,OS Version Patch,Global Destination IP,56.0000,0.2994,0.3472,0.0000,0.0376,0.1120,0.5000,1.0000
 OS Name,OS Version Patch,Is Proxy,58.0000,0.0829,0.0712,0.0042,0.0341,0.0610,0.1048,0.3469
-OS Name,OS Version Patch Minor,Packet_T,6983.0000,0.4931,0.2915,0.0000,0.2500,0.5000,0.6667,1.0000
-OS Name,Device Brand,Packet_T,7942.0000,0.5386,0.3081,0.0000,0.2727,0.5000,0.7500,1.0000
+OS Name,OS Version Patch Minor,Scale Packet Length,6983.0000,0.4931,0.2915,0.0000,0.2500,0.5000,0.6667,1.0000
+OS Name,Device Brand,Scale Packet Length,7942.0000,0.5386,0.3081,0.0000,0.2727,0.5000,0.7500,1.0000
 OS Name,Device Model,Packet Bin,36.0000,0.0982,0.1371,0.0000,0.0207,0.0445,0.0975,0.6667
 OS Name,Device Model,Global Destination IP,23.0000,0.2145,0.2823,0.0079,0.0208,0.1111,0.2721,1.0000
 OS Name,Device Type,Packet Bin,36.0000,0.0982,0.1371,0.0000,0.0207,0.0445,0.0975,0.6667
 OS Name,Device Type,Global Destination IP,23.0000,0.2145,0.2823,0.0079,0.0208,0.1111,0.2721,1.0000
-OS Name,Packet Bin,Packet_T,6983.0000,0.4931,0.2915,0.0000,0.2500,0.5000,0.6667,1.0000
+OS Name,Packet Bin,Scale Packet Length,6983.0000,0.4931,0.2915,0.0000,0.2500,0.5000,0.6667,1.0000
 OS Name,Packet Bin,Global Source IP,30.0000,0.1897,0.2283,0.0031,0.0222,0.0710,0.2932,0.6667
-OS Name,Packet_T,Global Source IP,7153.0000,0.5061,0.2987,0.0000,0.2500,0.5000,0.6667,1.0000
-OS Name,Packet_T,Global Destination IP,7148.0000,0.5060,0.2978,0.0000,0.2500,0.5000,0.6667,1.0000
+OS Name,Scale Packet Length,Global Source IP,7153.0000,0.5061,0.2987,0.0000,0.2500,0.5000,0.6667,1.0000
+OS Name,Scale Packet Length,Global Destination IP,7148.0000,0.5060,0.2978,0.0000,0.2500,0.5000,0.6667,1.0000
 OS Name,Global Source IP,Global Destination IP,15.0000,0.1339,0.1200,0.0074,0.0213,0.0952,0.2361,0.3750
 OS Version,OS Version Minor,OS Version Patch,163.0000,0.1105,0.0643,0.0036,0.0637,0.0996,0.1579,0.2653
 OS Version,OS Version Minor,OS Version Patch Minor,51.0000,0.0663,0.0634,0.0036,0.0280,0.0423,0.0801,0.2653
@@ -5443,24 +5443,24 @@ OS Version Patch,Packet Bin,Is Proxy,66.0000,0.0796,0.0505,0.0000,0.0414,0.0764,
 OS Version Patch,Global Source IP,Global Destination IP,33.0000,0.2615,0.3035,0.0000,0.0259,0.0952,0.5000,1.0000
 OS Version Patch,Global Source IP,Is Proxy,41.0000,0.2963,0.3584,0.0000,0.0397,0.0845,0.5000,1.0000
 OS Version Patch,Global Destination IP,Is Proxy,42.0000,0.2320,0.3142,0.0000,0.0309,0.0819,0.3125,1.0000
-OS Version Patch Minor,Device Brand,Packet_T,4309.0000,0.3986,0.2676,0.0000,0.2000,0.3333,0.5000,1.0000
+OS Version Patch Minor,Device Brand,Scale Packet Length,4309.0000,0.3986,0.2676,0.0000,0.2000,0.3333,0.5000,1.0000
 OS Version Patch Minor,Device Model,Global Source IP,16.0000,0.1471,0.2568,0.0000,0.0211,0.0500,0.1061,1.0000
 OS Version Patch Minor,Device Model,Global Destination IP,16.0000,0.1937,0.2586,0.0072,0.0218,0.1033,0.2819,1.0000
 OS Version Patch Minor,Device Type,Global Source IP,16.0000,0.1471,0.2568,0.0000,0.0211,0.0500,0.1061,1.0000
 OS Version Patch Minor,Device Type,Global Destination IP,16.0000,0.1937,0.2586,0.0072,0.0218,0.1033,0.2819,1.0000
-OS Version Patch Minor,Packet Bin,Packet_T,1437.0000,0.1858,0.0974,0.0000,0.1154,0.1739,0.2500,0.5556
-OS Version Patch Minor,Packet_T,Global Source IP,1599.0000,0.2650,0.2561,0.0000,0.1250,0.1905,0.2857,1.0000
-OS Version Patch Minor,Packet_T,Global Destination IP,1597.0000,0.2647,0.2563,0.0000,0.1250,0.1875,0.2857,1.0000
-OS Version Patch Minor,Packet_T,Is Proxy,2874.0000,0.2670,0.1466,0.0000,0.1579,0.2500,0.3571,0.8889
+OS Version Patch Minor,Packet Bin,Scale Packet Length,1437.0000,0.1858,0.0974,0.0000,0.1154,0.1739,0.2500,0.5556
+OS Version Patch Minor,Scale Packet Length,Global Source IP,1599.0000,0.2650,0.2561,0.0000,0.1250,0.1905,0.2857,1.0000
+OS Version Patch Minor,Scale Packet Length,Global Destination IP,1597.0000,0.2647,0.2563,0.0000,0.1250,0.1875,0.2857,1.0000
+OS Version Patch Minor,Scale Packet Length,Is Proxy,2874.0000,0.2670,0.1466,0.0000,0.1579,0.2500,0.3571,0.8889
 OS Version Patch Minor,Global Source IP,Global Destination IP,3.0000,0.0579,0.0528,0.0037,0.0322,0.0608,0.0850,0.1092
 Device Brand,Device Model,Global Source IP,16.0000,0.1471,0.2568,0.0000,0.0211,0.0500,0.1061,1.0000
 Device Brand,Device Model,Global Destination IP,16.0000,0.1937,0.2586,0.0072,0.0218,0.1033,0.2819,1.0000
 Device Brand,Device Type,Global Source IP,16.0000,0.1471,0.2568,0.0000,0.0211,0.0500,0.1061,1.0000
 Device Brand,Device Type,Global Destination IP,16.0000,0.1937,0.2586,0.0072,0.0218,0.1033,0.2819,1.0000
-Device Brand,Packet Bin,Packet_T,4309.0000,0.3986,0.2676,0.0000,0.2000,0.3333,0.5000,1.0000
-Device Brand,Packet_T,Global Source IP,4480.0000,0.4226,0.2865,0.0000,0.2000,0.3333,0.6000,1.0000
-Device Brand,Packet_T,Global Destination IP,4473.0000,0.4209,0.2857,0.0000,0.2000,0.3333,0.6000,1.0000
-Device Brand,Packet_T,Is Proxy,8063.0000,0.5333,0.3055,0.0000,0.2857,0.5000,0.7500,1.0000
+Device Brand,Packet Bin,Scale Packet Length,4309.0000,0.3986,0.2676,0.0000,0.2000,0.3333,0.5000,1.0000
+Device Brand,Scale Packet Length,Global Source IP,4480.0000,0.4226,0.2865,0.0000,0.2000,0.3333,0.6000,1.0000
+Device Brand,Scale Packet Length,Global Destination IP,4473.0000,0.4209,0.2857,0.0000,0.2000,0.3333,0.6000,1.0000
+Device Brand,Scale Packet Length,Is Proxy,8063.0000,0.5333,0.3055,0.0000,0.2857,0.5000,0.7500,1.0000
 Device Brand,Global Source IP,Global Destination IP,12.0000,0.2419,0.3634,0.0063,0.0349,0.1104,0.1875,1.0000
 Device Model,Device Type,Global Source IP,16.0000,0.1471,0.2568,0.0000,0.0211,0.0500,0.1061,1.0000
 Device Model,Device Type,Global Destination IP,16.0000,0.1937,0.2586,0.0072,0.0218,0.1033,0.2819,1.0000
@@ -5476,9 +5476,9 @@ Device Type,Packet Bin,Is Proxy,48.0000,0.0757,0.0792,0.0053,0.0256,0.0567,0.090
 Device Type,Global Source IP,Global Destination IP,24.0000,0.2129,0.2814,0.0000,0.0294,0.0944,0.3039,1.0000
 Device Type,Global Source IP,Is Proxy,30.0000,0.1608,0.2359,0.0000,0.0265,0.0643,0.2107,1.0000
 Device Type,Global Destination IP,Is Proxy,31.0000,0.2398,0.3106,0.0063,0.0264,0.1144,0.3030,1.0000
-Packet Bin,Packet_T,Global Source IP,1599.0000,0.2650,0.2561,0.0000,0.1250,0.1905,0.2857,1.0000
-Packet Bin,Packet_T,Global Destination IP,1597.0000,0.2647,0.2563,0.0000,0.1250,0.1875,0.2857,1.0000
-Packet Bin,Packet_T,Is Proxy,2874.0000,0.2670,0.1466,0.0000,0.1579,0.2500,0.3571,0.8889
-Packet_T,Global Source IP,Global Destination IP,1759.0000,0.3294,0.3197,0.0000,0.1290,0.2059,0.3333,1.0000
-Packet_T,Global Source IP,Is Proxy,3044.0000,0.3075,0.2191,0.0000,0.1667,0.2667,0.3846,1.0000
-Packet_T,Global Destination IP,Is Proxy,3042.0000,0.3075,0.2188,0.0000,0.1667,0.2649,0.3846,1.0000
+Packet Bin,Scale Packet Length,Global Source IP,1599.0000,0.2650,0.2561,0.0000,0.1250,0.1905,0.2857,1.0000
+Packet Bin,Scale Packet Length,Global Destination IP,1597.0000,0.2647,0.2563,0.0000,0.1250,0.1875,0.2857,1.0000
+Packet Bin,Scale Packet Length,Is Proxy,2874.0000,0.2670,0.1466,0.0000,0.1579,0.2500,0.3571,0.8889
+Scale Packet Length,Global Source IP,Global Destination IP,1759.0000,0.3294,0.3197,0.0000,0.1290,0.2059,0.3333,1.0000
+Scale Packet Length,Global Source IP,Is Proxy,3044.0000,0.3075,0.2191,0.0000,0.1667,0.2667,0.3846,1.0000
+Scale Packet Length,Global Destination IP,Is Proxy,3042.0000,0.3075,0.2188,0.0000,0.1667,0.2649,0.3846,1.0000
