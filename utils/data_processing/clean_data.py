@@ -191,7 +191,7 @@ def smote_data():
     xgb_fs.fit(X_proc, y_orig)
     print(xgb_fs.feature_importances_.shape)
     importances_orig = xgb_fs.feature_importances_
-    idx_orig = np.argsort(importances_orig)[::-1][:X_proc.shape[0]]
+    idx_orig = np.argsort(importances_orig)[::-1][:min(800,X_proc.shape[1])]
     X_sel = X_proc[:, idx_orig]
     y_sel = y_orig.copy()
 
