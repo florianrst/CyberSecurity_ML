@@ -9,7 +9,7 @@ from imblearn.combine import SMOTETomek
 from xgboost import XGBClassifier
 from sklearn.decomposition import PCA
 
-# from utils.data_processing import df_ua_parser
+from utils.data_processing import df_ua_parser
 
 full_dtypes={
     "Timestamp":"string",
