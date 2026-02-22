@@ -121,10 +121,10 @@ def transform_packetinfo(serie:pd.Series,scale=True):
 
 def transform_ipinfo(df:pd.DataFrame):
     columns = df.columns
-    ip_columns = [f"Int {col}" for col in columns if "IP Address" in col]
-    df[ip_columns] = df[columns].map(lambda x: int(IPv4Address(x)))
-    global_columns = [f"Global {col}" for col in columns if "IP Address" in col]
-    df[["Global Source IP","Global Destination IP"]] = df[["Source IP Address", "Destination IP Address"]].map(lambda x : IPv4Address(x).is_global)
+    ip_columns = [f"Int {col}" for col in columns]
+    df[ip_columns] = df[columns].map(lambda x: int(IPv4Address(x)) if pd.notna(x) and x.strip() != "" else np.nan)
+    global_columns = [f"Global {col}" for col in columns]
+    df[global_columns] = df[columns].map(lambda x : IPv4Address(x).is_global if pd.notna(x) and x.strip() != "" else np.nan)
     return df.drop(columns=columns)
 
 def transform_proxyinfo(serie:pd.Series):
