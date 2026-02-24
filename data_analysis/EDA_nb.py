@@ -45,7 +45,7 @@ def _():
 
 @app.cell
 def _(pd):
-    df = pd.read_csv("cybersecurity_attacks1.csv", encoding="utf-8")
+    df = pd.read_csv("./data/cybersecurity_attacks.csv", encoding="utf-8")
     return (df,)
 
 
@@ -1596,7 +1596,7 @@ def _(mo):
 
 @app.cell
 def _(df3, pd):
-    from user_agents import parse
+    from ua_parser import parse
 
     # Supposons que 'df' est votre DataFrame et 'user_agent_column' votre colonne
     def process_ua(ua_string):
@@ -1765,12 +1765,12 @@ def _(chrome, df3, pd):
     return
 
 
-app._unparsable_cell(
-    r"""
+@app.cell(hide_code=True)
+def _(mo):
+    mo.md(r"""
     We take only the main version of chrome because there are too much versions.
-    """,
-    name="_"
-)
+    """)
+    return
 
 
 @app.cell
