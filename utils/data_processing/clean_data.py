@@ -1,9 +1,13 @@
-from executing import Source
+
 import pandas as pd
 import numpy as np
 from pathlib import Path
 from ipaddress import IPv4Address, IPv4Network
-from sklearn.preprocessing import StandardScaler
+from sklearn.compose import ColumnTransformer
+from sklearn.preprocessing import OneHotEncoder, StandardScaler
+from imblearn.combine import SMOTETomek
+from xgboost import XGBClassifier
+from sklearn.decomposition import PCA
 
 from utils.data_processing import df_ua_parser
 
@@ -117,10 +121,10 @@ def transform_packetinfo(serie:pd.Series,scale=True):
 
 def transform_ipinfo(df:pd.DataFrame):
     columns = df.columns
-    ip_columns = [f"Int {col}" for col in columns if "IP Address" in col]
-    df[ip_columns] = df[columns].map(lambda x: int(IPv4Address(x)))
-    global_columns = [f"Global {col}" for col in columns if "IP Address" in col]
-    df[["Global Source IP","Global Destination IP"]] = df[["Source IP Address", "Destination IP Address"]].map(lambda x : IPv4Address(x).is_global)
+    ip_columns = [f"Int {col}" for col in columns]
+    df[ip_columns] = df[columns].map(lambda x: int(IPv4Address(x)) if pd.notna(x) and x.strip() != "" else np.nan)
+    global_columns = [f"Global {col}" for col in columns]
+    df[global_columns] = df[columns].map(lambda x : IPv4Address(x).is_global if pd.notna(x) and x.strip() != "" else np.nan)
     return df.drop(columns=columns)
 
 def transform_proxyinfo(serie:pd.Series):
@@ -157,3 +161,47 @@ def clean_data(file_path, get_datetimeinfo=True, check_missing_values=True, scal
 
     clean_data= clean_data.drop(columns=["Payload Data", "User Information"])
     clean_data.to_csv(file_path.parent.joinpath("processed_data.csv"), index=False)
+
+
+def smote_data():
+    filepath= Path(__file__).parent.parent.parent.joinpath("data")
+    random_state= 56
+    df = pd.read_csv(filepath.joinpath("cybersecurity_attacks.csv"))
+
+    X_orig = df.drop(columns=["Attack Type"])
+    y_orig = df["Attack Type"].astype("category").cat.codes
+
+    num_cols = X_orig.select_dtypes(include=['int64','int32','float64']).columns.tolist()
+    cat_cols = X_orig.select_dtypes(include=['object']).columns.tolist()
+    preproc_orig = ColumnTransformer(
+        transformers=[
+            ('num', StandardScaler(), num_cols),
+            ('cat', OneHotEncoder(handle_unknown='ignore'), cat_cols),
+        ]
+    )
+    X_proc = preproc_orig.fit_transform(X_orig)
+    print(X_proc.shape)
+    print(preproc_orig.get_feature_names_out())
+
+    xgb_fs = XGBClassifier(
+            n_estimators=200, learning_rate=0.05, max_depth=10,
+            random_state=random_state, tree_method="hist"
+        )
+    
+    xgb_fs.fit(X_proc, y_orig)
+    print(xgb_fs.feature_importances_.shape)
+    importances_orig = xgb_fs.feature_importances_
+    idx_orig = np.argsort(importances_orig)[::-1][:min(800,X_proc.shape[1])]
+    X_sel = X_proc[:, idx_orig]
+    y_sel = y_orig.copy()
+
+    if hasattr(X_sel, "toarray"):
+        X_sel = X_sel.toarray()
+    print(X_sel.shape)
+    sm = SMOTETomek(random_state=random_state)
+    X_sel, y_sel = sm.fit_resample(X_sel, y_sel)
+    X_sel = PCA(n_components=0.98, svd_solver="full").fit_transform(X_sel)
+    print(X_sel.shape)
+    output_data = pd.DataFrame(X_sel)
+    output_data["Attack Type"] = y_sel
+    output_data.to_csv(filepath.joinpath("cybersecurity_attacks_smote2.csv"), index=False)
