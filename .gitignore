@@ -1,4 +1,5 @@
 
 #Python virtual environment
 .venv
+#Marimo notebooks
 __marimo__/
