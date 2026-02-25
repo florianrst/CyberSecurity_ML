@@ -1,12 +1,13 @@
 import marimo
 
-__generated_with = "0.19.7"
+__generated_with = "0.20.2"
 app = marimo.App(width="medium")
 
 
 @app.cell
 def _():
     import marimo as mo
+
     return
 
 
@@ -31,6 +32,8 @@ def _():
     from sklearn.linear_model import LogisticRegression
     from sklearn.neighbors import KNeighborsClassifier
     import warnings
+    import os
+
     return (
         BaggingClassifier,
         ConfusionMatrixDisplay,
@@ -58,13 +61,13 @@ def _():
 
 @app.cell
 def _(pd):
-    df = pd.read_csv("C:/Users/LBS/Documents/MLProject/CyberSecurity_ML/data/cyber_attacks_full.csv", encoding="utf-8")
+    df = pd.read_csv("./data/cyber_attacks_full.csv", encoding="utf-8")
     return (df,)
 
 
 @app.cell
 def _(pd):
-    df2 = pd.read_csv("../data/updated_cybersecurity_attacks.csv", encoding="utf-8")
+    df2 = pd.read_csv("./data/updated_cybersecurity_attacks.csv", encoding="utf-8")
     return
 
 
@@ -196,6 +199,7 @@ def _(chi2_contingency, np, pd):
         # 3. Restitution ordonnée par pouvoir discriminant (V de Cramer décroissant)
         results_df = pd.DataFrame(results).sort_values(by='V de Cramer', ascending=False)
         return results_df.reset_index(drop=True)
+
     return (compute_all_cramer_v,)
 
 
@@ -298,6 +302,7 @@ def _(plt):
         ax.set_xlabel(column_name)
         ax.grid(True, which='both', linestyle='--', linewidth=0.5)
         return ax
+
     return (time_line_analysis,)
 
 
@@ -692,22 +697,22 @@ def _(np, pd):
         """
         classes = train_df[target_col].dropna().unique()
         counters = {c: 0.0 for c in classes}
-    
+
         if verbose: 
             print(f"\n{'='*45}")
             print(f"ANALYSE MICROSCOPIQUE DE L'OBSERVATION")
             print(f"{'='*45}")
-    
+
         for feat in features:
             val = observation.get(feat, np.nan)
             if pd.isna(val): continue
-            
+
             # Fenêtre glissante de Parzen-Rosenblatt pour variables continues
             if pd.api.types.is_numeric_dtype(train_df[feat]):
                 lower_bound, upper_bound = val * 0.95, val * 1.05
                 if val < 0: lower_bound, upper_bound = upper_bound, lower_bound
                 elif val == 0: lower_bound, upper_bound = -1e-5, 1e-5
-            
+
                 subset = train_df[(train_df[feat] >= lower_bound) & (train_df[feat] <= upper_bound)]
                 if verbose: 
                     print(f"[Variable: {feat}] Numérique | Valeur cible: {val:.2f}")
@@ -718,12 +723,12 @@ def _(np, pd):
                 if verbose: 
                     print(f"[Variable: {feat}] Catégoriel | Modalité: {val}")
                     print(f"   -> Échantillons trouvés: {len(subset)}")
-            
+
             # Gestion des variables OOV (Out-Of-Vocabulary)
             if subset.empty: 
                 if verbose: print("   -> REJET : Entité hors-vocabulaire (OOV)\n")
                 continue
-            
+
             # Extraction de la distribution a posteriori conditionnelle
             proportions = subset[target_col].value_counts(normalize=True)
             if len(proportions) >= 2:
@@ -732,12 +737,12 @@ def _(np, pd):
                 diff = 1.0
             else:
                 continue
-            
+
             if verbose: 
                 props_str = ", ".join([f"{k}: {v*100:.1f}%" for k,v in proportions.items()])
                 print(f"   -> Distributions: {props_str}")
                 print(f"   -> Marge (Top1 - Top2): {diff*100:.2f}% (Seuil: {threshold*100:.2f}%)")
-            
+
             # Décision d'intégration au vote
             if diff >= threshold:
                 w = weights.get(feat, 1.0)
@@ -746,7 +751,7 @@ def _(np, pd):
                     counters[class_name] += prop_value * w
             else:
                 if verbose: print(f"   -> VERDICT: Rejeté ❌ (Bruit statistique élevé)\n")
-                
+
         # Mécanisme de prédiction
         if all(v == 0 for v in counters.values()):
             pred_class = train_df[target_col].mode()[0]
@@ -758,7 +763,7 @@ def _(np, pd):
                 print(f"COMPTEURS FINAUX: {counters}")
                 print(f"PRÉDICTION: {pred_class}")
                 print(f"{'-'*45}\n")
-            
+
         return pred_class
 
 
@@ -773,24 +778,25 @@ def _(classification_report, custom_predict_one, pd, train_test_split):
         df = df.dropna(subset=[target_col])
         X = df[features]
         y = df[target_col]
-    
+
         X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=test_size, random_state=random_state)
         train_df = pd.concat([X_train, y_train], axis=1)
-    
+
         y_pred = []
         weights_dict = {feat: 1.0 for feat in features}
-    
+
         print("Début du processus d'inférence séquentielle...\n")
         # Pour ne pas saturer la console, on n'affiche la trace que pour le 1er élément
         for i, (idx, row) in enumerate(X_test.iterrows()):
             is_verbose = (i == 0) 
             pred = custom_predict_one(train_df, row, target_col, features, weights_dict, threshold, verbose=is_verbose)
             y_pred.append(pred)
-        
+
         print("\n=== RAPPORT DE CLASSIFICATION SYNOPTIQUE ===")
         print(classification_report(y_test, y_pred, zero_division=0))
-    
+
         return y_test, y_pred
+
     return
 
 
