@@ -1,4 +1,5 @@
-pandas==3.0.0
+streamlit==1.54.0
+pandas<3.0.0
 jupyterlab==4.5.3
 notebook==7.5.3
 plotly==6.5.2 
@@ -14,4 +15,3 @@ seaborn==0.13.2
 geopy==2.4.1
 folium==0.20.0
 ipywidgets==8.1.8
-## streamlit==1.54.0
