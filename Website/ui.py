@@ -1,11 +1,20 @@
 import streamlit as st
 import pandas as pd
 import plotly.express as px
+import pickle
+from pathlib import Path
+from sklearn.preprocessing import LabelEncoder
+from sklearn.model_selection import train_test_split
+from sklearn.metrics import accuracy_score, classification_report
 # import joblib  # Pour charger votre modèle pré-entraîné
 
+data_path = Path("data")
 
 def validate_dataset(df: pd.DataFrame, required_features: tuple[str]):
-    """Vérifie l'adéquation entre le dataset chargé et les besoins du modèle."""
+    """
+    Vérifie l'adéquation entre le dataset chargé et les besoins du modèle.
+    Not implemented yet
+    """
     columns_present = set(df.columns)
     columns_missing = [col for col in required_features if col not in columns_present]
     return columns_missing
@@ -13,18 +22,41 @@ def validate_dataset(df: pd.DataFrame, required_features: tuple[str]):
 
 def evaluate_model(df: pd.DataFrame):
     """
-    Fonction d'évaluation du modèle (à compléter).
+    Fonction d'évaluation du modèle.
     Retourne un dictionnaire de métriques.
     """
-    # TODO: load the model and calculate real metrics
-    # model = joblib.load('mon_modele.pkl')
-    # predictions = model.predict(df)
-    return {
-        "Accuracy": "—",
-        "Precision": "—",
-        "Recall": "—",
-        "F1-Score": "—",
-    }
+
+    with open(data_path.joinpath("model.pkl"), "rb") as f:
+        model = pickle.load(f)
+
+    X_train, X_test, y_train, y_test = get_training_data(df)
+
+    y_pred = model.predict(X_test)
+    accuracy = accuracy_score(y_test, y_pred)
+    report = classification_report(y_test, y_pred, output_dict=True)
+    return report
+
+def get_training_data(df):
+    """
+    Transform user inputs into training data format for the model.
+    """
+    cols_to_fill = ['Malware Indicators', 'Alerts/Warnings', 'Firewall Logs', 'IDS/IPS Alerts', 'Proxy Information']
+    for col in cols_to_fill:
+        df[col] = df[col].fillna('None')
+    num_features = ['Source Port', 'Destination Port', 'Packet Length', 'Anomaly Scores']
+    cat_features = ['Timestamp', 'Protocol', 'Packet Type', 'Traffic Type', 'Malware Indicators', 'Alerts/Warnings', 
+                    'Attack Signature', 'Action Taken', 'Severity Level', 'Network Segment', 'Log Source']
+    text_feature = 'Payload Data'
+
+    X = df[num_features + cat_features + [text_feature]]
+    y = df['Attack Type']
+
+    le = LabelEncoder()
+    y_encoded = le.fit_transform(y)
+
+    X_train, X_test, y_train, y_test = train_test_split(X, y_encoded, test_size=0.2, random_state=42)
+
+    return X_train, X_test, y_train, y_test
 
 # TODO: put our necessary features here
 FEATURES_REQUIRED = ("Device Information", "Packet Length")
