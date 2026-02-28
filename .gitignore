@@ -4,3 +4,5 @@
 .webenv
 #Marimo notebooks
 __marimo__/
+
+env/
