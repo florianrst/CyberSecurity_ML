@@ -44,9 +44,9 @@ It runs from top to bottom and features:
 
 # Website
 We provice a website interface that can be used to upload cyber-attack dataset similar to the one used for the training of our model.
-To run the website, use the following command on the terminal
+To run the website, use the following command on the terminal from the root of this repository :
 ```bash
-Some code here
+streamlit run ui.py
 ```
 Then open the [following link](https://127.168.1.1).
 
