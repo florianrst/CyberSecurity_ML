@@ -1,12 +1,11 @@
 import streamlit as st
 import pandas as pd
 import plotly.express as px
-import pickle
 from pathlib import Path
 from sklearn.preprocessing import LabelEncoder
 from sklearn.model_selection import train_test_split
 from sklearn.metrics import accuracy_score, classification_report
-# import joblib  # Pour charger votre modèle pré-entraîné
+import joblib  # Pour charger votre modèle pré-entraîné
 
 data_path = Path("data")
 
@@ -25,15 +24,18 @@ def evaluate_model(df: pd.DataFrame):
     Fonction d'évaluation du modèle.
     Retourne un dictionnaire de métriques.
     """
-
-    with open(data_path.joinpath("model.pkl"), "rb") as f:
-        model = pickle.load(f)
-
+    model = joblib.load(data_path.joinpath("final_model.joblib"))
     X_train, X_test, y_train, y_test = get_training_data(df)
 
     y_pred = model.predict(X_test)
     accuracy = accuracy_score(y_test, y_pred)
     report = classification_report(y_test, y_pred, output_dict=True)
+    print(report)
+    for key, value in report.items():
+        if isinstance(value, dict):
+            report[key] = {metric: round(score, 3) for metric, score in value.items()}
+        elif isinstance(value, (int, float)):
+            report[key] = round(value, 3)
     return report
 
 def get_training_data(df):
@@ -57,6 +59,9 @@ def get_training_data(df):
     X_train, X_test, y_train, y_test = train_test_split(X, y_encoded, test_size=0.2, random_state=42)
 
     return X_train, X_test, y_train, y_test
+
+def to_dense(X):
+    return X.toarray() if hasattr(X, "toarray") else X
 
 # TODO: put our necessary features here
 FEATURES_REQUIRED = ("Device Information", "Packet Length")
