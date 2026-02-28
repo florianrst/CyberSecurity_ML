@@ -44,9 +44,16 @@ It runs from top to bottom and features:
 
 # Website
 We provice a website interface that can be used to upload cyber-attack dataset similar to the one used for the training of our model.
-To run the website, use the following command on the terminal
-```bash
-Some code here
+Because the website was developed on another framework. A specific virtual environment must be used. To create it, use the following command:
+ ```bash
+python -m venv ./name_of_website_venv
+source ./name_of_website_venv/bin/activate
+pip install -r web_requirements.txt
 ```
-Then open the [following link](https://127.168.1.1).
+
+To run the website, use the following command on the terminal
+```python
+streamlit run Website/ui.py
+```
+Then open the [following link](http://localhost:8501).
 
