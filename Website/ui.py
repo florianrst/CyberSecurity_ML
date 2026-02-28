@@ -30,13 +30,8 @@ def evaluate_model(df: pd.DataFrame):
     y_pred = model.predict(X_test)
     accuracy = accuracy_score(y_test, y_pred)
     report = classification_report(y_test, y_pred, output_dict=True)
-    print(report)
-    for key, value in report.items():
-        if isinstance(value, dict):
-            report[key] = {metric: round(score, 3) for metric, score in value.items()}
-        elif isinstance(value, (int, float)):
-            report[key] = round(value, 3)
-    return report
+    
+    return accuracy, report
 
 def get_training_data(df):
     """
@@ -103,12 +98,14 @@ with tabs[0]:
                 if missing:
                     st.warning(f"⚠️ Missing required feature(s): {missing}")
                 else:
-                    results = evaluate_model(df_eval)
+                    accuracy, report = evaluate_model(df_eval)
                     st.subheader("📈 Results")
-                    r_cols = st.columns(len(results))
-                    for i, (metric, value) in enumerate(results.items()):
-                        r_cols[i].metric(metric, value)
-                    st.info("ℹ️ The trained model was not provided in the `evaluate_model()` function to display the result and real metrics.")
+                    st.markdown("Accuracy: **{:.2f}%**".format(accuracy * 100))
+                    st.markdown("#### Classification Report")
+                    report_df = pd.DataFrame(report).rename(index={0:"DDoS", 1:"Intrusion", 2:"Malware"}).T
+                    report_df.loc["accuracy",:"recall"] = pd.NA
+                    report_df.loc["accuracy", "support"] = report_df.loc["macro avg", "support"]
+                    st.dataframe(report_df, width="stretch",)
 
 # ════════════════════════════════════════════════════════════════════════════
 # TAB 2 – Data dictionary

@@ -1,0 +1,127 @@
+[33ma57de58[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m)[m HEAD@{0}: checkout: moving from website to main
+[33m84f830c[m HEAD@{1}: checkout: moving from main to website
+[33ma57de58[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m)[m HEAD@{2}: commit: update website with model
+[33md2586ec[m HEAD@{3}: checkout: moving from website to main
+[33m84f830c[m HEAD@{4}: checkout: moving from main to website
+[33md2586ec[m HEAD@{5}: commit: update main notebook
+[33mfda61e7[m HEAD@{6}: commit: add part in main notebook.
+[33m2e8bbca[m HEAD@{7}: commit: start adding hyper parameter search
+[33mb7a9790[m HEAD@{8}: checkout: moving from website to main
+[33m84f830c[m HEAD@{9}: commit: don't care
+[33m989f689[m HEAD@{10}: checkout: moving from main to website
+[33mb7a9790[m HEAD@{11}: checkout: moving from website to main
+[33m989f689[m HEAD@{12}: commit: working on dtypes
+[33mffdc06c[m HEAD@{13}: checkout: moving from main to website
+[33mb7a9790[m HEAD@{14}: commit: check dtypes
+[33mb2b654a[m HEAD@{15}: checkout: moving from website to main
+[33mffdc06c[m HEAD@{16}: commit: check dtypes of data
+[33m5e51dfb[m HEAD@{17}: checkout: moving from main to website
+[33mb2b654a[m HEAD@{18}: commit: change requirements.txt to run with pandas 3.0.0 or newer version
+[33m1a6be4b[m[33m ([m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m)[m HEAD@{19}: checkout: moving from website to main
+[33m5e51dfb[m HEAD@{20}: commit: check main notebook is running with pandas 2.3.3
+[33mfc1a992[m HEAD@{21}: commit: modify website to include model
+[33m1a6be4b[m[33m ([m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m)[m HEAD@{22}: checkout: moving from main to website
+[33m1a6be4b[m[33m ([m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m)[m HEAD@{23}: pull origin main: Fast-forward
+[33m544808d[m HEAD@{24}: commit: add baseline model to main notebook
+[33m1365702[m HEAD@{25}: commit: rename main notebook
+[33mfcb344a[m HEAD@{26}: commit: move some files to their correct folders
+[33m7556000[m HEAD@{27}: commit: add feature engineering to notebook
+[33m167ee46[m HEAD@{28}: checkout: moving from EDA_work to main
+[33m167ee46[m HEAD@{29}: checkout: moving from main to EDA_work
+[33m167ee46[m HEAD@{30}: merge EDA_work: Fast-forward
+[33m650ca57[m HEAD@{31}: checkout: moving from EDA_work to main
+[33m167ee46[m HEAD@{32}: checkout: moving from main to EDA_work
+[33m650ca57[m HEAD@{33}: checkout: moving from EDA_work to main
+[33m167ee46[m HEAD@{34}: commit: reorganise and add EDA parts
+[33m650ca57[m HEAD@{35}: checkout: moving from main to EDA_work
+[33m650ca57[m HEAD@{36}: commit: modify EDA on the final notebook
+[33m57e9c74[m HEAD@{37}: pull --tags origin main (finish): returning to refs/heads/main
+[33m57e9c74[m HEAD@{38}: pull --tags origin main (pick): modify csv files and add images
+[33m0affcfc[m HEAD@{39}: pull --tags origin main (start): checkout 0affcfcdb96c1cb7dfce748eaf7c707f7a833c88
+[33m11c4e0a[m HEAD@{40}: commit: modify csv files and add images
+[33m36f108d[m HEAD@{41}: reset: moving to HEAD~1
+[33ma9592ae[m HEAD@{42}: reset: moving to HEAD~1
+[33m6861c3f[m HEAD@{43}: reset: moving to HEAD~1
+[33m603eb7f[m HEAD@{44}: rebase (abort): returning to refs/heads/main
+[33m0affcfc[m HEAD@{45}: pull --tags origin main (start): checkout 0affcfcdb96c1cb7dfce748eaf7c707f7a833c88
+[33m603eb7f[m HEAD@{46}: commit: add images for report
+[33m6861c3f[m HEAD@{47}: reset: moving to HEAD~1
+[33m5cbf81b[m HEAD@{48}: rebase (abort): returning to refs/heads/main
+[33m0affcfc[m HEAD@{49}: pull origin main (start): checkout 0affcfcdb96c1cb7dfce748eaf7c707f7a833c88
+[33m5cbf81b[m HEAD@{50}: rebase (abort): returning to refs/heads/main
+[33m0affcfc[m HEAD@{51}: pull origin main (start): checkout 0affcfcdb96c1cb7dfce748eaf7c707f7a833c88
+[33m5cbf81b[m HEAD@{52}: commit: modify final eda
+[33m6861c3f[m HEAD@{53}: checkout: moving from EDA_work to main
+[33m6861c3f[m HEAD@{54}: checkout: moving from main to EDA_work
+[33m6861c3f[m HEAD@{55}: commit: simplify EDA and makes it clearer
+[33ma9592ae[m HEAD@{56}: commit: try removing lfs tracking
+[33m36f108d[m HEAD@{57}: pull origin main: Fast-forward
+[33m15c01f3[m HEAD@{58}: checkout: moving from feature_engineering to main
+[33m61a57a1[m[33m ([m[1;31morigin/feature_engineering[m[33m)[m HEAD@{59}: commit: update readme
+[33mca09419[m HEAD@{60}: commit: work on weighted features
+[33m3ac953c[m HEAD@{61}: checkout: moving from main to feature_engineering
+[33m15c01f3[m HEAD@{62}: commit: move all script to data_analysis
+[33m2f28553[m HEAD@{63}: pull origin main: Fast-forward
+[33m6265b39[m HEAD@{64}: checkout: moving from feature_engineering to main
+[33m3ac953c[m HEAD@{65}: commit: update feature importance script
+[33m0ac9e5b[m HEAD@{66}: pull origin feature_engineering (finish): returning to refs/heads/feature_engineering
+[33m0ac9e5b[m HEAD@{67}: pull origin feature_engineering (pick): clean scripts and correct erros on smote model
+[33mbba91cd[m HEAD@{68}: pull origin feature_engineering (start): checkout bba91cdb164095c8bd81d71853faf26fe1b887d8
+[33mc99bfb1[m HEAD@{69}: commit: clean scripts and correct erros on smote model
+[33md27ce4d[m HEAD@{70}: commit: run search
+[33mc6c3c74[m HEAD@{71}: commit: Run search on hyperparameter of smote model
+[33ma2e7d63[m HEAD@{72}: commit: Work on ML model try to improve smotetomek and find a good approach of what it is doing (feature selection, mca analysis to understand where information is)
+[33medeed26[m HEAD@{73}: checkout: moving from main to feature_engineering
+[33m6265b39[m HEAD@{74}: checkout: moving from feature_engineering to main
+[33medeed26[m HEAD@{75}: commit: test parameters for smote
+[33m37fb141[m HEAD@{76}: checkout: moving from main to feature_engineering
+[33m6265b39[m HEAD@{77}: pull origin main (finish): returning to refs/heads/main
+[33m6265b39[m HEAD@{78}: pull origin main (start): checkout 6265b39d7c3a35c44252d20549651d9cd5e0ea6c
+[33m3892d28[m HEAD@{79}: checkout: moving from feature_engineering to main
+[33m37fb141[m HEAD@{80}: commit: make sure all EDA works in the venv
+[33m97954c5[m HEAD@{81}: commit: add analysis on eigenvalues
+[33me62f36b[m HEAD@{82}: commit: run famd analysis
+[33m751b9b5[m HEAD@{83}: pull origin feature_engineering: Fast-forward
+[33me19f3b9[m HEAD@{84}: rebase (abort): returning to refs/heads/feature_engineering
+[33m8166d97[m HEAD@{85}: pull (pick): add utils function
+[33m97dddd6[m HEAD@{86}: pull (pick): Add files via upload
+[33m330edf8[m HEAD@{87}: pull (start): checkout 330edf85748bbeb1404c207f43d871a5bf755d29
+[33me19f3b9[m HEAD@{88}: commit: Clean large files problem
+[33mbb4cd41[m HEAD@{89}: commit (merge): correct git tracking problem with large files
+[33m8f664c7[m HEAD@{90}: filter-branch: rewrite
+[33me9772af[m HEAD@{91}: checkout: moving from feature_engineering to feature_engineering
+[33me9772af[m HEAD@{92}: commit: add script to create processed data with smote
+[33m9c14964[m HEAD@{93}: commit: add git large file to store csv
+[33m8054779[m HEAD@{94}: commit: add import to clean_data.py
+[33m2445b65[m HEAD@{95}: commit: Add script to get smote data
+[33m69c050a[m HEAD@{96}: checkout: moving from main to feature_engineering
+[33m6265b39[m HEAD@{97}: pull origin main: Fast-forward
+[33m109cae0[m HEAD@{98}: checkout: moving from feature_engineering to main
+[33m69c050a[m HEAD@{99}: commit: Add feature analysis
+[33m330edf8[m HEAD@{100}: checkout: moving from main to feature_engineering
+[33m109cae0[m HEAD@{101}: checkout: moving from feature_engineering to main
+[33m109cae0[m HEAD@{102}: checkout: moving from main to feature_engineering
+[33m109cae0[m HEAD@{103}: checkout: moving from florian to main
+[33mfeb2cf6[m HEAD@{104}: checkout: moving from main to florian
+[33m109cae0[m HEAD@{105}: pull origin main: Fast-forward
+[33m941175b[m HEAD@{106}: checkout: moving from florian to main
+[33mfeb2cf6[m HEAD@{107}: commit: last change
+[33m7b14e7c[m HEAD@{108}: commit: update ml model
+[33m2aab54d[m HEAD@{109}: commit: 1st simple model runnning
+[33m0ff9be8[m HEAD@{110}: commit: Add ml modeling
+[33m4541670[m HEAD@{111}: commit: Work on feature engineering
+[33me4a2ad9[m HEAD@{112}: commit: add utils scripts
+[33mf1f5dac[m HEAD@{113}: commit: add feature engineering notebook
+[33m874f08f[m HEAD@{114}: commit: add folders and start feature engineering
+[33mc79f9bd[m HEAD@{115}: commit: move data processing script one folder up
+[33m039a5c1[m HEAD@{116}: checkout: moving from florian to florian
+[33m039a5c1[m HEAD@{117}: merge main: Merge made by the 'ort' strategy.
+[33m51c2744[m HEAD@{118}: checkout: moving from florian to florian
+[33m51c2744[m HEAD@{119}: checkout: moving from main to florian
+[33m941175b[m HEAD@{120}: checkout: moving from florian to main
+[33m51c2744[m HEAD@{121}: checkout: moving from main to florian
+[33m941175b[m HEAD@{122}: pull: Fast-forward
+[33m3097ae4[m HEAD@{123}: checkout: moving from florian to main
+[33m51c2744[m HEAD@{124}: commit: add utils function
+[33m3097ae4[m HEAD@{125}: checkout: moving from main to florian
+[33m3097ae4[m HEAD@{126}: clone: from https://github.com/florianrst/CyberSecurity_ML.git
