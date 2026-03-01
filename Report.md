@@ -119,9 +119,9 @@ Both models achieve accuracy equal to random chance (33.3%), confirming that raw
 
 The HistGradientBoosting confusion matrix (test set, 8000 samples) reveals a systematic bias:
 
-- **DDoS**: 1160 correct / 596 confused with Intrusion / 880 confused with Malware --> recall **44%**
-- **Intrusion**: 1177 correct / 628 confused with DDoS / 916 confused with Malware --> recall **23%**
-- **Malware**: 1163 correct / 629 confused with DDoS / 851 confused with Intrusion --> recall **33%**
+- DDoS: 1160 correct / 596 confused with Intrusion / 880 confused with Malware --> recall **44%**
+- Intrusion: 1177 correct / 628 confused with DDoS / 916 confused with Malware --> recall **23%**
+- Malware: 1163 correct / 629 confused with DDoS / 851 confused with Intrusion --> recall **33%**
 
 The model over predicts DDoS and under predicts Intrusion, but this is a minor artefact, the overall accuracy remains at random chance level
 
@@ -136,5 +136,16 @@ All top features have similar importance scores, confirming that no single featu
 
 # Deployment
 
-The web application was built using Streamlit
-// i will complete it when we will be done with the website, i'm trying to correct the ui.py in my branch too
+The web application was built using Streamlit and is composed of three tabs:
+
+- Model Evaluation : the user uploads a CSV file containing network traffic data and the model returns the predicted attack type (DDoS, Intrusion or Malware) for each row, along with a classification report if the true labels are provided.
+- Data Dictionary : a visual reference of all 25 features in the dataset, grouped by category.
+- Data Visualisation : an interactive explorer that lets the user select any feature and visualise its distribution across attack types.
+
+The model is loaded from 'data/final_model.joblib'. To run the application locally:
+```bash
+pip install -r requirements.txt
+streamlit run Website/ui.py
+```
+
+GitHub repository: https://github.com/florianrst/CyberSecurity_ML.git
