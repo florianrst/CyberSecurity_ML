@@ -4,4 +4,3 @@
 .webenv
 #Marimo notebooks
 __marimo__/
-data/final_model.joblib
