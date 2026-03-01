@@ -8,7 +8,7 @@ The project is composed of 3 main parts:
 The repository includes:
 1. A main notebook summarising our work.
 2. A website to upload data and get prediction using our best model.
-3. Scripts we made for each parts
+3. Scripts we made for each parts of the project.
 
  # Installation
  You may clone the repository and then create a virtual environment and installing the required libraries. <br>

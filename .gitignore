@@ -6,3 +6,8 @@
 __marimo__/
 
 env/
+# Python functions
+**.pyc
+__pycache__/
+#html figures
+iframe_figures
