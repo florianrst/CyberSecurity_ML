@@ -29,7 +29,7 @@ pip install -r requirements.txt
 ```
 If you plan to run a notebook that import the prince library run this command just after installing the libraries:
 ``` python
-python -m scripts/patch_venv.py
+python scripts/patch_venv.py
 ```
 Prince library is not up to date with pandas 3.X which creates a problem when using it. This quick patch solve the problem temporarily
 # Main Notebook
