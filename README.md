@@ -59,4 +59,3 @@ To run the website, use the following command on the terminal
 streamlit run Website/ui.py
 ```
 Then open the [following link](http://localhost:8501).
-
