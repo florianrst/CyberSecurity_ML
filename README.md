@@ -26,7 +26,7 @@ The repository includes:
 ```bash
 pip install -r requirements.txt
 ```
-If you plan to run a notebook that import the prince library run this command just affter installing the library:
+If you plan to run a notebook that import the prince library run this command just after installing the libraries:
 ``` python -m scripts/patch_venv.py
 ```
 Prince library is not up to date with pandas 3.X which creates a problem when using it. This quick patch solve the problem temporarily
@@ -54,7 +54,7 @@ source ./name_of_website_venv/bin/activate
 pip install -r web_requirements.txt
 ```
 
-To run the website, use the following command on the terminal
+After activating the web venv, to run the website, use the following command on the terminal
 ```python
 streamlit run Website/ui.py
 ```
