@@ -5,6 +5,7 @@ The project is composed of 3 main parts:
 1. Exploratory Data Analysis.
 2. Feature Engineering.
 3. Model Development.
+
 The repository includes:
 1. A main notebook summarising our work.
 2. A website to upload data and get prediction using our best model.
