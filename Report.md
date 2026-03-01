@@ -134,14 +134,7 @@ The chart below shows the top features ranked by MDI (Mean Decrease in Impurity)
 
 All top features have similar importance scores, confirming that no single feature drives the predictions.
 
-# Conclusion
+# Deployment
 
-This project built a complete end to end machine learning pipeline for cybersecurity attack type classification. The central challenge was the synthetic nature of the dataset all features are near randomly assigned with no meaningful correlation with Attack Type.
-
-Key findings:
-
-- **FAMD and MCA confirm no structure** : uniform variance spread across all components.
-- **Categorical combinations carry no signal** : Protocol × Network Segment × Log Source and similar combinations show identical distributions across attack types.
-- **Baseline models at ~33%** : equal to random chance, consistent across cross validation folds.
-- **Feature importances are uniform** : no single feature dominates, all contribute at a similarly low level.
-- **The dataset is the bottleneck** : tuning and feature engineering cannot compensate for absent signal.
+The web application was built using Streamlit
+// i will complete it when we will be done with the website, i'm trying to correct the ui.py in my branch too
