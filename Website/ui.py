@@ -1,12 +1,13 @@
 import streamlit as st
 import pandas as pd
+import numpy as np
 import plotly.express as px
-import pickle
 from pathlib import Path
 from sklearn.preprocessing import LabelEncoder
 from sklearn.model_selection import train_test_split
 from sklearn.metrics import accuracy_score, classification_report
-# import joblib  # Pour charger votre modèle pré-entraîné
+import joblib  # Pour charger votre modèle pré-entraîné
+from ipaddress import IPv4Address
 
 data_path = Path("data")
 
@@ -25,38 +26,58 @@ def evaluate_model(df: pd.DataFrame):
     Fonction d'évaluation du modèle.
     Retourne un dictionnaire de métriques.
     """
+    model = joblib.load(data_path.joinpath("final_model.joblib"))
+    cols = model.named_steps["preprocessor"].feature_names_in_
+    X = transform_input(df)
+    X = X[cols]
+    y_pred = model.predict(X)
+    if "Attack Type" in df.columns:
+        y = df["Attack Type"]
+        le = LabelEncoder()
+        y_encoded = le.fit_transform(y)
+        y_labels = le.classes_.tolist()
+        accuracy = accuracy_score(y_encoded, y_pred)
+        report = classification_report(y_encoded, y_pred, output_dict=True, target_names=y_labels)
+    else:
+        accuracy = None
+        report = None
+    
+    df_result = get_result_df(df, y_pred)
 
-    with open(data_path.joinpath("model.pkl"), "rb") as f:
-        model = pickle.load(f)
+    return df_result, accuracy, report
 
-    X_train, X_test, y_train, y_test = get_training_data(df)
-
-    y_pred = model.predict(X_test)
-    accuracy = accuracy_score(y_test, y_pred)
-    report = classification_report(y_test, y_pred, output_dict=True)
-    return report
-
-def get_training_data(df):
+def transform_input(df: pd.DataFrame):
     """
-    Transform user inputs into training data format for the model.
+    Same preprocessing as in the notebook
     """
-    cols_to_fill = ['Malware Indicators', 'Alerts/Warnings', 'Firewall Logs', 'IDS/IPS Alerts', 'Proxy Information']
-    for col in cols_to_fill:
-        df[col] = df[col].fillna('None')
-    num_features = ['Source Port', 'Destination Port', 'Packet Length', 'Anomaly Scores']
-    cat_features = ['Timestamp', 'Protocol', 'Packet Type', 'Traffic Type', 'Malware Indicators', 'Alerts/Warnings', 
-                    'Attack Signature', 'Action Taken', 'Severity Level', 'Network Segment', 'Log Source']
-    text_feature = 'Payload Data'
+    ip_features = transform_ipinfo(df[["Source IP Address", "Destination IP Address"]])
+    df =df.merge(ip_features[["Int Source IP Address","Int Destination IP Address"]], left_index=True, right_index=True, how="left")
+    df = df.drop(columns=["Source IP Address", "Destination IP Address"])
+    return df
 
-    X = df[num_features + cat_features + [text_feature]]
-    y = df['Attack Type']
+def transform_ipinfo(df:pd.DataFrame):
+    columns = df.columns
+    ip_columns = [f"Int {col}" for col in columns]
+    int_ips = df[columns].map(lambda x: int(IPv4Address(x)) if pd.notna(x) and x.strip() != "" else np.nan)
+    int_ips = int_ips.rename(columns=dict(zip(columns, ip_columns)))
+    global_columns = [f"Global {col}" for col in columns]
+    global_ips = df[columns].map(lambda x : IPv4Address(x).is_global if pd.notna(x) and x.strip() != "" else np.nan)
+    global_ips = global_ips.rename(columns=dict(zip(columns, global_columns)))
+    df = df.merge(int_ips, left_index=True, right_index=True) 
+    df = df.merge(global_ips, left_index=True, right_index=True) 
+    return df.drop(columns=columns)
 
-    le = LabelEncoder()
-    y_encoded = le.fit_transform(y)
+def get_result_df(X: pd.DataFrame, y_pred: np.ndarray):
+    y_pred = pd.DataFrame(y_pred, columns=["Predicted Attack Type"])
+    y_pred["Predicted Attack Type"] = y_pred["Predicted Attack Type"].map({0:"DDoS", 1:"Intrusion", 2:"Malware"})
+    df_result = y_pred.merge(X, left_index=True, right_index=True)
+    attack_cols = ["Predicted Attack Type", "Attack Type"] if "Attack Type" in X.columns else ["Predicted Attack Type"]
+    cols = attack_cols + [col for col in X.columns if col not in attack_cols]
+    df_result = df_result.reindex(columns=cols)
+    return df_result
 
-    X_train, X_test, y_train, y_test = train_test_split(X, y_encoded, test_size=0.2, random_state=42)
-
-    return X_train, X_test, y_train, y_test
+def to_dense(X):
+    return X.toarray() if hasattr(X, "toarray") else X
 
 # TODO: put our necessary features here
 FEATURES_REQUIRED = ("Device Information", "Packet Length")
@@ -98,12 +119,18 @@ with tabs[0]:
                 if missing:
                     st.warning(f"⚠️ Missing required feature(s): {missing}")
                 else:
-                    results = evaluate_model(df_eval)
+                    y_pred, accuracy, report = evaluate_model(df_eval)
                     st.subheader("📈 Results")
-                    r_cols = st.columns(len(results))
-                    for i, (metric, value) in enumerate(results.items()):
-                        r_cols[i].metric(metric, value)
-                    st.info("ℹ️ The trained model was not provided in the `evaluate_model()` function to display the result and real metrics.")
+                    # pred_df = pd.DataFrame(y_pred)
+                    st.dataframe(y_pred, width="stretch")
+                    if accuracy is not None and report is not None:
+                        st.markdown("Accuracy: **{:.2f}%**".format(accuracy * 100))
+                        st.markdown("#### Classification Report")
+                        report_df = pd.DataFrame(report).T
+                        # .rename(index={"0":"DDoS", "1":"Intrusion", "2":"Malware"})
+                        report_df.loc["accuracy",:"recall"] = pd.NA
+                        report_df.loc["accuracy", "support"] = report_df.loc["macro avg", "support"]
+                        st.dataframe(report_df, width="stretch",)
 
 # ════════════════════════════════════════════════════════════════════════════
 # TAB 2 – Data dictionary
